@@ -46,10 +46,10 @@ Compatible Systems and Raspberry Pi Board
       - Yes
       - Yes
     * - Ubuntu Server 64bit
-      - stay black
-      - stay black
-      - stay black
-      - stay black
+      - Yes
+      - Yes
+      - Yes
+      - Yes
     * - Ubuntu Server (LTS) 32bit
       - No related system
       - stay black
