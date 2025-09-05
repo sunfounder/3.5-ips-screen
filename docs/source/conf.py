@@ -19,7 +19,7 @@
 import sphinx_rtd_theme
 import time
 
-project = 'SunFounder TS-10 L 10.1-inch Touch Screen'
+project = 'SunFounder 3.5'' IPS Touch Screen'
 copyright = f'{time.localtime().tm_year}, SunFounder'
 author = 'www.sunfounder.com'
 
