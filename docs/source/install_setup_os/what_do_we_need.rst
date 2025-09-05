@@ -31,37 +31,35 @@ Python.
 
 **Power Adapter**
 
-To connect to a power socket, the Raspberry Pi has a micro USB port (the
-same found on many mobile phones). You will need a power supply which
-provides at least 2.5 amps.
+  It is recommended to use a **5V 3A power supply**, such as the official **Raspberry Pi 15W USB-C adapter**. You may also use a **USB-C Power Delivery (PD) charger** or a **QC 2.0 fast charger**.
 
 **Micro SD Card**
 
-Your Raspberry Pi needs an Micro SD card to store all its files and the
-Raspberry Pi OS. You will need a micro SD card with a capacity of at
-least 8 GB.
+  The Raspberry Pi does not have a built-in hard drive. It boots and stores all files on a **Micro SD card**.  
+  
+  * Minimum: **16GB**  
+  * Recommended: **32GB** for better stability  
+  * Brand: Use reliable options such as **SanDisk** or **Samsung** to avoid read/write errors  
 
 Optional Components
 -------------------------
 
-**Screen**
+Although not strictly required, the following peripherals will greatly improve your learning and debugging experience:
 
-To view the desktop environment of Raspberry Pi, you need to use the
-screen that can be a TV screen or a computer monitor. If the screen has
-built-in speakers, the Pi plays sounds via them.
+* **Monitor (HDMI or TV)** 
 
-**Mouse & Keyboard**
+  For beginners, we strongly recommend a display with an HDMI input, so you can easily configure OS and run graphical programs.  
 
-When you use a screen , a USB keyboard and a USB mouse are also needed.
+* **HDMI Cable (Standard / Mini / Micro)**
+ 
+  Different Raspberry Pi models use different HDMI connectors, be sure to check your Pi model and prepare the correct cable. 
+  
+  * **Raspberry Pi 4 / 5**: Micro HDMI  
+  * **Raspberry Pi 3**: Standard HDMI  
+  * **Raspberry Pi Zero 2W**: Mini HDMI 
 
-**HDMI**
+* **Keyboard & Mouse**
 
-The Raspberry Pi has a HDMI output port that is compatible with the HDMI
-ports of most modern TV and computer monitors. If your screen has only
-DVI or VGA ports, you will need to use the appropriate conversion line.
+  Very useful during the initial setup. Later, you may switch to remote access (SSH/VNC), but for beginners we recommend preparing a basic USB or wireless set.  
 
-**Case**
-
-You can put the Raspberry Pi in a case; by this means, you can protect
-your device.
 
