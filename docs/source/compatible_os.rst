@@ -12,7 +12,10 @@
 
     👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
-Compatible Systems and Raspberry Pi Board
+
+.. _compatible_os:
+
+Compatible Systems and Raspberry Pi Boards
 ===============================================
 
 .. note::
@@ -27,8 +30,8 @@ Compatible Systems and Raspberry Pi Board
 
     * - System / Board
       - Pi 5
-      - Pi 4
-      - Pi 3
+      - Pi 4B
+      - Pi 3B/3B+
       - Zero 2 W
     * - Bookworm 64bit
       - Yes
@@ -50,11 +53,6 @@ Compatible Systems and Raspberry Pi Board
       - Yes
       - Yes
       - Yes
-    * - Ubuntu Server (LTS) 32bit
-      - No related system
-      - stay black
-      - stay black
-      - stay black
     * - Ubuntu Desktop 64bit
       - Yes
       - Yes

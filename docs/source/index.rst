@@ -30,18 +30,28 @@ The 3.5-inch 480×320 IPS Touch Screen delivers wide viewing angles, rich 65K co
 * High-Speed SPI (up to 125 MHz, 50 FPS) – Smooth and responsive display performance.
 * Resistive Touch Control – Reliable and precise touch input.
 * 40-Pin GPIO Interface – Simple, foolproof connection to Raspberry Pi.
-* Broad Compatibility – Works with Raspberry Pi 5, 4B, 3B and Zero 2 W.
+* Broad Compatibility – Works with Raspberry Pi 5, 4B, 3B/3B+ and Zero 2W.
 * Multiple OS Support – Compatible with Raspberry Pi OS, Ubuntu, Kali Linux, and RetroPie (driver installation required and included).
 * Perfect Fit for Raspberry Pi – Compact design aligned with the Pi’s dimensions.
+
+.. note::
+
+    **The 3.5-inch touchscreen cannot be used simultaneously with an HDMI monitor.**
+
+    After installing the driver for the 3.5" IPS display, if both the 3.5" IPS screen and an HDMI monitor are connected, the system will default to HDMI output.
+
+    To display on the 3.5" IPS touchscreen, disconnect (unplug) the HDMI monitor.
+
 
 .. toctree::
     :maxdepth: 2
     
     About this Kit <self>
     hardware_introduction
-    install_setup_os/install_setup_os
+    install_os/install_os
     quick_user_guide
     compatible_os
+    appendix/appendix
     faq
 
 

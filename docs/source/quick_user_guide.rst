@@ -24,7 +24,7 @@ For detailed instructions, please refer to :ref:`install_os`.
 
 .. note::
 
-    * **Raspberry Pi OS**: If you are using a Raspberry Pi 3, 2, 1, Zero, or Zero 2W, you must install the Bullseye instead of Bookworm to ensure the display functions properly.
+    * **Raspberry Pi OS**: If you are using a Raspberry Pi 3B/3B+ or Zero 2W, you must install the **Bullseye** instead of Bookworm to ensure the screen functions properly.
     * **Other Operating Systems**: Follow the instructions provided in Raspberry Pi Imager to install the OS recommended for your specific Raspberry Pi model.
 
 2. Connect the Display to the Raspberry Pi
@@ -47,8 +47,6 @@ This 3.5-inch IPS display shares the same pinout as the Raspberry Pi.
 3. Driver Installation
 -------------------------------
 
-This 3.5-inch IPS Screen requires a driver before use. The installation steps vary depending on the operating system.
-
 The 3.5-inch IPS display requires drivers before it can function. Depending on your operating system, follow the instructions below.
 
 .. note::
@@ -59,10 +57,10 @@ The 3.5-inch IPS display requires drivers before it can function. Depending on y
 
 **General tips**: 
 
+* First, check :ref:`compatible_os`.
 * Ensure ``git`` is installed (``sudo apt install git``).  
 * Driver installation may take 1–3 minutes.  
 * The system will reboot automatically.
-
 
 **For Raspberry Pi OS**
 
@@ -81,7 +79,13 @@ You can use the following command to install the driver:
     cd LCD-show/
     sudo ./MHS35IPS-show
 
-After successful execution, you will see the Raspberry Pi desktop on the 3.5-inch LCD screen.
+After the driver is successfully installed, it will take 2–3 minutes to reboot. Then you will be able to see the Raspberry Pi desktop on the 3.5-inch IPS screen.
+
+.. note::
+
+    * If you are using a Raspberry Pi 3B/3B+ or Zero 2W, you need to install the **Bullseye** system in order to use this 3.5-inch IPS screen.
+    * If you have an HDMI monitor connected during installation, the desktop will still appear on the HDMI monitor after reboot.
+    * To use the 3.5-inch IPS screen, disconnect the HDMI monitor and reboot the Raspberry Pi.
 
 **For Ubuntu Desktop/Server**
 
@@ -99,6 +103,14 @@ You can use the following command to install the driver:
     cd LCD-show-ubuntu/
     sudo ./MHS35IPS-show
 
+After the driver is successfully installed, the system will automatically reboot, and the desktop will be displayed on the 3.5-inch IPS screen.
+
+.. note::
+
+    * If an HDMI monitor is connected, the desktop will still default to the HDMI output.
+    * Please unplug the HDMI monitor and reboot your device to switch the display to the 3.5-inch IPS screen.
+
+
 **For Kali Linux**
 
 You can use the following command to install the driver:
@@ -114,6 +126,13 @@ You can use the following command to install the driver:
     chmod -R 755 LCD-show-kali
     cd LCD-show-kali/
     sudo ./MHS35IPS-show
+
+After the driver is successfully installed, the system will reboot and show the desktop on the 3.5-inch IPS screen.
+
+.. note::
+
+    * When an HDMI monitor is connected, the desktop will continue to display on HDMI after reboot.
+    * Please disconnect the HDMI monitor and reboot Kali Linux to use the 3.5-inch IPS screen.
 
 **For RetroPie**
 
@@ -131,6 +150,12 @@ You can use the following command to install the driver:
     cd LCD-show-retropie/
     sudo ./MIS35-show
 
+After the driver is successfully installed, the system will reboot, and you will see the RetroPie interface on the 3.5-inch IPS screen.
+
+.. note::
+
+    * If an HDMI monitor is connected, the interface will remain on HDMI output.
+    * Unplug the HDMI monitor and reboot your Raspberry Pi to switch the display to the 3.5-inch IPS screen.
 
 4.Rotate the Display
 -----------------------------

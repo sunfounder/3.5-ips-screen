@@ -18,11 +18,20 @@ FAQ
 Why does my 3.5-inch screen stay black or white after powering on?
 --------------------------------------------------------------------
 
-* Make sure the correct driver is installed. For the first installation, use an HDMI monitor or remote login.  
-* If you are using **Raspberry Pi OS** on Raspberry Pi 3, 2, 1, Zero, or Zero 2 W boards, you must install **Bullseye** instead of **Bookworm** to ensure compatibility.  
+* Make sure the correct driver is installed. For detailed instructions, please refer to :ref:`install_driver`.
+* If you are using **Raspberry Pi OS** on Raspberry Pi 3B/3B+ or Zero 2W boards, you must install **Bullseye** instead of **Bookworm** to ensure compatibility.  
 * Ensure the screen is firmly connected and properly aligned with the GPIO pins.
 
-Touch orientation is incorrect after driver installation, what should I do?
+Can the 3.5'' IPS touchscreen and the HDMI monitor be used simultaneously?
+--------------------------------------------------------------------------------
+
+The 3.5-inch touchscreen cannot be used simultaneously with an HDMI monitor.
+
+After installing the driver for the 3.5" IPS display, if both the 3.5" IPS screen and an HDMI monitor are connected, the system will default to HDMI output.
+
+To display on the 3.5" IPS touchscreen, disconnect (unplug) the HDMI monitor.
+
+Screen orientation is incorrect?
 -----------------------------------------------------------------------------------
 
 Run the rotation script to fix it: 

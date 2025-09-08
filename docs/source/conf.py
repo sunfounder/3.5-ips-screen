@@ -102,6 +102,18 @@ gettext_compact = False # Support for generating the contents of the folders ins
 
 rst_epilog = """
 
+.. |link_rpi_connect| raw:: html
+
+    <a href="https://www.raspberrypi.com/documentation/services/connect.html" target="_blank">Raspberry Pi Connect</a>
+
+.. |link_iso_code| raw:: html
+
+    <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements" target="_blank">ISO/IEC alpha2 code</a>
+
+.. |link_rpi_imager| raw:: html
+
+    <a href="https://www.raspberrypi.org/software/" target="_blank">Raspberry Pi Imager</a>
+
 .. |link_pc_monitor| raw:: html
 
     <a href="https://www.sunfounder.com/blogs/news/raspberry-pi-system-monitor-for-pc-enhancing-performance-and-remote-monitoring" target="_blank">PC monitoring device</a>
