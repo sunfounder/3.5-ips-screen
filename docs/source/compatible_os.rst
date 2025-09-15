@@ -32,29 +32,25 @@ Compatible Systems and Raspberry Pi Boards
       - Pi 5
       - Pi 4B
       - Pi 3B/3B+
-      - Zero 2 W
-    * - Bookworm 64bit
-      - Yes
-      - Yes
-      - Yes, MUST Bullseye OS
-      - Yes, MUST Bullseye OS
+      - Pi Zero 2 W
+    * - Raspberry Pi OS
+      - Yes, Bookworm 64bit
+      - Yes, Bookworm 64bit
+      - Yes, Bullseye OS
+      - Yes, Bullseye OS
     * - RetroPie
       - No related system
+      - Yes (No touch)
+      - Yes (No touch)
+      - Yes (No touch)
+    * - Kali Linux
       - Yes
       - Yes
       - Yes
-    * - Kali Linux ARM 64bit
-      - Yes
-      - Yes
-      - Yes
-      - Yes
-    * - Ubuntu Server 64bit
-      - Yes
-      - Yes
-      - Yes
-      - Yes
-    * - Ubuntu Desktop 64bit
-      - Yes
-      - Yes
-      - Only Ubuntu Server available
-      - Only Ubuntu Server available
+      - NO
+    * - Ubuntu
+      - Yes, Ubuntu Desktop/Server 64bit
+      - Yes, Ubuntu Desktop/Server 64bit
+      - Yes, Ubuntu Server 64bit
+      - Yes, Ubuntu Server 64bit
+ 
