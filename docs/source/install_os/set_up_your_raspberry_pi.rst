@@ -1,69 +1,70 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
+    他の愛好者と一緒に、Raspberry Pi・Arduino・ESP32 の世界をさらに深く探求しましょう。  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: コミュニティやチームのサポートを受けて、購入後の問題や技術的な課題を解決できます。  
+    - **Learn & Share**: ヒントやチュートリアルを共有してスキルを高めましょう。  
+    - **Exclusive Previews**: 新製品発表や先行情報をいち早く入手できます。  
+    - **Special Discounts**: 最新製品を特別価格で手に入れられます。  
+    - **Festive Promotions and Giveaways**: プレゼント企画やシーズン限定キャンペーンに参加できます。  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 探索と創造を始めませんか？ [|link_sf_facebook|] をクリックして、今すぐ参加しましょう！
 
 .. _setup_pi:
 
-3. Set up Your Raspberry Pi
-============================
+3. Raspberry Pi のセットアップ
+===============================
 
-To start programming and controlling, you first need to access your Raspberry Pi.
-This section will guide you through two common methods: using a monitor, keyboard, and mouse, or setting up a headless connection so you can log in remotely from another computer.
+プログラミングや制御を始めるには、まず Raspberry Pi にアクセスする必要があります。  
+このセクションでは、画面・キーボード・マウスを使う方法と、モニターなしでリモート接続する「ヘッドレス」方式の 2 つの一般的な方法を紹介します。  
 
-If You Have a Screen
+画面がある場合
 -------------------------
 
-**Required Components**
+**必要なコンポーネント**
 
-* Raspberry Pi
-* Power Adapter
-* Micro SD card
-* HDMI cable
-* Screen
-* Mouse
-* Keyboard
+* Raspberry Pi  
+* 電源アダプター  
+* Micro SD カード  
+* HDMI ケーブル  
+* ディスプレイ  
+* マウス  
+* キーボード  
 
-#. Insert the microSD card into your Raspberry Pi.
-#. Connect mouse, keyboard, and screen (for Pi 4/5 use **HDMI0**, the port nearest to the power input).
-#. Power on the Raspberry Pi.
-#. After a short while, Raspberry Pi OS desktop will appear and you can open a Terminal to enter commands.
+#. microSD カードを Raspberry Pi に挿入します。  
+#. マウス、キーボード、ディスプレイを接続します（Pi 4/5 の場合は電源入力に最も近い **HDMI0** を使用してください）。  
+#. Raspberry Pi の電源を入れます。  
+#. しばらくすると Raspberry Pi OS のデスクトップが表示され、ターミナルを開いてコマンドを入力できるようになります。  
 
     .. image:: img/bookwarm.png
         :align: center
 
 
-If You Have No Screen (Headless Setup)
+画面がない場合（ヘッドレス設定）
 -----------------------------------------
 
-Without a monitor, you can configure and log into your Raspberry Pi remotely. This is the most convenient way to get started.
+モニターを使用せずに、Raspberry Pi をリモートで設定・ログインすることができます。これが最も便利な方法です。  
 
-**Required Components**
+**必要なコンポーネント**
 
-* Raspberry Pi
-* Power Adapter
-* Micro SD card
-* A computer on the same network
+* Raspberry Pi  
+* 電源アダプター  
+* Micro SD カード  
+* 同じネットワークに接続された PC  
 
-**Tips**
- 
-* Set the **Wireless LAN country** correctly using the ISO/IEC alpha-2 code (e.g., ``US``, ``UK``, ``CN``); otherwise Wi-Fi will not work.  
-* Ensure that your Raspberry Pi and your computer are on the same local network.  
-* For a more reliable connection, use a direct network connection (Ethernet) whenever possible.  
+**ヒント**
+
+* **Wireless LAN country** を ISO/IEC の 2 文字コード（例: ``US``、 ``UK``、 ``CN``）で正しく設定してください。設定しないと Wi-Fi が機能しません。  
+* Raspberry Pi と PC が同じローカルネットワークに接続されていることを確認してください。  
+* より安定した接続のため、可能であれば有線接続（Ethernet）を利用してください。  
 
 
-**Connect via SSH**
+**SSH で接続**
 
-1. On your computer, open a terminal (Windows: **PowerShell**, macOS/Linux: **Terminal**) and type:
+1. PC でターミナルを開きます（Windows: **PowerShell**、macOS/Linux: **Terminal**）そして以下を入力します:  
 
    .. code-block::
 
@@ -71,7 +72,7 @@ Without a monitor, you can configure and log into your Raspberry Pi remotely. Th
       # Example:
       ssh daisy@pi.local
 
-#. Alternatively, check your router’s DHCP/client list, find the Pi’s IP, and connect using:
+#. あるいは、ルーターの DHCP/クライアントリストから Pi の IP アドレスを確認し、以下のように接続します:  
 
    .. code-block::
 
@@ -81,46 +82,46 @@ Without a monitor, you can configure and log into your Raspberry Pi remotely. Th
 
       ssh daisy@192.xxx.xx.xx
 
-#. On first login, you will see a security prompt. Enter ``yes`` to proceed:
+#. 初回ログイン時にはセキュリティ警告が表示されます。``yes`` と入力して進めてください。  
 
-#. Enter the password you set in Raspberry Pi Imager. (Characters will not appear while typing; this is normal.)
+#. Raspberry Pi Imager で設定したパスワードを入力します。（入力中に文字は表示されませんが、正常な挙動です。）  
 
-   .. note::
-      The absence of visible characters when typing the password is a standard security feature. Just type carefully.
+   .. note::  
+      パスワード入力時に文字が表示されないのはセキュリティ上の仕様です。落ち着いて正確に入力してください。  
 
-#. Once connected, your Raspberry Pi is ready for remote operations.
+#. 接続が完了すれば、Raspberry Pi をリモートで操作する準備が整います。  
 
    .. image:: img/ssh_login.png
       :align: center
 
-**Troubleshooting**
+**トラブルシューティング**
 
 * **ssh: Could not resolve hostname ...**  
 
-  * Check that the hostname is correct.  
-  * If it still fails, use the Pi’s IP address instead of ``<hostname>.local``.
+  * ホスト名が正しいか確認してください。  
+  * それでも接続できない場合は ``<hostname>.local`` の代わりに IP アドレスを使用してください。  
 
 * **The term 'ssh' is not recognized... (Windows)**  
 
-  * Your system does not have OpenSSH installed. Install OpenSSH manually (see :ref:`openssh_powershell`), or use a third-party SSH client (see :ref:`login_windows`).  
+  * OpenSSH がインストールされていません。手動で OpenSSH を導入するか（:ref:`openssh_powershell` 参照）、またはサードパーティ製 SSH クライアントを使用してください（:ref:`login_windows` 参照）。  
 
 * **Permission denied (publickey,password)**  
 
-  * Make sure you are using the username and password you configured in Raspberry Pi Imager.  
+  * Raspberry Pi Imager で設定したユーザー名とパスワードを使用しているか確認してください。  
 
 * **Connection refused**  
 
-  * Wait 1–2 minutes after powering on.  
-  * Confirm that SSH was enabled in Raspberry Pi Imager.
+  * 電源投入後、1〜2 分待ってから接続を試してください。  
+  * Raspberry Pi Imager で SSH が有効化されているか確認してください。  
 
-**Graphical Access Options**
+**グラフィカルアクセスの選択肢**
 
-If you prefer a graphical interface instead of command line, you have two options:
+コマンドラインではなくグラフィカルインターフェイスを利用したい場合は、次の 2 つの方法があります:  
 
     .. image:: img/bookwarm.png
         :align: center
 
-* :ref:`remote_desktop`: Enable **VNC (Virtual Network Computing)** for a full desktop experience on your Pi.  
-* |link_rpi_connect|: Use **Raspberry Pi Connect** for secure remote access from anywhere, directly in a browser.  
+* :ref:`remote_desktop`: **VNC (Virtual Network Computing)** を有効にすると、Pi のデスクトップをそのまま操作できます。  
+* |link_rpi_connect|: **Raspberry Pi Connect** を使えば、ブラウザから安全にリモートアクセスできます。  
 
-Now you cancontrol your Raspberry Pi without a monitor, either through SSH for command-line operations, or with VNC / Raspberry Pi Connect for a graphical desktop experience.
+これで、モニターを使わずに SSH でコマンドライン操作を行ったり、VNC や Raspberry Pi Connect でデスクトップ環境を操作したりすることが可能になります。  

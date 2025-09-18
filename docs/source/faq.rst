@@ -1,84 +1,85 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
+    他の愛好者とともに Raspberry Pi、Arduino、ESP32 の世界をさらに深く探求しましょう。  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: 購入後の不具合や技術的な課題を、コミュニティやチームのサポートで解決できます。  
+    - **Learn & Share**: ヒントやチュートリアルを共有しながらスキルを向上させましょう。  
+    - **Exclusive Previews**: 新製品の発表や先行情報をいち早く入手できます。  
+    - **Special Discounts**: 最新製品を特別割引で購入可能です。  
+    - **Festive Promotions and Giveaways**: プレゼント企画や季節限定キャンペーンに参加できます。  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 さあ、一緒に学び、創造を楽しみましょう！ [|link_sf_facebook|] をクリックして今すぐ参加してください！
 
 FAQ
 ===========================
 
-Why does my 3.5-inch screen stay black or white after powering on?
+電源を入れても 3.5 インチスクリーンが黒や白のままなのはなぜですか？
 --------------------------------------------------------------------
 
-* Make sure the correct driver is installed. For detailed instructions, please refer to :ref:`install_driver`.
-* If you are using **Raspberry Pi OS** on Raspberry Pi 3B/3B+ or Zero 2W boards, you must install **Bullseye** instead of **Bookworm** to ensure compatibility.  
-* Ensure the screen is firmly connected and properly aligned with the GPIO pins.
+* 正しいドライバがインストールされているか確認してください。詳細な手順は :ref:`install_driver` を参照してください。  
+* Raspberry Pi 3B/3B+ または Zero 2W で **Raspberry Pi OS** を使用する場合、互換性のため **Bookworm** ではなく **Bullseye** をインストールする必要があります。  
+* スクリーンがしっかり GPIO ピンに接続され、正しく位置合わせされていることを確認してください。  
 
-Can the 3.5'' IPS touchscreen and the HDMI monitor be used simultaneously?
+3.5 インチ IPS タッチスクリーンと HDMI モニターを同時に使えますか？
 --------------------------------------------------------------------------------
 
-The 3.5-inch touchscreen cannot be used simultaneously with an HDMI monitor.
+3.5 インチタッチスクリーンは HDMI モニターと同時には使用できません。  
 
-After installing the driver for the 3.5" IPS display, if both the 3.5" IPS screen and an HDMI monitor are connected, the system will default to HDMI output.
+3.5 インチ IPS ディスプレイ用ドライバをインストールした後に両方を接続すると、システムは HDMI 出力を優先します。  
 
-To display on the 3.5" IPS touchscreen, disconnect (unplug) the HDMI monitor.
+3.5 インチ IPS タッチスクリーンに表示する場合は、HDMI モニターを外してください。  
 
-Screen orientation is incorrect?
+画面の向きが正しくない場合は？
 -----------------------------------------------------------------------------------
 
-Run the rotation script to fix it: 
+回転スクリプトを実行して修正してください:  
 
-* ``cd LCD-show/``   # adjust path for your OS  
-* ``sudo ./rotate.sh 90``
+* ``cd LCD-show/``   # OS に合わせてパスを調整  
+* ``sudo ./rotate.sh 90``  
 
-Replace ``90`` with ``0``, ``180``, or ``270`` to match your desired orientation.
+``90`` を ``0`` 、 ``180`` 、 ``270`` に置き換えることで希望する方向に設定できます。  
 
-Can I use it without installing drivers?
--------------------------------------------
+ドライバをインストールせずに使用できますか？
+----------------------------------------------------
 
-No. This screen uses an SPI interface and requires a dedicated driver to work properly.
+いいえ。このスクリーンは SPI インターフェースを使用しており、専用ドライバが必要です。  
 
-For detailed instructions, please refer to :ref:`install_driver`.
+詳細な手順は :ref:`install_driver` を参照してください。  
 
-Why does the fan keep spinning after connecting? Can it be controlled by code?
+ファンを接続すると回りっぱなしになるのはなぜですか？コードで制御できますか？
 ------------------------------------------------------------------------------------------
 
-The fan header on the back provides direct 5V power and has no software control. The fan will always spin when connected.
+背面のファン端子は直接 5V 電源を供給するだけで、ソフトウェアによる制御機能はありません。ファンを接続すると常時回転します。  
 
-What if I get ``git not found`` or network errors during driver installation?
+ドライバインストール中に ``git not found`` やネットワークエラーが出た場合は？
 --------------------------------------------------------------------------------------
 
-Make sure the Raspberry Pi is connected to the internet.
+Raspberry Pi がインターネットに接続されているか確認してください。  
 
-If git is missing, run:  
-        
+git が見つからない場合は以下を実行してください:  
+
 * ``sudo apt update``  
 * ``sudo apt install git``  
 
-Then re-run the installation steps.
+その後、再度インストール手順をやり直してください。  
 
-Can this screen work on Ubuntu, Kali or RetroPie?
+このスクリーンは Ubuntu、Kali、RetroPie でも使えますか？
 -----------------------------------------------------------------
 
-Yes, but it requires installing specific drivers.
+はい。ただし、それぞれ専用のドライバをインストールする必要があります。  
 
-For detailed instructions, please refer to :ref:`install_driver`.
+詳細は :ref:`install_driver` を参照してください。  
 
 
-Can it operate under extreme temperatures?
+極端な温度環境でも動作しますか？
 --------------------------------------------------------
 
-The operating temperature range is -20°C to 60°C. Do not exceed this range to avoid damage or shortened lifespan.
+動作温度範囲は -20°C ～ 60°C です。これを超えると故障や寿命の短縮につながる恐れがあります。  
 
-What if I see color distortion on the screen?
+画面に色の乱れが出る場合は？
 ----------------------------------------------------------
 
-On systems like Kali Linux, use the ``MHS35IPS-show`` driver or update to the latest tested version (e.g., 2025.8.04) for better compatibility.
+Kali Linux などの環境では ``MHS35IPS-show`` ドライバを使用するか、最新の検証済みバージョン（例: 2025.8.04）に更新することで改善できます。  

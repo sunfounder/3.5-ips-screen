@@ -1,89 +1,93 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
+    他の愛好者と一緒に、Raspberry Pi・Arduino・ESP32 の世界をさらに深く探求しましょう。  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: コミュニティやチームのサポートを受けて、購入後の問題や技術的な課題を解決できます。  
+    - **Learn & Share**: ヒントやチュートリアルを共有し、スキルを高めましょう。  
+    - **Exclusive Previews**: 新製品の発表や先行情報をいち早く入手できます。  
+    - **Special Discounts**: 最新製品を特別価格で手に入れられます。  
+    - **Festive Promotions and Giveaways**: プレゼント企画やシーズン限定キャンペーンに参加できます。  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 探索と創造を始めませんか？ [|link_sf_facebook|] をクリックして今すぐ参加しましょう！
 
-1. What Else Do You Need?
+1. 他に必要なものは？
 ===============================
 
-Before we start playing with this kit, let’s prepare the essential hardware.
+このキットを使って遊ぶ前に、必要なハードウェアを準備しましょう。  
 
-Required Components
+必須コンポーネント
 ------------------------------
 
 * **Raspberry Pi**
 
-  * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4B, 3B/3B+, or Raspberry Pi Zero 2W  
+  * **対応モデル**: Raspberry Pi 5、Raspberry Pi 4B、3B/3B+、または Raspberry Pi Zero 2W  
   
   .. image:: img/need_pi.jpg
 
 
 
-* **Power Adapter**
+* **電源アダプター**
 
-  Different Raspberry Pi models require different power supplies.  
-  It is recommended to use the official adapter for best stability:
+  Raspberry Pi のモデルごとに必要な電源が異なります。  
+  安定性を確保するため、公式アダプターの使用を推奨します。  
 
-  * **Raspberry Pi 5**: Recommended: **5V 5A USB-C power supply** (Official 27W PSU). You may also use a USB-C Power Delivery (PD) charger, provided it can supply enough current.  
+  * **Raspberry Pi 5** : 推奨: **5V 5A USB-C 電源アダプター** （公式 27W PSU）。十分な電流を供給できる USB-C Power Delivery (PD) 充電器も使用可能。  
 
-  * **Raspberry Pi 4 Model B**: Recommended: **5V 3A USB-C power supply** (Official 15W USB-C PSU). You may also use a USB-C PD or QC 2.0 fast charger.  
+  * **Raspberry Pi 4 Model B** : 推奨: **5V 3A USB-C 電源アダプター** （公式 15W USB-C PSU）。USB-C PD または QC 2.0 急速充電器も使用可能。  
 
-  * **Raspberry Pi 3B / 3B+**: Recommended: **5V 2.5A Micro-USB power supply**.  
+  * **Raspberry Pi 3B / 3B+** : 推奨: **5V 2.5A Micro-USB 電源アダプター** 。  
 
-  * **Raspberry Pi Zero 2 W**: Recommended: **5V 2.5A Micro-USB power supply**.   
+  * **Raspberry Pi Zero 2 W** : 推奨: **5V 2.5A Micro-USB 電源アダプター** 。  
 
   .. image:: img/need_power.png
     :width: 400
 
 
 
-* **Micro SD Card**
+* **Micro SD カード**
 
-  The Raspberry Pi does not have a built-in hard drive. It boots and stores all files on a **Micro SD card**.  
+  Raspberry Pi には内蔵ストレージがありません。  
+  起動やファイル保存は **Micro SD カード** 上で行います。  
   
   .. image:: img/need_sd.jpg
     :width: 200
 
-  * Minimum: **16GB**  
-  * Recommended: **32GB** for better stability  
-  * Brand: Use reliable options such as **SanDisk** or **Samsung** to avoid read/write errors  
+  * 最低: **16GB**  
+  * 推奨: **32GB** （安定性向上のため）  
+  * ブランド: **SanDisk** や **Samsung** など信頼できるメーカーを使用し、読み書きエラーを回避してください。  
   
-Optional Components
+
+オプションコンポーネント
 ------------------------
 
-Although not strictly required, the following peripherals will greatly improve your learning and debugging experience:
+必須ではありませんが、以下の周辺機器があると学習やデバッグがより快適になります。  
 
-* **Monitor (HDMI or TV)** 
+* **モニター (HDMI または TV)**  
 
-  For beginners, we strongly recommend a display with an HDMI input, so you can easily configure Raspberry Pi OS and run graphical programs.  
+  初心者には HDMI 入力対応のディスプレイを強く推奨します。  
+  Raspberry Pi OS の設定やグラフィカルプログラムの実行が簡単になります。  
 
   .. image:: img/need_screen.png
     :width: 400
 
-* **HDMI Cable (Standard / Mini / Micro)**
- 
-  Different Raspberry Pi models use different HDMI connectors, be sure to check your Pi model and prepare the correct cable. 
-  
+* **HDMI ケーブル (Standard / Mini / Micro)**  
+
+  Raspberry Pi のモデルごとに異なる HDMI コネクタが使われています。モデルを確認し、適切なケーブルを準備してください。  
+
   * **Raspberry Pi 4B / 5**: Micro HDMI  
   * **Raspberry Pi 3B/3B+**: Standard HDMI  
-  * **Raspberry Pi Zero 2 W**: Mini HDMI 
+  * **Raspberry Pi Zero 2 W**: Mini HDMI  
 
   .. image:: img/need_hdmi.png
     :width: 400
 
-* **Keyboard & Mouse**
+* **キーボード & マウス**  
 
-  Very useful during the initial setup of Raspberry Pi OS. Later, you may switch to remote access (SSH/VNC), but for beginners we recommend preparing a basic USB or wireless set.  
+  Raspberry Pi OS の初期設定に非常に便利です。  
+  後でリモートアクセス（SSH/VNC）に切り替えることもできますが、初心者には基本的な USB またはワイヤレスのセットを準備することをお勧めします。  
 
   .. image:: img/need_keyboard_mouse.png
     :width: 500
- 

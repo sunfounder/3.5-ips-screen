@@ -1,25 +1,26 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
+    他の愛好者と一緒に、Raspberry Pi・Arduino・ESP32 の世界をさらに深く探求しましょう。  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: コミュニティやチームのサポートを受けて、購入後の問題や技術的な課題を解決できます。  
+    - **Learn & Share**: ヒントやチュートリアルを共有し、スキルを高めましょう。  
+    - **Exclusive Previews**: 新製品の発表や先行情報をいち早く入手できます。  
+    - **Special Discounts**: 最新製品を特別価格で手に入れられます。  
+    - **Festive Promotions and Giveaways**: プレゼント企画やシーズン限定キャンペーンに参加できます。  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 探索と創造を始めませんか？ [|link_sf_facebook|] をクリックして今すぐ参加しましょう！
 
 .. _install_os:
 
-Install and Setup Raspberry Pi OS
-===========================================
+Raspberry Pi OS のインストールとセットアップ
+================================================
 
-This section is to teach you how to install Raspberry Pi OS, configure wifi to Raspberry Pi, remote access to Raspberry Pi to run the corresponding code.
+このセクションでは、Raspberry Pi OS のインストール方法、Wi-Fi の設定、Raspberry Pi へのリモートアクセス方法、そして対応するコードの実行方法について解説します。  
 
-If you are familiar with Raspberry Pi and can open the command line successfully, then you can skip the first 3 parts and then complete the last part. 
+すでに Raspberry Pi の操作に慣れており、コマンドラインを問題なく開ける場合は、最初の 3 パートをスキップして最後のパートのみを進めても構いません。  
 
 
 

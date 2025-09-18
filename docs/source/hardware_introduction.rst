@@ -1,16 +1,17 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
+    他の愛好者と一緒に Raspberry Pi、Arduino、ESP32 の世界をさらに深く探求しましょう。  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: 購入後の問題や技術的なトラブルを、コミュニティやチームのサポートで解決できます。  
+    - **Learn & Share**: ヒントやチュートリアルを共有してスキルを磨きましょう。  
+    - **Exclusive Previews**: 新製品の発表や先行情報をいち早く入手できます。  
+    - **Special Discounts**: 最新製品を特別割引で購入できます。  
+    - **Festive Promotions and Giveaways**: キャンペーンやプレゼント企画に参加できます。  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 さあ、一緒に学び、創造を楽しみましょう！ [|link_sf_facebook|] をクリックして今すぐ参加してください！
 
 Hardware Description
 ===========================
@@ -23,17 +24,17 @@ Hardware Description
     * - Parameter
       - Description
     * - Screen Size
-      - 3.5-inch
+      - 3.5 インチ
     * - LCD Type
       - IPS
     * - Viewing Angle
-      - Full Viewing Angle
+      - 全視野角
     * - Module Interface
-      - SPI (Supports up to 125MHz SPI input)
+      - SPI（最大 125MHz SPI 入力対応）
     * - Resolution
-      - 320×480 (Pixel)
+      - 320×480（ピクセル）
     * - Number of Pins
-      - 40-pin (Same as the Raspberry Pi)
+      - 40 ピン（Raspberry Pi と同じ）
     * - Colors
       - 65K
     * - Touch Screen Controller
@@ -45,7 +46,7 @@ Hardware Description
     * - Power Consumption
       - 0.16A × 5V
     * - Working Temperature (℃)
-      - -20 ~ 60
+      - -20 ～ 60
     * - Active Area
       - 48.96 × 73.44 (mm)
     * - Module PCB Size
@@ -57,7 +58,7 @@ Hardware Description
 
 **Interface Definition**
 
-Here is the pinout diagram for the 3.5-inch IPS screen. In reality, only the first 26 pins are connected. Pins 27–40 are not connected; they are only there to be compatible with the current 40-pin Raspberry Pi models and to reduce the chance of incorrect insertion.
+以下は 3.5 インチ IPS スクリーンのピン配置図です。実際に接続されているのは最初の 26 ピンのみで、27〜40 ピンは未接続です。これらは最新の 40 ピン Raspberry Pi モデルとの互換性を保つため、また誤挿入を防ぐために用意されています。
 
 .. image:: img/3.5_ips_pins.png
   :width: 500
@@ -71,47 +72,47 @@ Here is the pinout diagram for the 3.5-inch IPS screen. In reality, only the fir
       - DESCRIPTION
     * - 1, 17
       - 3.3V
-      - Power supply input (3.3V)
+      - 電源入力（3.3V）
     * - 2, 4
       - 5V
-      - Power supply input (5V)
+      - 電源入力（5V）
     * - 3, 5, 7, 8, 10, 12, 13, 15, 16, 27~40
       - NC
-      - Not connected
+      - 未接続
     * - 6, 9, 14, 20, 25
       - GND
-      - Power ground
+      - グランド
     * - 11
       - TP_IRQ
-      - Touch panel interrupt signal, active low when pressed
+      - タッチパネル割り込み信号、押下時に Low
     * - 18
       - LCD_RS
-      - LCD register select signal (low: instruction, high: data)
+      - LCD レジスタ選択信号（Low: コマンド、High: データ）
     * - 19
       - LCD_SI / TP_SI
-      - SPI data input for LCD display / touch panel
+      - LCD 表示/タッチパネル用 SPI データ入力
     * - 21
       - TP_SO
-      - SPI data output from the touch panel
+      - タッチパネルからの SPI データ出力
     * - 22
       - RST
-      - Reset signal, active low
+      - リセット信号、Low で有効
     * - 23
       - LCD_SCK / TP_SCK
-      - SPI clock signal for LCD display / touch panel
+      - LCD 表示/タッチパネル用 SPI クロック信号
     * - 24
       - LCD_CS
-      - LCD chip select signal, active low
+      - LCD チップセレクト信号、Low で有効
     * - 26
       - TP_CS
-      - Touch panel chip select signal, active low
+      - タッチパネルチップセレクト信号、Low で有効
 
 
 **Fan Pins**
 
-On the back of the screen, there are two fan pins that allow you to connect an external fan. However, once the fan is connected, it will run continuously and cannot be controlled by code.
+スクリーン背面には外部ファンを接続できる 2 つのファン用ピンが搭載されています。ただし、一度接続するとファンは常時回転し、コードによる制御はできません。
 
 .. image:: img/3.5_ips_fan_pins.png
   :width: 400
   :align: center
-
+  

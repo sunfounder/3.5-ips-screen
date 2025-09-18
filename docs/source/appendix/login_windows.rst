@@ -1,57 +1,56 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
+    他のエンスージアストと一緒に、Raspberry Pi・Arduino・ESP32 の世界をさらに深く掘り下げましょう。  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: コミュニティやチームのサポートを受けて、購入後のトラブルや技術的課題を解決できます。  
+    - **Learn & Share**: ヒントやチュートリアルを共有しながら、スキルを高めましょう。  
+    - **Exclusive Previews**: 新製品の発表やプレビューにいち早くアクセスできます。  
+    - **Special Discounts**: 最新製品を特別割引で入手できます。  
+    - **Festive Promotions and Giveaways**: 季節のキャンペーンやプレゼント企画に参加できます。  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 今すぐ参加して、一緒に創造を楽しみましょう！ [|link_sf_facebook|] をクリック！
 
 .. _login_windows:
 
 PuTTY
 =========================
 
-If you are a Windows user, you can use some applications of SSH. Here, we recommend `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_.
+Windows ユーザーの場合、SSH クライアントアプリを利用することができます。ここでは `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>`_ を推奨します。
 
 **Step 1**
 
-Download PuTTY.
+PuTTY をダウンロードします。
 
 **Step 2**
 
-Open PuTTY and click **Session** on the left tree-alike structure. Enter
-the IP address of the RPi in the text box under **Host Name (or IP
-address)** and **22** under **Port** (by default it is 22).
+PuTTY を起動し、左側のツリー状メニューから **Session** を選択します。  
+**Host Name (or IP address)** に Raspberry Pi の IP アドレスを入力し、 **Port** に **22** （デフォルト値）を入力します。
+
 
 .. image:: img/image25.png
     :align: center
 
 **Step 3**
 
-Click **Open**. Note that when you first log in to the Raspberry Pi with
-the IP address, there prompts a security reminder. Just click **Yes**.
+**Open** をクリックします。初回ログイン時にはセキュリティ警告が表示されますが、 **Yes** をクリックしてください。
+
 
 **Step 4**
 
-When the PuTTY window prompts \"**login as:**\", type in
-\"**pi**\" (the user name of the RPi), and **password**: \"raspberry\"
-(the default one, if you haven't changed it).
+PuTTY ウィンドウに「 **login as:** 」と表示されたら、ユーザー名として「 **pi** 」を入力し、続けて **password** として「raspberry」（変更していない場合のデフォルト）を入力します。
 
 .. note::
 
-    When you input the password, the characters do not display on window accordingly, which is normal. What you need is to input the correct password.
+    パスワード入力時に文字が表示されないのは正常な仕様です。正しく入力してください。  
     
-    If inactive appears next to PuTTY, it means that the connection has been broken and needs to be reconnected.
+    PuTTY のウィンドウに「inactive」と表示された場合、接続が切断されたことを意味し、再接続が必要です。  
     
 .. image:: img/image26.png
     :align: center
 
 **Step 5**
 
-Here, we get the Raspberry Pi connected and it is time to conduct the next steps.
+これで Raspberry Pi に接続できました。次のステップに進みましょう。

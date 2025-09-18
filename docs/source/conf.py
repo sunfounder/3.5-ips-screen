@@ -116,11 +116,11 @@ rst_epilog = """
 
 .. |link_pc_monitor| raw:: html
 
-    <a href="https://www.sunfounder.com/blogs/news/raspberry-pi-system-monitor-for-pc-enhancing-performance-and-remote-monitoring" target="_blank">PC monitoring device</a>
+    <a href="https://www.sunfounder.com/blogs/news/raspberry-pi-system-monitor-for-pc-enhancing-performance-and-remote-monitoring" target="_blank">PC監視デバイス</a>
 
 .. |link_sf_facebook| raw:: html
 
-    <a href="https://bit.ly/raphaelkit" target="_blank">here</a>
+    <a href="https://bit.ly/raphaelkit" target="_blank">ここ</a>
 """
 
 

@@ -1,34 +1,35 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
+    他の愛好者とともに、Raspberry Pi・Arduino・ESP32 の世界をさらに深く探求しましょう。  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: コミュニティやチームの支援を通じて、購入後の不具合や技術的な問題を解決できます。  
+    - **Learn & Share**: ヒントやチュートリアルを共有してスキルを高めましょう。  
+    - **Exclusive Previews**: 新製品発表や先行情報にいち早くアクセスできます。  
+    - **Special Discounts**: 最新製品を特別割引価格で入手できます。  
+    - **Festive Promotions and Giveaways**: プレゼント企画や季節限定キャンペーンに参加できます。  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 一緒に探求と創造を楽しみませんか？ [|link_sf_facebook|] をクリックして、今すぐ参加しましょう！
 
 
 .. _compatible_os:
 
-Compatible Systems and Raspberry Pi Boards
+対応システムと Raspberry Pi ボード
 ===============================================
 
 .. note::
 
-  * The above compatibility tests were conducted on **August 4, 2025**.  
-  * If your operating system or version is not compatible, please tell us the **Raspberry Pi board model** and **system name and version** you are using.  
-  * We will work to update the driver as soon as possible.
+  * 上記の互換性テストは **2025 年 8 月 4 日** に実施されました。  
+  * ご利用の OS やバージョンが互換性リストにない場合は、使用している **Raspberry Pi ボードモデル** と **システム名およびバージョン** をお知らせください。  
+  * ドライバの更新にできるだけ早く対応いたします。  
 
 
 .. list-table::
     :header-rows: 1
 
-    * - System / Board
+    * - システム / ボード
       - Pi 5
       - Pi 4B
       - Pi 3B/3B+
@@ -53,4 +54,4 @@ Compatible Systems and Raspberry Pi Boards
       - Yes, Ubuntu Desktop/Server 64bit
       - Yes, Ubuntu Server 64bit
       - Yes, Ubuntu Server 64bit
- 
+

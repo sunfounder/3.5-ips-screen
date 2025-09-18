@@ -1,19 +1,20 @@
-.. note::
+.. note:: 
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
+    他の愛好者と一緒に、Raspberry Pi、Arduino、ESP32 の世界をさらに深く探求しましょう。  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: 購入後の不具合や技術的な問題を、コミュニティやチームのサポートで解決できます。  
+    - **Learn & Share**: ヒントやチュートリアルを共有してスキルを高めましょう。  
+    - **Exclusive Previews**: 新製品発表や先行情報をいち早く入手できます。  
+    - **Special Discounts**: 最新製品を特別割引で購入できます。  
+    - **Festive Promotions and Giveaways**: キャンペーンやプレゼント企画に参加できます。  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 さあ、一緒に学び、創造を楽しみましょう！ [|link_sf_facebook|] をクリックして今すぐ参加してください！
 
 
-3.5-inch 480x 320 IPS Touch Screen
+3.5-inch 480x 320 IPS Touch Screen
 ==============================================
 
 
@@ -21,26 +22,26 @@
     :width: 500
 
 
-The 3.5-inch 480×320 IPS Touch Screen delivers wide viewing angles, rich 65K colors, and responsive touch control. Designed for the Raspberry Pi, it connects directly via GPIO—no extra cables required—and supports Raspberry Pi OS, Ubuntu, Kali Linux, and RetroPie (driver installation required). Perfect for DIY projects and compact embedded applications.
+3.5 インチ 480×320 IPS タッチスクリーンは、広い視野角、豊かな 65K 色表示、そして反応の良いタッチ操作を実現します。Raspberry Pi 用に設計されており、追加のケーブルは不要で GPIO に直接接続可能です。Raspberry Pi OS、Ubuntu、Kali Linux、RetroPie に対応（ドライバーのインストールが必要）し、DIY プロジェクトやコンパクトな組込み用途に最適です。
 
 **Features**
 
-* 320×480 Resolution – Clear and detailed display for compact projects.
-* IPS Technology – Wide viewing angles with vibrant, accurate colors.
-* High-Speed SPI (up to 125 MHz, 50 FPS) – Smooth and responsive display performance.
-* Resistive Touch Control – Reliable and precise touch input.
-* 40-Pin GPIO Interface – Simple, foolproof connection to Raspberry Pi.
-* Broad Compatibility – Works with Raspberry Pi 5, 4B, 3B/3B+ and Zero 2W.
-* Multiple OS Support – Compatible with Raspberry Pi OS, Ubuntu, Kali Linux, and RetroPie (driver installation required and included).
-* Perfect Fit for Raspberry Pi – Compact design aligned with the Pi’s dimensions.
+* 320×480 解像度 – コンパクトなプロジェクトでも鮮明で詳細な表示。  
+* IPS テクノロジー – 広い視野角と鮮やかで正確な色再現。  
+* 高速 SPI（最大 125 MHz、50 FPS） – なめらかで応答性の高い表示性能。  
+* 抵抗膜方式タッチコントロール – 信頼性の高い正確なタッチ入力。  
+* 40 ピン GPIO インターフェース – Raspberry Pi への簡単で確実な接続。  
+* 幅広い互換性 – Raspberry Pi 5、4B、3B/3B+、Zero 2W に対応。  
+* 複数の OS をサポート – Raspberry Pi OS、Ubuntu、Kali Linux、RetroPie に対応（ドライバーのインストールが必要、同梱）。  
+* Raspberry Pi に最適化 – Pi のサイズに合わせたコンパクト設計。  
 
 .. note::
 
-    **The 3.5-inch touchscreen cannot be used simultaneously with an HDMI monitor.**
+    **3.5 インチ タッチスクリーンは HDMI モニターと同時には使用できません。**  
 
-    After installing the driver for the 3.5" IPS display, if both the 3.5" IPS screen and an HDMI monitor are connected, the system will default to HDMI output.
+    3.5 インチ IPS ディスプレイ用ドライバーをインストールした後、HDMI モニターと同時に接続すると、システムは HDMI 出力を優先します。  
 
-    To display on the 3.5" IPS touchscreen, disconnect (unplug) the HDMI monitor.
+    3.5 インチ IPS タッチスクリーンに表示するには、HDMI モニターを取り外してください。  
 
 
 .. toctree::
@@ -58,5 +59,5 @@ The 3.5-inch 480×320 IPS Touch Screen delivers wide viewing angles, rich 65K co
 Copyright Notice
 --------------------------
 
-All contents including but not limited to texts, images, and code in this manual are owned by the SunFounder Company. You should only use it for personal study,investigation, enjoyment, or other non-commercial or nonprofit purposes, under therelated regulations and copyrights laws, without infringing the legal rights of the author and relevant right holders. For any individual or organization that uses these for commercial profit without permission, the Company reserves the right to take legal action.
-
+本マニュアルに含まれる文章、画像、コードなどのすべての内容は SunFounder Company に帰属します。個人的な学習、研究、鑑賞、またはその他の非商用・非営利目的でのみ使用でき、関連する規制および著作権法の範囲内で著作者や権利者の合法的な権利を侵害しない形でご利用ください。  
+無断で商業的利益のために使用した個人または団体に対しては、当社は法的措置を取る権利を有します。  

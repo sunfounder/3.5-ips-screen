@@ -1,16 +1,17 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
+    他の愛好者たちと一緒に Raspberry Pi、Arduino、ESP32 の世界をさらに深く探求しましょう。
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: 購入後の不具合や技術的な問題を、コミュニティやチームのサポートで解決できます。  
+    - **Learn & Share**: ヒントやチュートリアルを交換してスキルを磨きましょう。  
+    - **Exclusive Previews**: 新製品の発表や先行情報をいち早くチェックできます。  
+    - **Special Discounts**: 最新製品を特別割引で入手できます。  
+    - **Festive Promotions and Giveaways**: プレゼント企画や季節ごとのキャンペーンに参加できます。  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 さあ、一緒に発見と創作を楽しみましょう！ [|link_sf_facebook|] をクリックして今すぐ参加してください！
 
 Quick User Guide
 ===========================
@@ -18,25 +19,25 @@ Quick User Guide
 1. Install the Operating System
 --------------------------------------
 
-Use **Raspberry Pi Imager** to install the operating system that matches your Raspberry Pi board model.
+**Raspberry Pi Imager** を使って、お使いの Raspberry Pi ボードモデルに対応するオペレーティングシステムをインストールしてください。  
 
-For detailed instructions, please refer to :ref:`install_os`.
+詳しい手順は :ref:`install_os` をご覧ください。
 
 .. note::
 
-    * **Raspberry Pi OS**: If you are using a Raspberry Pi 3B/3B+ or Zero 2W, you must install the **Bullseye** instead of Bookworm to ensure the screen functions properly.
-    * **Other Operating Systems**: Follow the instructions provided in Raspberry Pi Imager to install the OS recommended for your specific Raspberry Pi model.
+    * **Raspberry Pi OS**: Raspberry Pi 3B/3B+ または Zero 2W を使用する場合、画面を正しく動作させるために **Bookworm** ではなく **Bullseye** をインストールする必要があります。  
+    * **Other Operating Systems**: Raspberry Pi Imager に表示される指示に従い、各モデルに推奨される OS をインストールしてください。
 
 2. Connect the Display to the Raspberry Pi
 -----------------------------------------------
 
-This 3.5-inch IPS display shares the same pinout as the Raspberry Pi.
+この 3.5 インチ IPS ディスプレイは Raspberry Pi と同じピン配置を使用します。
 
-**Steps**: 
+**手順**:
 
-1. Power off your Raspberry Pi and unplug the power cable.  
-2. Align the display with the GPIO header (Pin 1 alignment) and firmly press it onto the pins.  
-3. Insert the prepared MicroSD card and power on the Raspberry Pi.
+1. Raspberry Pi の電源を切り、電源ケーブルを外します。  
+2. ディスプレイを GPIO ヘッダー（Pin 1 に合わせて）に揃え、しっかりと差し込みます。  
+3. 準備した MicroSD カードを挿入し、Raspberry Pi の電源を入れます。  
 
 .. image:: img/3.5_ips_plugin_pi.jpg
     :width: 400
@@ -47,24 +48,26 @@ This 3.5-inch IPS display shares the same pinout as the Raspberry Pi.
 3. Driver Installation
 -------------------------------
 
-The 3.5-inch IPS display requires drivers before it can function. Depending on your operating system, follow the instructions below.
+3.5 インチ IPS ディスプレイは、動作させるためにドライバーのインストールが必要です。使用するオペレーティングシステムに応じて、以下の手順に従ってください。
 
 .. note::
 
-    You will need to either remotely log in to your Raspberry Pi or connect an additional plug-and-play monitor to install the drivers. Only after installation will the 3.5-inch display function properly.
+    ドライバーをインストールするには、Raspberry Pi にリモートログインするか、プラグアンドプレイ対応の外部モニターを接続する必要があります。インストールが完了して初めて、この 3.5 インチ ディスプレイが正常に動作します。  
 
-    For detailed instructions, please refer to :ref:`setup_pi`.
+    詳細は :ref:`setup_pi` を参照してください。
 
-**General tips**: 
 
-* First, check :ref:`compatible_os`.
-* Ensure ``git`` is installed (``sudo apt install git``).  
-* Driver installation may take 1–3 minutes.  
-* The system will reboot automatically.
+**一般的な注意点**:
+
+* まず :ref:`compatible_os` を確認してください。  
+* ``git`` がインストールされていることを確認します（ ``sudo apt install git`` ）。  
+* ドライバーのインストールには 1〜3 分ほどかかります。  
+* インストール完了後、システムは自動的に再起動します。  
+
 
 **For Raspberry Pi OS**
 
-You can use the following command to install the driver:
+以下のコマンドでドライバーをインストールできます:
 
 .. raw:: html
 
@@ -79,17 +82,17 @@ You can use the following command to install the driver:
     cd LCD-show/
     sudo ./MHS35IPS-show
 
-After the driver is successfully installed, it will take 2–3 minutes to reboot. Then you will be able to see the Raspberry Pi desktop on the 3.5-inch IPS screen.
+ドライバーが正常にインストールされると 2〜3 分後に再起動が行われ、3.5 インチ IPS 画面に Raspberry Pi デスクトップが表示されます。
 
 .. note::
 
-    * If you are using a Raspberry Pi 3B/3B+ or Zero 2W, you need to install the **Bullseye** system in order to use this 3.5-inch IPS screen.
-    * If you have an HDMI monitor connected during installation, the desktop will still appear on the HDMI monitor after reboot.
-    * To use the 3.5-inch IPS screen, disconnect the HDMI monitor and reboot the Raspberry Pi.
+    * Raspberry Pi 3B/3B+ または Zero 2W を使用する場合、この画面を使うには **Bullseye** OS をインストールする必要があります。  
+    * インストール中に HDMI モニターが接続されていると、再起動後もデスクトップは HDMI モニターに表示されます。  
+    * 3.5 インチ IPS 画面を使用する場合は、HDMI モニターを外して Raspberry Pi を再起動してください。  
 
 **For Ubuntu Desktop/Server**
 
-You can use the following command to install the driver:
+以下のコマンドでドライバーをインストールできます:
 
 .. raw:: html
 
@@ -103,17 +106,17 @@ You can use the following command to install the driver:
     cd LCD-show-ubuntu/
     sudo ./MHS35IPS-show
 
-After the driver is successfully installed, the system will automatically reboot, and the desktop will be displayed on the 3.5-inch IPS screen.
+ドライバーが正常にインストールされると、システムは自動的に再起動し、3.5 インチ IPS 画面にデスクトップが表示されます。
 
 .. note::
 
-    * If an HDMI monitor is connected, the desktop will still default to the HDMI output.
-    * Please unplug the HDMI monitor and reboot your device to switch the display to the 3.5-inch IPS screen.
+    * HDMI モニターが接続されている場合、デフォルトで HDMI 出力が優先されます。  
+    * 3.5 インチ IPS 画面を使う場合は、HDMI モニターを外してデバイスを再起動してください。  
 
 
 **For Kali Linux**
 
-You can use the following command to install the driver:
+以下のコマンドでドライバーをインストールできます:
 
 .. raw:: html
 
@@ -127,16 +130,16 @@ You can use the following command to install the driver:
     cd LCD-show-kali/
     sudo ./MHS35IPS-show
 
-After the driver is successfully installed, the system will reboot and show the desktop on the 3.5-inch IPS screen.
+ドライバーが正常にインストールされると、システムは再起動し、3.5 インチ IPS 画面にデスクトップが表示されます。
 
 .. note::
 
-    * When an HDMI monitor is connected, the desktop will continue to display on HDMI after reboot.
-    * Please disconnect the HDMI monitor and reboot Kali Linux to use the 3.5-inch IPS screen.
+    * HDMI モニターが接続されている場合、再起動後も HDMI 出力が優先されます。  
+    * 3.5 インチ IPS 画面を使用するには、HDMI モニターを外して Kali Linux を再起動してください。  
 
 **For RetroPie**
 
-You can use the following command to install the driver:
+以下のコマンドでドライバーをインストールできます:
 
 .. raw:: html
 
@@ -150,21 +153,21 @@ You can use the following command to install the driver:
     cd LCD-show-retropie/
     sudo ./MIS35-show
 
-After the driver is successfully installed, the system will reboot, and you will see the RetroPie interface on the 3.5-inch IPS screen.
+ドライバーが正常にインストールされると、システムは再起動し、3.5 インチ IPS 画面に RetroPie のインターフェースが表示されます。
 
 .. note::
 
-    * If an HDMI monitor is connected, the interface will remain on HDMI output.
-    * Unplug the HDMI monitor and reboot your Raspberry Pi to switch the display to the 3.5-inch IPS screen.
+    * HDMI モニターが接続されている場合、インターフェースは HDMI 出力に表示され続けます。  
+    * 3.5 インチ IPS 画面を使用するには、HDMI モニターを外して Raspberry Pi を再起動してください。  
 
-4.Rotate the Display
+4. Rotate the Display
 -----------------------------
 
-You can rotate the display and touch orientation by running:
+以下のコマンドを実行すると、画面とタッチ操作の向きを回転させることができます。
 
 .. note::
 
-    Change the directory according to the system used:  
+    使用するシステムに応じてディレクトリを変更してください:  
     
     * Raspberry Pi OS → ``cd LCD-show/``  
     * Ubuntu → ``cd LCD-show-ubuntu/``  
@@ -180,5 +183,5 @@ You can rotate the display and touch orientation by running:
     cd LCD-show/
     sudo ./rotate.sh 90
 
-The system will reboot automatically. After restart, the screen and touch orientation will be rotated to **90°**.  
-You can replace ``90`` with ``0``, ``180``, or ``270`` to set the desired rotation.
+システムは自動的に再起動します。再起動後、画面とタッチ操作は **90°** 回転します。  
+``90`` を ``0``、 ``180``、 ``270`` に置き換えることで、希望の角度に変更できます。
