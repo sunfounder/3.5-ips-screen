@@ -1,16 +1,16 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: Löse Probleme nach dem Kauf sowie technische Herausforderungen mit Unterstützung unserer Community und unseres Teams.  
+    - **Learn & Share**: Teile Tipps und Tutorials, um deine Fähigkeiten zu erweitern.  
+    - **Exclusive Previews**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.  
+    - **Special Discounts**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.  
+    - **Festive Promotions and Giveaways**: Nimm an Gewinnspielen und saisonalen Aktionen teil.  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns Neues zu entdecken und zu erschaffen? Klicke auf [|link_sf_facebook|] und werde noch heute Mitglied!  
 
 Hardware Description
 ===========================
@@ -21,43 +21,43 @@ Hardware Description
     :header-rows: 1
 
     * - Parameter
-      - Description
-    * - Screen Size
-      - 3.5-inch
-    * - LCD Type
+      - Beschreibung
+    * - Bildschirmgröße
+      - 3,5 Zoll
+    * - LCD-Typ
       - IPS
-    * - Viewing Angle
-      - Full Viewing Angle
-    * - Module Interface
-      - SPI (Supports up to 125MHz SPI input)
-    * - Resolution
+    * - Blickwinkel
+      - Voller Betrachtungswinkel
+    * - Modulschnittstelle
+      - SPI (unterstützt bis zu 125 MHz SPI-Eingang)
+    * - Auflösung
       - 320×480 (Pixel)
-    * - Number of Pins
-      - 40-pin (Same as the Raspberry Pi)
-    * - Colors
+    * - Anzahl Pins
+      - 40-Pin (identisch zum Raspberry Pi)
+    * - Farben
       - 65K
-    * - Touch Screen Controller
+    * - Touchscreen-Controller
       - XPT2046
-    * - LCD Driver IC
+    * - LCD-Treiber-IC
       - ST7796U
-    * - Backlight
+    * - Hintergrundbeleuchtung
       - LED
-    * - Power Consumption
-      - 0.16A × 5V
-    * - Working Temperature (℃)
+    * - Stromverbrauch
+      - 0,16 A × 5 V
+    * - Betriebstemperatur (℃)
       - -20 ~ 60
-    * - Active Area
-      - 48.96 × 73.44 (mm)
-    * - Module PCB Size
-      - 85.42 × 55.60 (mm)
-    * - Package Size
+    * - Aktiver Bereich
+      - 48,96 × 73,44 (mm)
+    * - Modul-PCB-Größe
+      - 85,42 × 55,60 (mm)
+    * - Verpackungsgröße
       - 132 × 96 × 40 (mm)
-    * - Product Weight (Including Package)
-      - 93.8 g
+    * - Produktgewicht (inkl. Verpackung)
+      - 93,8 g
 
 **Interface Definition**
 
-Here is the pinout diagram for the 3.5-inch IPS screen. In reality, only the first 26 pins are connected. Pins 27–40 are not connected; they are only there to be compatible with the current 40-pin Raspberry Pi models and to reduce the chance of incorrect insertion.
+Hier ist das Pinout-Diagramm für den 3,5-Zoll-IPS-Bildschirm. Tatsächlich sind nur die ersten 26 Pins belegt. Pins 27–40 sind nicht verbunden; sie dienen lediglich der Kompatibilität mit aktuellen 40-Pin-Raspberry-Pi-Modellen und verringern die Gefahr einer falschen Ausrichtung beim Einsetzen.
 
 .. image:: img/3.5_ips_pins.png
   :width: 500
@@ -66,50 +66,50 @@ Here is the pinout diagram for the 3.5-inch IPS screen. In reality, only the fir
 .. list-table:: 
     :header-rows: 1
 
-    * - PIN NO.
+    * - PIN NR.
       - SYMBOL
-      - DESCRIPTION
+      - BESCHREIBUNG
     * - 1, 17
       - 3.3V
-      - Power supply input (3.3V)
+      - Stromeingang (3,3 V)
     * - 2, 4
       - 5V
-      - Power supply input (5V)
+      - Stromeingang (5 V)
     * - 3, 5, 7, 8, 10, 12, 13, 15, 16, 27~40
       - NC
-      - Not connected
+      - Nicht verbunden
     * - 6, 9, 14, 20, 25
       - GND
-      - Power ground
+      - Masseanschluss
     * - 11
       - TP_IRQ
-      - Touch panel interrupt signal, active low when pressed
+      - Touchpanel-Interruptsignal, aktiv low bei Berührung
     * - 18
       - LCD_RS
-      - LCD register select signal (low: instruction, high: data)
+      - LCD-Registerauswahl (low: Befehl, high: Daten)
     * - 19
       - LCD_SI / TP_SI
-      - SPI data input for LCD display / touch panel
+      - SPI-Dateneingang für LCD / Touchpanel
     * - 21
       - TP_SO
-      - SPI data output from the touch panel
+      - SPI-Datenausgang vom Touchpanel
     * - 22
       - RST
-      - Reset signal, active low
+      - Reset-Signal, aktiv low
     * - 23
       - LCD_SCK / TP_SCK
-      - SPI clock signal for LCD display / touch panel
+      - SPI-Taktsignal für LCD / Touchpanel
     * - 24
       - LCD_CS
-      - LCD chip select signal, active low
+      - LCD-Chip-Select, aktiv low
     * - 26
       - TP_CS
-      - Touch panel chip select signal, active low
+      - Touchpanel-Chip-Select, aktiv low
 
 
 **Fan Pins**
 
-On the back of the screen, there are two fan pins that allow you to connect an external fan. However, once the fan is connected, it will run continuously and cannot be controlled by code.
+Auf der Rückseite des Bildschirms befinden sich zwei Lüfterpins, an die ein externer Lüfter angeschlossen werden kann. Sobald der Lüfter angeschlossen ist, läuft er jedoch dauerhaft und lässt sich nicht per Code steuern.
 
 .. image:: img/3.5_ips_fan_pins.png
   :width: 400

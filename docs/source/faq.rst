@@ -1,84 +1,84 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: Löse Support-Anfragen nach dem Kauf und technische Probleme mit Hilfe unserer Community und unseres Teams.  
+    - **Learn & Share**: Tausche Tipps und Anleitungen aus, um deine Kenntnisse zu erweitern.  
+    - **Exclusive Previews**: Erhalte frühzeitig Zugang zu Produktankündigungen und exklusiven Vorschauen.  
+    - **Special Discounts**: Profitiere von besonderen Rabatten auf unsere neuesten Produkte.  
+    - **Festive Promotions and Giveaways**: Nimm an Gewinnspielen und saisonalen Aktionen teil.  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns Neues zu entdecken und Projekte umzusetzen? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!  
 
 FAQ
 ===========================
 
-Why does my 3.5-inch screen stay black or white after powering on?
---------------------------------------------------------------------
+Warum bleibt mein 3,5-Zoll-Bildschirm nach dem Einschalten schwarz oder weiß?
+------------------------------------------------------------------------------------
 
-* Make sure the correct driver is installed. For detailed instructions, please refer to :ref:`install_driver`.
-* If you are using **Raspberry Pi OS** on Raspberry Pi 3B/3B+ or Zero 2W boards, you must install **Bullseye** instead of **Bookworm** to ensure compatibility.  
-* Ensure the screen is firmly connected and properly aligned with the GPIO pins.
+* Stelle sicher, dass der richtige Treiber installiert ist. Detaillierte Anleitungen findest du unter :ref:`install_driver`.  
+* Wenn du **Raspberry Pi OS** auf einem Raspberry Pi 3B/3B+ oder Zero 2W verwendest, musst du **Bullseye** statt **Bookworm** installieren, um die Kompatibilität sicherzustellen.  
+* Überprüfe, ob das Display fest und korrekt mit den GPIO-Pins verbunden ist.  
 
-Can the 3.5'' IPS touchscreen and the HDMI monitor be used simultaneously?
---------------------------------------------------------------------------------
-
-The 3.5-inch touchscreen cannot be used simultaneously with an HDMI monitor.
-
-After installing the driver for the 3.5" IPS display, if both the 3.5" IPS screen and an HDMI monitor are connected, the system will default to HDMI output.
-
-To display on the 3.5" IPS touchscreen, disconnect (unplug) the HDMI monitor.
-
-Screen orientation is incorrect?
------------------------------------------------------------------------------------
-
-Run the rotation script to fix it: 
-
-* ``cd LCD-show/``   # adjust path for your OS  
-* ``sudo ./rotate.sh 90``
-
-Replace ``90`` with ``0``, ``180``, or ``270`` to match your desired orientation.
-
-Can I use it without installing drivers?
--------------------------------------------
-
-No. This screen uses an SPI interface and requires a dedicated driver to work properly.
-
-For detailed instructions, please refer to :ref:`install_driver`.
-
-Why does the fan keep spinning after connecting? Can it be controlled by code?
+Kann der 3,5-Zoll-IPS-Touchscreen gleichzeitig mit einem HDMI-Monitor genutzt werden?
 ------------------------------------------------------------------------------------------
 
-The fan header on the back provides direct 5V power and has no software control. The fan will always spin when connected.
+Der 3,5-Zoll-Touchscreen kann nicht gleichzeitig mit einem HDMI-Monitor betrieben werden.  
 
-What if I get ``git not found`` or network errors during driver installation?
---------------------------------------------------------------------------------------
+Nach der Installation des Treibers für das 3,5"-IPS-Display schaltet das System automatisch auf HDMI-Ausgabe, wenn sowohl das 3,5"-IPS-Display als auch ein HDMI-Monitor angeschlossen sind.  
 
-Make sure the Raspberry Pi is connected to the internet.
+Um die Ausgabe auf dem 3,5"-IPS-Touchscreen zu sehen, muss der HDMI-Monitor getrennt (abgesteckt) werden.  
 
-If git is missing, run:  
-        
+Die Bildschirmausrichtung ist falsch?
+-----------------------------------------------------------------------------------
+
+Führe das Rotationsskript aus, um das Problem zu beheben:  
+
+* ``cd LCD-show/``   # Pfad entsprechend deinem Betriebssystem anpassen  
+* ``sudo ./rotate.sh 90``  
+
+Ersetze ``90`` durch ``0``, ``180`` oder ``270``, um die gewünschte Ausrichtung einzustellen.  
+
+Kann ich das Display ohne Treiberinstallation verwenden?
+--------------------------------------------------------------
+
+Nein. Dieses Display verwendet eine SPI-Schnittstelle und benötigt einen speziellen Treiber, um korrekt zu funktionieren.  
+
+Detaillierte Anleitungen findest du unter :ref:`install_driver`.  
+
+Warum läuft der Lüfter nach dem Anschließen dauerhaft? Kann er per Code gesteuert werden?
+----------------------------------------------------------------------------------------------
+
+Der Lüfteranschluss auf der Rückseite liefert direkt 5V und lässt sich nicht per Software steuern. Der Lüfter läuft permanent, sobald er angeschlossen ist.  
+
+Was tun, wenn während der Treiberinstallation ``git not found`` oder Netzwerkfehler auftreten?
+------------------------------------------------------------------------------------------------------
+
+Stelle sicher, dass der Raspberry Pi mit dem Internet verbunden ist.  
+
+Wenn git fehlt, führe Folgendes aus:  
+
 * ``sudo apt update``  
 * ``sudo apt install git``  
 
-Then re-run the installation steps.
+Starte danach die Installation erneut.  
 
-Can this screen work on Ubuntu, Kali or RetroPie?
------------------------------------------------------------------
+Funktioniert dieses Display auch mit Ubuntu, Kali oder RetroPie?
+--------------------------------------------------------------------
 
-Yes, but it requires installing specific drivers.
+Ja, allerdings müssen spezifische Treiber installiert werden.  
 
-For detailed instructions, please refer to :ref:`install_driver`.
+Detaillierte Anleitungen findest du unter :ref:`install_driver`.  
 
 
-Can it operate under extreme temperatures?
---------------------------------------------------------
+Kann das Display auch bei extremen Temperaturen betrieben werden?
+-----------------------------------------------------------------------
 
-The operating temperature range is -20°C to 60°C. Do not exceed this range to avoid damage or shortened lifespan.
+Der Betriebstemperaturbereich liegt zwischen -20 °C und 60 °C. Überschreite diesen Bereich nicht, um Schäden oder eine verkürzte Lebensdauer zu vermeiden.  
 
-What if I see color distortion on the screen?
-----------------------------------------------------------
+Was tun, wenn es zu Farbstörungen auf dem Display kommt?
+-------------------------------------------------------------
 
-On systems like Kali Linux, use the ``MHS35IPS-show`` driver or update to the latest tested version (e.g., 2025.8.04) for better compatibility.
+Unter Systemen wie Kali Linux sollte der ``MHS35IPS-show``-Treiber verwendet oder auf eine aktuelle getestete Version (z. B. 2025.8.04) aktualisiert werden, um die Kompatibilität zu verbessern.  

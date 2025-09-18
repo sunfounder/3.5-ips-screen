@@ -1,89 +1,89 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: Erhalte Unterstützung bei Supportanfragen nach dem Kauf sowie bei technischen Herausforderungen – mit Hilfe unserer Community und unseres Teams.  
+    - **Learn & Share**: Teile Tipps und Anleitungen und erweitere so deine Kenntnisse.  
+    - **Exclusive Previews**: Profitiere von frühem Zugang zu neuen Produktankündigungen und exklusiven Einblicken.  
+    - **Special Discounts**: Sichere dir exklusive Rabatte auf unsere neuesten Produkte.  
+    - **Festive Promotions and Giveaways**: Nimm an Gewinnspielen und saisonalen Aktionen teil.  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, gemeinsam mit uns Neues zu entdecken und Projekte umzusetzen? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!  
 
-1. What Else Do You Need?
-===============================
 
-Before we start playing with this kit, let’s prepare the essential hardware.
+1. Was wird zusätzlich benötigt?
+===================================
 
-Required Components
-------------------------------
+Bevor wir mit diesem Kit starten, bereiten wir die wichtigsten Hardware-Komponenten vor.  
+
+Benötigte Komponenten
+------------------------
 
 * **Raspberry Pi**
 
-  * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4B, 3B/3B+, or Raspberry Pi Zero 2W  
-  
+  * **Kompatible Modelle**: Raspberry Pi 5, Raspberry Pi 4B, 3B/3B+ oder Raspberry Pi Zero 2W  
+
   .. image:: img/need_pi.jpg
 
 
 
-* **Power Adapter**
+* **Netzteil**
 
-  Different Raspberry Pi models require different power supplies.  
-  It is recommended to use the official adapter for best stability:
+  Unterschiedliche Raspberry Pi Modelle erfordern verschiedene Stromversorgungen.  
+  Für maximale Stabilität wird die Verwendung des offiziellen Netzteils empfohlen:  
 
-  * **Raspberry Pi 5**: Recommended: **5V 5A USB-C power supply** (Official 27W PSU). You may also use a USB-C Power Delivery (PD) charger, provided it can supply enough current.  
+  * **Raspberry Pi 5**: Empfohlen: **5V 5A USB-C Netzteil** (offizielles 27W PSU). Alternativ kann ein USB-C Power Delivery (PD) Ladegerät genutzt werden, sofern es ausreichend Strom liefert.  
 
-  * **Raspberry Pi 4 Model B**: Recommended: **5V 3A USB-C power supply** (Official 15W USB-C PSU). You may also use a USB-C PD or QC 2.0 fast charger.  
+  * **Raspberry Pi 4 Model B**: Empfohlen: **5V 3A USB-C Netzteil** (offizielles 15W USB-C PSU). Auch ein USB-C PD oder QC 2.0 Schnellladegerät ist möglich.  
 
-  * **Raspberry Pi 3B / 3B+**: Recommended: **5V 2.5A Micro-USB power supply**.  
+  * **Raspberry Pi 3B / 3B+**: Empfohlen: **5V 2.5A Micro-USB Netzteil**.  
 
-  * **Raspberry Pi Zero 2 W**: Recommended: **5V 2.5A Micro-USB power supply**.   
+  * **Raspberry Pi Zero 2 W**: Empfohlen: **5V 2.5A Micro-USB Netzteil**.  
 
   .. image:: img/need_power.png
     :width: 400
 
 
 
-* **Micro SD Card**
+* **Micro SD Karte**
 
-  The Raspberry Pi does not have a built-in hard drive. It boots and stores all files on a **Micro SD card**.  
-  
+  Der Raspberry Pi verfügt über keine integrierte Festplatte. Er startet und speichert alle Dateien auf einer **Micro SD Karte**.  
+
   .. image:: img/need_sd.jpg
     :width: 200
 
   * Minimum: **16GB**  
-  * Recommended: **32GB** for better stability  
-  * Brand: Use reliable options such as **SanDisk** or **Samsung** to avoid read/write errors  
-  
-Optional Components
+  * Empfohlen: **32GB** für mehr Stabilität  
+  * Marke: Verwende zuverlässige Hersteller wie **SanDisk** oder **Samsung**, um Lese-/Schreibfehler zu vermeiden  
+
+Optionale Komponenten
 ------------------------
 
-Although not strictly required, the following peripherals will greatly improve your learning and debugging experience:
+Nicht zwingend erforderlich, aber sehr hilfreich für das Lernen und Debuggen:  
 
-* **Monitor (HDMI or TV)** 
+* **Monitor (HDMI oder TV)**  
 
-  For beginners, we strongly recommend a display with an HDMI input, so you can easily configure Raspberry Pi OS and run graphical programs.  
+  Besonders für Einsteiger empfiehlt sich ein Monitor mit HDMI-Eingang, um Raspberry Pi OS einfach einzurichten und grafische Programme auszuführen.  
 
   .. image:: img/need_screen.png
     :width: 400
 
-* **HDMI Cable (Standard / Mini / Micro)**
- 
-  Different Raspberry Pi models use different HDMI connectors, be sure to check your Pi model and prepare the correct cable. 
-  
+* **HDMI Kabel (Standard / Mini / Micro)**
+
+  Je nach Raspberry Pi Modell werden unterschiedliche HDMI-Anschlüsse verwendet – prüfe dein Modell und wähle das passende Kabel.  
+
   * **Raspberry Pi 4B / 5**: Micro HDMI  
   * **Raspberry Pi 3B/3B+**: Standard HDMI  
-  * **Raspberry Pi Zero 2 W**: Mini HDMI 
+  * **Raspberry Pi Zero 2 W**: Mini HDMI  
 
   .. image:: img/need_hdmi.png
     :width: 400
 
-* **Keyboard & Mouse**
+* **Tastatur & Maus**
 
-  Very useful during the initial setup of Raspberry Pi OS. Later, you may switch to remote access (SSH/VNC), but for beginners we recommend preparing a basic USB or wireless set.  
+  Sehr nützlich für die Ersteinrichtung von Raspberry Pi OS. Später kannst du auf Fernzugriff (SSH/VNC) umsteigen, doch für Anfänger empfehlen wir ein einfaches USB- oder kabelloses Set.  
 
   .. image:: img/need_keyboard_mouse.png
     :width: 500
- 

@@ -1,19 +1,19 @@
-.. note::
+.. note:: 
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: Löse Probleme nach dem Kauf sowie technische Herausforderungen mit Unterstützung unserer Community und unseres Teams.  
+    - **Learn & Share**: Teile Tipps und Tutorials, um deine Fähigkeiten zu erweitern.  
+    - **Exclusive Previews**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.  
+    - **Special Discounts**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.  
+    - **Festive Promotions and Giveaways**: Nimm an Gewinnspielen und saisonalen Aktionen teil.  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, mit uns Neues zu entdecken und zu erschaffen? Klicke auf [|link_sf_facebook|] und werde noch heute Mitglied!  
 
 
-3.5-inch 480x 320 IPS Touch Screen
+3.5-inch 480x 320 IPS Touch Screen
 ==============================================
 
 
@@ -21,26 +21,26 @@
     :width: 500
 
 
-The 3.5-inch 480×320 IPS Touch Screen delivers wide viewing angles, rich 65K colors, and responsive touch control. Designed for the Raspberry Pi, it connects directly via GPIO—no extra cables required—and supports Raspberry Pi OS, Ubuntu, Kali Linux, and RetroPie (driver installation required). Perfect for DIY projects and compact embedded applications.
+Der 3,5-Zoll-IPS-Touchscreen mit 480×320 Pixeln bietet große Betrachtungswinkel, satte 65K-Farben und eine präzise Touch-Steuerung. Er ist speziell für den Raspberry Pi entwickelt, wird direkt über die GPIO-Schnittstelle verbunden – ohne zusätzliche Kabel – und unterstützt Raspberry Pi OS, Ubuntu, Kali Linux sowie RetroPie (Treiberinstallation erforderlich). Ideal für DIY-Projekte und kompakte Embedded-Anwendungen.  
 
 **Features**
 
-* 320×480 Resolution – Clear and detailed display for compact projects.
-* IPS Technology – Wide viewing angles with vibrant, accurate colors.
-* High-Speed SPI (up to 125 MHz, 50 FPS) – Smooth and responsive display performance.
-* Resistive Touch Control – Reliable and precise touch input.
-* 40-Pin GPIO Interface – Simple, foolproof connection to Raspberry Pi.
-* Broad Compatibility – Works with Raspberry Pi 5, 4B, 3B/3B+ and Zero 2W.
-* Multiple OS Support – Compatible with Raspberry Pi OS, Ubuntu, Kali Linux, and RetroPie (driver installation required and included).
-* Perfect Fit for Raspberry Pi – Compact design aligned with the Pi’s dimensions.
+* 320×480 Auflösung – Klare und detailreiche Darstellung für kompakte Projekte.  
+* IPS-Technologie – Große Betrachtungswinkel mit lebendigen und naturgetreuen Farben.  
+* High-Speed-SPI (bis zu 125 MHz, 50 FPS) – Flüssige und reaktionsschnelle Anzeigeleistung.  
+* Resistive Touch-Steuerung – Zuverlässige und präzise Eingabe.  
+* 40-Pin-GPIO-Interface – Einfache, sichere Verbindung zum Raspberry Pi.  
+* Breite Kompatibilität – Funktioniert mit Raspberry Pi 5, 4B, 3B/3B+ und Zero 2W.  
+* Unterstützung mehrerer Betriebssysteme – Kompatibel mit Raspberry Pi OS, Ubuntu, Kali Linux und RetroPie (Treiberinstallation erforderlich und enthalten).  
+* Perfekte Passform für den Raspberry Pi – Kompaktes Design, abgestimmt auf die Maße des Pi.  
 
 .. note::
 
-    **The 3.5-inch touchscreen cannot be used simultaneously with an HDMI monitor.**
+    **Der 3,5-Zoll-Touchscreen kann nicht gleichzeitig mit einem HDMI-Monitor verwendet werden.**  
 
-    After installing the driver for the 3.5" IPS display, if both the 3.5" IPS screen and an HDMI monitor are connected, the system will default to HDMI output.
+    Nach der Installation des Treibers für das 3,5"-IPS-Display wird bei gleichzeitig angeschlossenem HDMI-Monitor standardmäßig die HDMI-Ausgabe genutzt.  
 
-    To display on the 3.5" IPS touchscreen, disconnect (unplug) the HDMI monitor.
+    Um die Anzeige auf dem 3,5"-IPS-Touchscreen zu verwenden, trenne bitte den HDMI-Monitor.  
 
 
 .. toctree::
@@ -58,5 +58,5 @@ The 3.5-inch 480×320 IPS Touch Screen delivers wide viewing angles, rich 65K co
 Copyright Notice
 --------------------------
 
-All contents including but not limited to texts, images, and code in this manual are owned by the SunFounder Company. You should only use it for personal study,investigation, enjoyment, or other non-commercial or nonprofit purposes, under therelated regulations and copyrights laws, without infringing the legal rights of the author and relevant right holders. For any individual or organization that uses these for commercial profit without permission, the Company reserves the right to take legal action.
+Alle Inhalte, einschließlich, aber nicht beschränkt auf Texte, Bilder und Code in diesem Handbuch, sind Eigentum der SunFounder Company. Die Nutzung ist ausschließlich für persönliche Studienzwecke, Forschung, Unterhaltung oder andere nicht-kommerzielle bzw. gemeinnützige Zwecke im Rahmen der geltenden Vorschriften und Urheberrechtsgesetze gestattet, ohne die Rechte des Autors oder anderer Rechteinhaber zu verletzen. Jede unbefugte kommerzielle Nutzung durch Einzelpersonen oder Organisationen kann rechtliche Schritte durch das Unternehmen nach sich ziehen.  
 

@@ -1,25 +1,25 @@
 .. note::
 
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
     **Why Join?**
 
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
+    - **Expert Support**: Erhalte Unterstützung bei Fragen nach dem Kauf sowie bei technischen Problemen – dank unserer Community und unseres Teams.  
+    - **Learn & Share**: Teile Tipps und Anleitungen und erweitere so deine Kenntnisse.  
+    - **Exclusive Previews**: Genieße frühen Zugang zu Produktankündigungen und exklusiven Vorschauen.  
+    - **Special Discounts**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.  
+    - **Festive Promotions and Giveaways**: Nimm an Gewinnspielen und saisonalen Aktionen teil.  
 
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+    👉 Bereit, gemeinsam mit uns Neues zu entdecken und Projekte umzusetzen? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!  
 
 .. _install_os:
 
-Install and Setup Raspberry Pi OS
-===========================================
+Installation und Einrichtung von Raspberry Pi OS
+====================================================
 
-This section is to teach you how to install Raspberry Pi OS, configure wifi to Raspberry Pi, remote access to Raspberry Pi to run the corresponding code.
+In diesem Abschnitt erfährst du, wie du Raspberry Pi OS installierst, WLAN auf deinem Raspberry Pi einrichtest und per Fernzugriff auf den Pi zugreifst, um den entsprechenden Code auszuführen.  
 
-If you are familiar with Raspberry Pi and can open the command line successfully, then you can skip the first 3 parts and then complete the last part. 
+Wenn du bereits mit dem Raspberry Pi vertraut bist und die Kommandozeile erfolgreich öffnen kannst, kannst du die ersten drei Teile überspringen und direkt mit dem letzten Teil fortfahren.  
 
 
 
