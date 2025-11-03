@@ -49,11 +49,11 @@ Dieses 3,5-Zoll-IPS-Display verwendet denselben Pinout wie der Raspberry Pi.
 
 Das 3,5-Zoll-IPS-Display benötigt Treiber, bevor es funktionieren kann. Je nach Betriebssystem befolge die folgenden Anweisungen.  
 
-.. note::  
+.. warning::
 
-    Du musst dich entweder per Remote in deinen Raspberry Pi einloggen oder einen zusätzlichen Plug-and-Play-Monitor anschließen, um die Treiber zu installieren. Erst nach der Installation funktioniert das 3,5-Zoll-Display korrekt.  
-
-    Detaillierte Anleitungen findest du unter :ref:`setup_pi`.  
+    * Installieren Sie nur auf einem neu installierten, nicht konfigurierten System (neues Image, Werkseinstellungen).
+    * Die Installation auf einem konfigurierten System kann zu Anmeldeproblemen führen oder das Gerät unbrauchbar machen.
+    * Aktualisieren Sie den Kernel nicht, da das Display einen Kernel-Treiber verwendet. 
 
 **General tips**:  
 
