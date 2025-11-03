@@ -49,11 +49,11 @@ This 3.5-inch IPS display shares the same pinout as the Raspberry Pi.
 
 The 3.5-inch IPS display requires drivers before it can function. Depending on your operating system, follow the instructions below.
 
-.. note::
+.. warning::
 
-    You will need to either remotely log in to your Raspberry Pi or connect an additional plug-and-play monitor to install the drivers. Only after installation will the 3.5-inch display function properly.
-
-    For detailed instructions, please refer to :ref:`setup_pi`.
+    * Install only on a freshly installed, unconfigured system (new image, factory defaults).
+    * Installing on a configured system may cause login issues or make the device unusable.
+    * Do not update the kernel, as the display uses a kernel-level driver.
 
 **General tips**: 
 
