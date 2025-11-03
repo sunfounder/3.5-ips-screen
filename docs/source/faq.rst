@@ -15,6 +15,14 @@
 FAQ
 ===========================
 
+Why can’t I log in after installing the 3.5-inch display driver?  
+------------------------------------------------------------------------------------
+
+* This issue may occur if the driver is installed on a **configured system** rather than a fresh installation. After installation, the system may boot into an **unexpected login screen**, and previous login credentials may **no longer work**, even though the same credentials still function over SSH.  
+* To avoid this problem, please install the driver on a **freshly installed, unconfigured system image (factory defaults)**. Systems that have been previously configured or modified are more likely to encounter this issue.  
+* We are aware of this **bug** and are currently investigating its root cause and working on improvements.  
+* **Do not update the system kernel**, as the display relies on a **kernel-level driver**. Kernel updates may cause driver conflicts, resulting in a non-functional touchscreen.
+
 Why does my 3.5-inch screen stay black or white after powering on?
 --------------------------------------------------------------------
 
