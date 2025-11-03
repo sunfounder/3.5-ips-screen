@@ -15,6 +15,15 @@
 FAQ
 ===========================
 
+Warum kann ich mich nach der Installation des 3,5-Zoll-Display-Treibers nicht mehr anmelden?  
+------------------------------------------------------------------------------------------------------
+
+* Dieses Problem kann auftreten, wenn der Treiber auf einem **bereits konfigurierten System** statt auf einer Neuinstallation installiert wird. Nach der Installation kann das System in einen **unerwarteten Anmeldebildschirm** wechseln, und die bisherigen Anmeldedaten funktionieren **nicht mehr**, obwohl dieselben Daten über SSH weiterhin gültig sind.  
+* Um dieses Problem zu vermeiden, installiere den Treiber bitte auf einem **neu installierten, nicht konfigurierten System-Image (Werkseinstellungen)**. Systeme, die bereits angepasst oder verändert wurden, sind anfälliger für dieses Problem.  
+* Wir sind uns dieses **Bugs** bewusst und untersuchen derzeit die genaue Ursache, um den Installationsprozess zu verbessern.  
+* **Aktualisiere den Systemkernel nicht**, da das Display einen **Kernel-Treiber auf niedriger Ebene** verwendet. Kernel-Updates können zu Konflikten führen und den Touchscreen **funktionsunfähig** machen.
+
+
 Warum bleibt mein 3,5-Zoll-Bildschirm nach dem Einschalten schwarz oder weiß?
 ------------------------------------------------------------------------------------
 

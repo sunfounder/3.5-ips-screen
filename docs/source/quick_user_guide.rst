@@ -1,21 +1,22 @@
 .. note:: 
 
-    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikfans tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
+    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
     **Why Join?**
 
-    - **Expert Support**: Löse Probleme nach dem Kauf und technische Herausforderungen mit Unterstützung unserer Community und unseres Teams.  
-    - **Learn & Share**: Teile Tipps und Tutorials, um deine Kenntnisse zu erweitern.  
-    - **Exclusive Previews**: Erhalte frühen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.  
+    - **Expert Support**: Löse Probleme nach dem Kauf sowie technische Herausforderungen mit Unterstützung unserer Community und unseres Teams.  
+    - **Learn & Share**: Teile Tipps und Tutorials, um deine Fähigkeiten zu erweitern.  
+    - **Exclusive Previews**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.  
     - **Special Discounts**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.  
     - **Festive Promotions and Giveaways**: Nimm an Gewinnspielen und saisonalen Aktionen teil.  
 
-    👉 Bereit, mit uns zu entdecken und zu kreieren? Klicke auf [|link_sf_facebook|] und werde noch heute Mitglied!  
+    👉 Bereit, mit uns Neues zu entdecken und zu erschaffen? Klicke auf [|link_sf_facebook|] und werde noch heute Mitglied!  
 
-Quick User Guide
+
+Kurzanleitung
 ===========================
 
-1. Install the Operating System
+1. Betriebssystem installieren
 --------------------------------------
 
 Verwende **Raspberry Pi Imager**, um das Betriebssystem zu installieren, das zu deinem Raspberry Pi Board-Modell passt.  
@@ -25,14 +26,14 @@ Detaillierte Anleitungen findest du unter :ref:`install_os`.
 .. note::
 
     * **Raspberry Pi OS**: Wenn du einen Raspberry Pi 3B/3B+ oder Zero 2W verwendest, musst du **Bullseye** anstelle von Bookworm installieren, damit der Bildschirm korrekt funktioniert.  
-    * **Other Operating Systems**: Folge den Anweisungen im Raspberry Pi Imager, um das für dein spezifisches Raspberry Pi Modell empfohlene Betriebssystem zu installieren.  
+    * **Andere Betriebssysteme**: Folge den Anweisungen im Raspberry Pi Imager, um das für dein spezifisches Raspberry Pi Modell empfohlene Betriebssystem zu installieren.  
 
-2. Connect the Display to the Raspberry Pi
+2. Display mit dem Raspberry Pi verbinden
 -----------------------------------------------
 
 Dieses 3,5-Zoll-IPS-Display verwendet denselben Pinout wie der Raspberry Pi.  
 
-**Steps**:  
+**Schritte**:  
 
 1. Schalte den Raspberry Pi aus und trenne das Netzkabel.  
 2. Richte das Display am GPIO-Header aus (Pin 1 beachten) und drücke es fest auf die Pins.  
@@ -44,25 +45,25 @@ Dieses 3,5-Zoll-IPS-Display verwendet denselben Pinout wie der Raspberry Pi.
 
 .. _install_driver:  
 
-3. Driver Installation
+3. Treiberinstallation
 -------------------------------
 
 Das 3,5-Zoll-IPS-Display benötigt Treiber, bevor es funktionieren kann. Je nach Betriebssystem befolge die folgenden Anweisungen.  
 
 .. warning::
 
-    * Installieren Sie nur auf einem neu installierten, nicht konfigurierten System (neues Image, Werkseinstellungen).
+    * Installiere nur auf einem neu installierten, nicht konfigurierten System (neues Image, Werkseinstellungen).
     * Die Installation auf einem konfigurierten System kann zu Anmeldeproblemen führen oder das Gerät unbrauchbar machen.
-    * Aktualisieren Sie den Kernel nicht, da das Display einen Kernel-Treiber verwendet. 
+    * Aktualisiere den Kernel nicht, da das Display einen Kernel-Treiber verwendet. 
 
-**General tips**:  
+**Allgemeine Tipps**:  
 
 * Prüfe zuerst :ref:`compatible_os`.  
 * Stelle sicher, dass ``git`` installiert ist (``sudo apt install git``).  
 * Die Treiberinstallation kann 1–3 Minuten dauern.  
 * Das System startet automatisch neu.  
 
-**For Raspberry Pi OS**  
+**Für Raspberry Pi OS**  
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
@@ -71,7 +72,6 @@ Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:
    <run></run>  
 
 .. code-block:: shell  
-
 
     sudo rm -rf LCD-show
     git clone https://github.com/sunfounder/LCD-show.git
@@ -87,7 +87,7 @@ Nach erfolgreicher Installation des Treibers dauert der Neustart 2–3 Minuten. 
     * Wenn während der Installation ein HDMI-Monitor angeschlossen ist, wird der Desktop nach dem Neustart weiterhin auf dem HDMI-Monitor angezeigt.  
     * Um den 3,5-Zoll-IPS-Bildschirm zu verwenden, trenne den HDMI-Monitor und starte den Raspberry Pi neu.  
 
-**For Ubuntu Desktop/Server**  
+**Für Ubuntu Desktop/Server**  
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
@@ -110,8 +110,7 @@ Nach erfolgreicher Installation startet das System automatisch neu und der Deskt
     * Wenn ein HDMI-Monitor angeschlossen ist, bleibt die Desktop-Ausgabe standardmäßig auf HDMI.  
     * Bitte trenne den HDMI-Monitor und starte dein Gerät neu, um die Anzeige auf den 3,5-Zoll-IPS-Bildschirm umzuschalten.  
 
-
-**For Kali Linux**  
+**Für Kali Linux**  
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
@@ -134,7 +133,7 @@ Nach erfolgreicher Installation startet das System neu und zeigt den Desktop auf
     * Wenn ein HDMI-Monitor angeschlossen ist, wird der Desktop nach dem Neustart weiterhin über HDMI angezeigt.  
     * Bitte trenne den HDMI-Monitor und starte Kali Linux neu, um das 3,5-Zoll-IPS-Display zu verwenden.  
 
-**For RetroPie**  
+**Für RetroPie**  
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
@@ -157,7 +156,7 @@ Nach erfolgreicher Installation startet das System neu und du siehst die RetroPi
     * Wenn ein HDMI-Monitor angeschlossen ist, bleibt die Oberfläche auf HDMI-Ausgabe bestehen.  
     * Trenne den HDMI-Monitor und starte deinen Raspberry Pi neu, um das 3,5-Zoll-IPS-Display zu verwenden.  
 
-4.Rotate the Display
+4. Bildschirm drehen
 -----------------------------
 
 Du kannst die Anzeige und die Touch-Ausrichtung drehen, indem du folgenden Befehl ausführst:  
