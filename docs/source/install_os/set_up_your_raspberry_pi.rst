@@ -3,13 +3,13 @@
     こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
     他の愛好者と一緒に、Raspberry Pi・Arduino・ESP32 の世界をさらに深く探求しましょう。  
 
-    **Why Join?**
+    **なぜ参加するのか？**  
 
-    - **Expert Support**: コミュニティやチームのサポートを受けて、購入後の問題や技術的な課題を解決できます。  
-    - **Learn & Share**: ヒントやチュートリアルを共有してスキルを高めましょう。  
-    - **Exclusive Previews**: 新製品発表や先行情報をいち早く入手できます。  
-    - **Special Discounts**: 最新製品を特別価格で手に入れられます。  
-    - **Festive Promotions and Giveaways**: プレゼント企画やシーズン限定キャンペーンに参加できます。  
+    - **専門的なサポート**: コミュニティやチームのサポートを受けて、購入後のトラブルや技術的な課題を解決できます。  
+    - **学び＆共有**: ヒントやチュートリアルを共有し、スキルを磨きましょう。  
+    - **限定プレビュー**: 新製品の発表や先行プレビューを誰よりも早くチェックできます。  
+    - **特別割引**: 最新製品を特別割引価格で入手できます。  
+    - **季節限定プロモーションとプレゼント企画**: 季節ごとのキャンペーンやプレゼント企画に参加できます。  
 
     👉 探索と創造を始めませんか？ [|link_sf_facebook|] をクリックして、今すぐ参加しましょう！
 
@@ -57,7 +57,7 @@
 
 **ヒント**
 
-* **Wireless LAN country** を ISO/IEC の 2 文字コード（例: ``US``、 ``UK``、 ``CN``）で正しく設定してください。設定しないと Wi-Fi が機能しません。  
+* **無線LANの国（Wireless LAN country）** を ISO/IEC の 2 文字コード（例: ``US``、 ``UK``、 ``CN``）で正しく設定してください。設定しないと Wi-Fi が機能しません。  
 * Raspberry Pi と PC が同じローカルネットワークに接続されていることを確認してください。  
 * より安定した接続のため、可能であれば有線接続（Ethernet）を利用してください。  
 
@@ -82,7 +82,7 @@
 
       ssh daisy@192.xxx.xx.xx
 
-#. 初回ログイン時にはセキュリティ警告が表示されます。``yes`` と入力して進めてください。  
+#. 初回ログイン時にはセキュリティ警告が表示されます。 ``yes`` と入力して進めてください。  
 
 #. Raspberry Pi Imager で設定したパスワードを入力します。（入力中に文字は表示されませんが、正常な挙動です。）  
 
@@ -96,20 +96,20 @@
 
 **トラブルシューティング**
 
-* **ssh: Could not resolve hostname ...**  
+* **ssh: ホスト名を解決できません（ssh: Could not resolve hostname ...）**  
 
   * ホスト名が正しいか確認してください。  
   * それでも接続できない場合は ``<hostname>.local`` の代わりに IP アドレスを使用してください。  
 
-* **The term 'ssh' is not recognized... (Windows)**  
+* **sshという用語が認識されませんWindows（The term 'ssh' is not recognized... (Windows)**  
 
   * OpenSSH がインストールされていません。手動で OpenSSH を導入するか（:ref:`openssh_powershell` 参照）、またはサードパーティ製 SSH クライアントを使用してください（:ref:`login_windows` 参照）。  
 
-* **Permission denied (publickey,password)**  
+* **アクセスが拒否されましたPermission denied (publickey,password)**  
 
   * Raspberry Pi Imager で設定したユーザー名とパスワードを使用しているか確認してください。  
 
-* **Connection refused**  
+* **接続が拒否されました（Connection refused）**  
 
   * 電源投入後、1〜2 分待ってから接続を試してください。  
   * Raspberry Pi Imager で SSH が有効化されているか確認してください。  
