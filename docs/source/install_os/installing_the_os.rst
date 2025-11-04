@@ -2,13 +2,13 @@
 
     Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Erhalte Unterstützung bei Supportanfragen nach dem Kauf sowie bei technischen Herausforderungen – mit Hilfe unserer Community und unseres Teams.  
-    - **Learn & Share**: Teile Tipps und Anleitungen und erweitere so deine Kenntnisse.  
-    - **Exclusive Previews**: Profitiere von frühem Zugang zu neuen Produktankündigungen und exklusiven Einblicken.  
-    - **Special Discounts**: Sichere dir exklusive Rabatte auf unsere neuesten Produkte.  
-    - **Festive Promotions and Giveaways**: Nimm an Gewinnspielen und saisonalen Aktionen teil.  
+    - **Expertenunterstützung**: Erhalte Unterstützung bei Problemen nach dem Kauf und bei technischen Herausforderungen – direkt von unserer Community und unserem Team.  
+    - **Lernen & Teilen**: Teile Tipps und Anleitungen und erweitere so deine Kenntnisse.  
+    - **Exklusive Vorschauen**: Profitiere von frühzeitigen Einblicken in neue Produktankündigungen und Vorschauen.  
+    - **Sonderrabatte**: Nutze exklusive Rabatte auf unsere neuesten Produkte.  
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Verlosungen und saisonalen Aktionen teil.  
 
     👉 Bereit, gemeinsam mit uns Neues zu entdecken und Projekte umzusetzen? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!  
 
@@ -47,24 +47,24 @@ In diesem Abschnitt zeigen wir dir Schritt für Schritt, wie das funktioniert.
 
 #. Stecke deine Micro SD Karte über den Kartenleser in den Computer. Achte darauf, dass sie leer ist oder sichere zuvor wichtige Daten.  
 
-#. Im Imager klickst du zunächst auf **Choose Device** und wählst dein Raspberry Pi Modell aus (z. B. Raspberry Pi 5, Raspberry Pi 4B, 3B/3B+ oder Zero 2W).  
+#. Im Imager klickst du zunächst auf **Gerät auswählen(Choose Device)** und wählst dein Raspberry Pi Modell aus (z. B. Raspberry Pi 5, Raspberry Pi 4B, 3B/3B+ oder Zero 2W).  
 
    .. image:: img/os_choose_device.png
        :align: center
 
-#. Klicke auf den Tab **Operating System**, um das gewünschte Betriebssystem auszuwählen.  
+#. Klicke auf den Tab **Betriebssystem(Operating System)**, um das gewünschte Betriebssystem auszuwählen.  
 
    .. note::
 
-      * Für **Raspberry Pi OS**: Wähle einfach das empfohlene System.  
-      * Für **Ubuntu**: Klicke auf **Other general-purpose OS** -> **Ubuntu** und wähle entweder **Ubuntu Desktop 24.04 LTS (64 bit)** oder **Ubuntu Server 24.04 LTS (64 bit)**.  
-      * Für **Kali Linux**: Klicke auf **Other specific-purpose OS** und wähle das passende System.  
-      * Für **Retropie**: Klicke auf **Emulation and game OS** und wähle das entsprechende System.  
+        * Für **Raspberry Pi OS**: Wähle einfach das empfohlene System.  
+        * Für **Ubuntu**: Klicke auf **Andere universelle Betriebssysteme** -> **Ubuntu** und wähle entweder **Ubuntu Desktop 24.04 LTS (64 Bit)** oder **Ubuntu Server 24.04 LTS (64 Bit)**.  
+        * Für **Kali Linux**: Klicke auf **Andere spezialisierte Betriebssysteme** und wähle das passende System.  
+        * Für **Retropie**: Klicke auf **Emulations- und Spielebetriebssysteme** und wähle das entsprechende System.  
 
    .. image:: img/os_choose_os.png
        :align: center
 
-#. Klicke auf **Choose Storage** und wähle deine Micro SD Karte. Um Fehler zu vermeiden, solltest du andere USB-Laufwerke entfernen, sodass nur die SD Karte angezeigt wird.  
+#. Klicke auf **Speicher auswählen(Choose Storage)** und wähle deine Micro SD Karte. Um Fehler zu vermeiden, solltest du andere USB-Laufwerke entfernen, sodass nur die SD Karte angezeigt wird.  
 
    .. note::
 
@@ -73,12 +73,12 @@ In diesem Abschnitt zeigen wir dir Schritt für Schritt, wie das funktioniert.
    .. image:: img/os_choose_sd.png
        :align: center
 
-#. Klicke auf **Next** und anschließend auf **EDIT SETTINGS**, um dein Raspberry Pi vor dem Schreiben zu konfigurieren.  
+#. Klicke auf **Weiter(Next)** und anschließend auf **EINSTELLUNGEN BEARBEITEN(EDIT SETTINGS)**, um dein Raspberry Pi vor dem Schreiben zu konfigurieren.  
 
    .. note::
 
         * Wenn du deinen Raspberry Pi direkt mit Monitor, Tastatur und Maus verwenden möchtest, kannst du die erweiterten Einstellungen überspringen und einfach **Yes** klicken, um mit dem Schreiben zu beginnen.  
-        * Für Systeme, die nicht im Voraus konfiguriert werden können, erscheint nach **NEXT** eine Abfrage, ob die Daten auf dem Gerät gespeichert werden sollen. Wenn du ein Backup erstellt hast, wähle **Yes**.  
+        * Für Systeme, die nicht im Voraus konfiguriert werden können, erscheint nach **Weiter(Next)** eine Abfrage, ob die Daten auf dem Gerät gespeichert werden sollen. Wenn du ein Backup erstellt hast, wähle **Yes**.  
         * Bei Systemen, bei denen Hostname, WLAN und SSH im Voraus konfiguriert werden können, erscheint ein Pop-up, das fragt, ob die benutzerdefinierten OS-Einstellungen übernommen werden sollen. Du kannst **Yes** oder **No** wählen oder zurückgehen, um weitere Änderungen vorzunehmen.  
 
    .. image:: img/os_enter_setting.png
@@ -140,7 +140,7 @@ In diesem Abschnitt zeigen wir dir Schritt für Schritt, wie das funktioniert.
    .. image:: img/os_continue.png
        :align: center
 
-#. Warte, bis das Schreiben und die Verifizierung abgeschlossen sind. Dies kann einige Minuten dauern. Sobald der Vorgang beendet ist, erscheint **Write Successful**.  
+#. Warte, bis das Schreiben und die Verifizierung abgeschlossen sind. Dies kann einige Minuten dauern. Sobald der Vorgang beendet ist, erscheint **Schreiben erfolgreich(Write Successful)**.  
 
    .. image:: img/os_finish.png
        :align: center

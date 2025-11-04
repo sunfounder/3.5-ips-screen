@@ -2,18 +2,18 @@
 
     Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Löse Probleme nach dem Kauf sowie technische Herausforderungen mit Unterstützung unserer Community und unseres Teams.  
-    - **Learn & Share**: Teile Tipps und Tutorials, um deine Fähigkeiten zu erweitern.  
-    - **Exclusive Previews**: Erhalte frühzeitigen Zugang zu neuen Produktankündigungen und exklusiven Einblicken.  
-    - **Special Discounts**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.  
-    - **Festive Promotions and Giveaways**: Nimm an Gewinnspielen und saisonalen Aktionen teil.  
+    - **Expertenunterstützung**: Erhalte Unterstützung bei Problemen nach dem Kauf und bei technischen Herausforderungen – direkt von unserer Community und unserem Team.  
+    - **Lernen & Teilen**: Teile Tipps und Anleitungen und erweitere so deine Kenntnisse.  
+    - **Exklusive Vorschauen**: Profitiere von frühzeitigen Einblicken in neue Produktankündigungen und Vorschauen.  
+    - **Sonderrabatte**: Nutze exklusive Rabatte auf unsere neuesten Produkte.  
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Verlosungen und saisonalen Aktionen teil.  
 
     👉 Bereit, mit uns Neues zu entdecken und zu erschaffen? Klicke auf [|link_sf_facebook|] und werde noch heute Mitglied!  
 
 
-3.5-inch 480x 320 IPS Touch Screen
+3,5-Zoll 480 × 320 IPS-Touchscreen
 ==============================================
 
 
@@ -55,7 +55,7 @@ Der 3,5-Zoll-IPS-Touchscreen mit 480×320 Pixeln bietet große Betrachtungswinke
     faq
 
 
-Copyright Notice
+Urheberrechtshinweis
 --------------------------
 
 Alle Inhalte, einschließlich, aber nicht beschränkt auf Texte, Bilder und Code in diesem Handbuch, sind Eigentum der SunFounder Company. Die Nutzung ist ausschließlich für persönliche Studienzwecke, Forschung, Unterhaltung oder andere nicht-kommerzielle bzw. gemeinnützige Zwecke im Rahmen der geltenden Vorschriften und Urheberrechtsgesetze gestattet, ohne die Rechte des Autors oder anderer Rechteinhaber zu verletzen. Jede unbefugte kommerzielle Nutzung durch Einzelpersonen oder Organisationen kann rechtliche Schritte durch das Unternehmen nach sich ziehen.  

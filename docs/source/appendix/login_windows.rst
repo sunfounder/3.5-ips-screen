@@ -2,13 +2,13 @@
 
     Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikfans tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Erhalte Unterstützung bei Problemen nach dem Kauf sowie bei technischen Herausforderungen – durch unsere Community und unser Team.  
-    - **Learn & Share**: Teile Tipps und Anleitungen und erweitere so dein Wissen.  
-    - **Exclusive Previews**: Erhalte frühzeitigen Zugang zu Produktankündigungen und exklusiven Vorschauen.  
-    - **Special Discounts**: Profitiere von speziellen Rabatten auf unsere neuesten Produkte.  
-    - **Festive Promotions and Giveaways**: Nimm an Verlosungen und saisonalen Aktionen teil.  
+    - **Expertenunterstützung**: Erhalte Unterstützung bei Problemen nach dem Kauf und bei technischen Herausforderungen – direkt von unserer Community und unserem Team.  
+    - **Lernen & Teilen**: Teile Tipps und Anleitungen und erweitere so deine Kenntnisse.  
+    - **Exklusive Vorschauen**: Profitiere von frühzeitigen Einblicken in neue Produktankündigungen und Vorschauen.  
+    - **Sonderrabatte**: Nutze exklusive Rabatte auf unsere neuesten Produkte.  
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Verlosungen und saisonalen Aktionen teil.  
 
     👉 Bereit, Neues zu entdecken und gemeinsam Projekte umzusetzen? Klicke auf [|link_sf_facebook|] und trete noch heute bei!  
 
@@ -25,14 +25,14 @@ Lade PuTTY herunter.
 
 **Schritt 2**
 
-Öffne PuTTY und klicke in der linken Baumstruktur auf **Session**. Gib im Textfeld unter **Host Name (or IP address)** die IP-Adresse deines RPi ein und trage bei **Port** den Wert **22** ein (Standard-Port ist 22).  
+Öffne PuTTY und klicke in der linken Baumstruktur auf **Sitzung(Session)**. Gib im Textfeld unter **Host Name (oder IP address)** die IP-Adresse deines RPi ein und trage bei **Port** den Wert **22** ein (Standard-Port ist 22).  
 
 .. image:: img/image25.png
     :align: center
 
 **Schritt 3**
 
-Klicke auf **Open**. Beim ersten Login auf dem Raspberry Pi über die IP-Adresse erscheint ein Sicherheitshinweis. Bestätige diesen mit **Yes**.  
+Klicke auf **Öffnen(Open)**. Beim ersten Login auf dem Raspberry Pi über die IP-Adresse erscheint ein Sicherheitshinweis. Bestätige diesen mit **Yes**.  
 
 **Schritt 4**
 

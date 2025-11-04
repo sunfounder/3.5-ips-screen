@@ -2,13 +2,13 @@
 
     Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
-    **Why Join?**
+    **Warum beitreten?**
 
-    - **Expert Support**: Erhalte Unterstützung bei Problemen nach dem Kauf sowie bei technischen Herausforderungen – dank unserer Community und unseres Teams.  
-    - **Learn & Share**: Teile Tipps und Anleitungen und erweitere so deine Kenntnisse.  
-    - **Exclusive Previews**: Genieße frühzeitigen Zugang zu Produktankündigungen und exklusiven Einblicken.  
-    - **Special Discounts**: Profitiere von exklusiven Rabatten auf unsere neuesten Produkte.  
-    - **Festive Promotions and Giveaways**: Nimm an Verlosungen und saisonalen Aktionen teil.  
+    - **Expertenunterstützung**: Erhalte Unterstützung bei Problemen nach dem Kauf und bei technischen Herausforderungen – direkt von unserer Community und unserem Team.  
+    - **Lernen & Teilen**: Teile Tipps und Anleitungen und erweitere so deine Kenntnisse.  
+    - **Exklusive Vorschauen**: Profitiere von frühzeitigen Einblicken in neue Produktankündigungen und Vorschauen.  
+    - **Sonderrabatte**: Nutze exklusive Rabatte auf unsere neuesten Produkte.  
+    - **Festliche Aktionen und Gewinnspiele**: Nimm an Verlosungen und saisonalen Aktionen teil.  
 
     👉 Bereit, gemeinsam mit uns Neues zu entdecken und Projekte umzusetzen? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!  
 
@@ -35,7 +35,7 @@ Der VNC-Dienst ist in Raspberry Pi OS bereits vorinstalliert, jedoch standardmä
 
         sudo raspi-config
 
-#. Navigiere mit den Pfeiltasten zu **Interfacing Options** und bestätige mit **Enter**.  
+#. Navigiere mit den Pfeiltasten zu **Schnittstellenoptionen(Interfacing Options)** und bestätige mit **Eingabetaste(Enter)**.  
 
     .. image:: img/config_interface.png
         :align: center
