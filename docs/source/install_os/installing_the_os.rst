@@ -3,13 +3,13 @@
     こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
     他の愛好者と一緒に、Raspberry Pi・Arduino・ESP32 の世界をさらに深く探求しましょう。  
 
-    **Why Join?**
+    **なぜ参加するのか？**  
 
-    - **Expert Support**: コミュニティやチームのサポートを受けて、購入後の問題や技術的な課題を解決できます。  
-    - **Learn & Share**: ヒントやチュートリアルを共有し、スキルを高めましょう。  
-    - **Exclusive Previews**: 新製品の発表や先行情報をいち早く入手できます。  
-    - **Special Discounts**: 最新製品を特別価格で手に入れられます。  
-    - **Festive Promotions and Giveaways**: プレゼント企画やシーズン限定キャンペーンに参加できます。  
+    - **専門的なサポート**: コミュニティやチームのサポートを受けて、購入後のトラブルや技術的な課題を解決できます。  
+    - **学び＆共有**: ヒントやチュートリアルを共有し、スキルを磨きましょう。  
+    - **限定プレビュー**: 新製品の発表や先行プレビューを誰よりも早くチェックできます。  
+    - **特別割引**: 最新製品を特別割引価格で入手できます。  
+    - **季節限定プロモーションとプレゼント企画**: 季節ごとのキャンペーンやプレゼント企画に参加できます。  
 
     👉 探索と創造を始めませんか？ [|link_sf_facebook|] をクリックして今すぐ参加しましょう！
 
@@ -58,7 +58,7 @@ Raspberry Pi を利用するには、まず Raspberry Pi OS を Micro SD カー�
 
 #. Micro SD カードをカードリーダーに挿入してコンピュータに接続します。重要なデータがある場合は必ずバックアップを取ってください。  
 
-#. Imager でまず **Choose Device** をクリックし、使用する Raspberry Pi のモデルを選択します（例: Raspberry Pi 5、Raspberry Pi 4B、3B/3B+、Zero 2W）。  
+#. Imager でまず **デバイスを選択** をクリックし、使用する Raspberry Pi のモデルを選択します（例: Raspberry Pi 5、Raspberry Pi 4B、3B/3B+、Zero 2W）。  
 
    .. image:: img/os_choose_device.png
        :align: center
@@ -67,15 +67,15 @@ Raspberry Pi を利用するには、まず Raspberry Pi OS を Micro SD カー�
 
    .. note::
 
-      * **Raspberry Pi OS** の場合は、推奨されるシステムをそのまま選びます。  
-      * **Ubuntu** を使う場合は、 **Other general-purpose OS** -> **Ubuntu** を選び、 **Ubuntu Desktop 24.04 LTS (64 bit)** または **Ubuntu Server 24.04 LTS (64 bit)** を選択します。  
-      * **Kali Linux** を使う場合は、 **Other specific-purpose OS** を選び、対応するシステムを選択します。  
-      * **Retropie** を使う場合は、 **Emulation and game OS** を選び、対応するシステムを選択します。  
+        * **Raspberry Pi OS（ラズベリーパイ OS）** の場合は、推奨されるシステムをそのまま選びます。  
+        * **Ubuntu（ウブントゥ）** を使う場合は、 **その他の汎用 OS（Other general-purpose OS）** -> **Ubuntu（ウブントゥ）** を選び、 **Ubuntu Desktop 24.04 LTS (64 bit)** または **Ubuntu Server 24.04 LTS (64 bit)** を選択します。  
+        * **Kali Linux（カーリー・リナックス）** を使う場合は、 **その他の特定用途 OS（Other specific-purpose OS）** を選び、対応するシステムを選択します。  
+        * **Retropie（レトロパイ）** を使う場合は、 **エミュレーションおよびゲーム用 OS（Emulation and game OS）** を選び、対応するシステムを選択します。  
 
    .. image:: img/os_choose_os.png
        :align: center
 
-#. **Choose Storage** をクリックし、Micro SD カードを選択します。誤操作を防ぐため、他の USB ドライブは外しておきましょう。  
+#. **ストレージを選択（Choose Storage）** をクリックし、Micro SD カードを選択します。誤操作を防ぐため、他の USB ドライブは外しておきましょう。  
 
    .. note::
 
@@ -84,13 +84,13 @@ Raspberry Pi を利用するには、まず Raspberry Pi OS を Micro SD カー�
    .. image:: img/os_choose_sd.png
        :align: center
 
-#. **Next** をクリックし、続いて **EDIT SETTINGS** を選んで Raspberry Pi の設定を行います。  
+#. **次へ（Next）** をクリックし、続いて **設定を編集（EDIT SETTINGS）** を選んで Raspberry Pi の設定を行います。  
 
    .. note::
 
         * モニター、キーボード、マウスを直接使用する場合は、高度な設定をスキップして **Yes** をクリックし、そのまま書き込みを開始できます。  
-        * 事前設定できないシステムでは、**NEXT** をクリック後に「デバイス内にデータを保存するかどうか」が表示されます。バックアップを確認済みなら **Yes** を選択してください。  
-        * ホスト名、WiFi、SSH の有効化を事前設定できるシステムでは、カスタム設定を適用するかどうかのポップアップが表示されます。**Yes** または **No** を選択するか、編集に戻ることもできます。  
+        * 事前設定できないシステムでは、 **次へ（NEXT）** をクリック後に「デバイス内にデータを保存するかどうか」が表示されます。バックアップを確認済みなら **Yes** を選択してください。  
+        * ホスト名、WiFi、SSH の有効化を事前設定できるシステムでは、カスタム設定を適用するかどうかのポップアップが表示されます。 **Yes** または **No** を選択するか、編集に戻ることもできます。  
 
    .. image:: img/os_enter_setting.png
        :align: center
@@ -99,7 +99,7 @@ Raspberry Pi を利用するには、まず Raspberry Pi OS を Micro SD カー�
 
 **3. OS カスタマイズ設定**
 
-* **Set Hostname**:  
+* **ホスト名を設定（Set Hostname）**:  
 
   * 任意のホスト名を設定します。  
   * ネットワーク上では ``<hostname>.local`` としてアクセス可能です。  
@@ -107,7 +107,7 @@ Raspberry Pi を利用するには、まず Raspberry Pi OS を Micro SD カー�
   .. image:: img/os_set_hostname.png
       :align: center
 
-* **Set Username & Password**:  
+* **ユーザー名とパスワードを設定（Set Username & Password）**:  
 
   * Pi にログインするためのユーザー名とパスワードを設定します。  
   * 旧バージョンと異なり、デフォルトのアカウントは用意されていません。  
@@ -118,7 +118,7 @@ Raspberry Pi を利用するには、まず Raspberry Pi OS を Micro SD カー�
 * **Wi-Fi の設定**:  
 
   * Wi-Fi の **SSID（ネットワーク名）** と **パスワード** を入力します。  
-  * **Wireless LAN country** を正しく設定してください。 |link_iso_code| （例: US, UK, CN）を使用し、間違えると Wi-Fi が動作しません。  
+  * **ワイヤレス LAN の国（Wireless LAN country）** を正しく設定してください。 |link_iso_code| （例: US, UK, CN）を使用し、間違えると Wi-Fi が動作しません。  
 
   .. image:: img/os_set_wifi.png
       :align: center
@@ -146,12 +146,12 @@ Raspberry Pi を利用するには、まず Raspberry Pi OS を Micro SD カー�
    .. image:: img/os_click_yes.png
        :align: center
 
-#. 既存データがある場合は、**Yes** をクリックして上書きを確認します。  
+#. 既存データがある場合は、 **Yes** をクリックして上書きを確認します。  
 
    .. image:: img/os_continue.png
        :align: center
 
-#. 書き込みと検証が完了するまで数分待ちます。終了すると **Write Successful** が表示されます。  
+#. 書き込みと検証が完了するまで数分待ちます。終了すると **書き込み成功（Write Successful）** が表示されます。  
 
    .. image:: img/os_finish.png
        :align: center

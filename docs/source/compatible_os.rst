@@ -3,13 +3,13 @@
     こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
     他の愛好者とともに、Raspberry Pi・Arduino・ESP32 の世界をさらに深く探求しましょう。  
 
-    **Why Join?**
+    **なぜ参加するのか？**  
 
-    - **Expert Support**: コミュニティやチームの支援を通じて、購入後の不具合や技術的な問題を解決できます。  
-    - **Learn & Share**: ヒントやチュートリアルを共有してスキルを高めましょう。  
-    - **Exclusive Previews**: 新製品発表や先行情報にいち早くアクセスできます。  
-    - **Special Discounts**: 最新製品を特別割引価格で入手できます。  
-    - **Festive Promotions and Giveaways**: プレゼント企画や季節限定キャンペーンに参加できます。  
+    - **専門的なサポート**: コミュニティやチームのサポートを受けて、購入後のトラブルや技術的な課題を解決できます。  
+    - **学び＆共有**: ヒントやチュートリアルを共有し、スキルを磨きましょう。  
+    - **限定プレビュー**: 新製品の発表や先行プレビューを誰よりも早くチェックできます。  
+    - **特別割引**: 最新製品を特別割引価格で入手できます。  
+    - **季節限定プロモーションとプレゼント企画**: 季節ごとのキャンペーンやプレゼント企画に参加できます。  
 
     👉 一緒に探求と創造を楽しみませんか？ [|link_sf_facebook|] をクリックして、今すぐ参加しましょう！
 
@@ -45,23 +45,24 @@
       - Pi 3B/3B+
       - Pi Zero 2 W
     * - Raspberry Pi OS
-      - Yes, Bookworm 64bit
-      - Yes, Bookworm 64bit
-      - Yes, Bullseye OS
-      - Yes, Bullseye OS
+      - はい、Bookworm 64ビット
+      - はい、Bookworm 64ビット
+      - はい、Bullseye OS
+      - はい、Bullseye OS
     * - RetroPie
-      - No related system
-      - Yes (No touch)
-      - Yes (No touch)
-      - Yes (No touch)
+      - 該当システムなし
+      - はい（タッチ非対応）
+      - はい（タッチ非対応）
+      - はい（タッチ非対応）
     * - Kali Linux
-      - Yes
-      - Yes
-      - Yes
-      - NO
+      - はい
+      - はい
+      - はい
+      - いいえ
     * - Ubuntu
-      - Yes, Ubuntu Desktop/Server 64bit
-      - Yes, Ubuntu Desktop/Server 64bit
-      - Yes, Ubuntu Server 64bit
-      - Yes, Ubuntu Server 64bit
+      - はい、Ubuntu Desktop/Server 64ビット
+      - はい、Ubuntu Desktop/Server 64ビット
+      - はい、Ubuntu Server 64ビット
+      - はい、Ubuntu Server 64ビット
+
 

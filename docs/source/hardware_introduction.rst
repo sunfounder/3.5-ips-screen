@@ -3,60 +3,60 @@
     こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
     他の愛好者と一緒に Raspberry Pi、Arduino、ESP32 の世界をさらに深く探求しましょう。  
 
-    **Why Join?**
+    **なぜ参加するのか？**  
 
-    - **Expert Support**: 購入後の問題や技術的なトラブルを、コミュニティやチームのサポートで解決できます。  
-    - **Learn & Share**: ヒントやチュートリアルを共有してスキルを磨きましょう。  
-    - **Exclusive Previews**: 新製品の発表や先行情報をいち早く入手できます。  
-    - **Special Discounts**: 最新製品を特別割引で購入できます。  
-    - **Festive Promotions and Giveaways**: キャンペーンやプレゼント企画に参加できます。  
+    - **専門的なサポート**: コミュニティやチームのサポートを受けて、購入後のトラブルや技術的な課題を解決できます。  
+    - **学び＆共有**: ヒントやチュートリアルを共有し、スキルを磨きましょう。  
+    - **限定プレビュー**: 新製品の発表や先行プレビューを誰よりも早くチェックできます。  
+    - **特別割引**: 最新製品を特別割引価格で入手できます。  
+    - **季節限定プロモーションとプレゼント企画**: 季節ごとのキャンペーンやプレゼント企画に参加できます。  
 
     👉 さあ、一緒に学び、創造を楽しみましょう！ [|link_sf_facebook|] をクリックして今すぐ参加してください！
 
-Hardware Description
+ハードウェアの説明
 ===========================
 
-**Parameters**
+**パラメーター（Parameters）**
 
 .. list-table::
     :header-rows: 1
 
-    * - Parameter
-      - Description
-    * - Screen Size
-      - 3.5 インチ
-    * - LCD Type
+    * - パラメーター
+      - 説明
+    * - 画面サイズ
+      - 3.5インチ
+    * - LCDタイプ
       - IPS
-    * - Viewing Angle
+    * - 視野角
       - 全視野角
-    * - Module Interface
-      - SPI（最大 125MHz SPI 入力対応）
-    * - Resolution
+    * - モジュールインターフェース
+      - SPI（最大125MHz SPI入力対応）
+    * - 解像度
       - 320×480（ピクセル）
-    * - Number of Pins
-      - 40 ピン（Raspberry Pi と同じ）
-    * - Colors
+    * - ピン数
+      - 40ピン（Raspberry Piと同じ）
+    * - 色数
       - 65K
-    * - Touch Screen Controller
+    * - タッチスクリーンコントローラー
       - XPT2046
-    * - LCD Driver IC
+    * - LCDドライバIC
       - ST7796U
-    * - Backlight
+    * - バックライト
       - LED
-    * - Power Consumption
+    * - 消費電力
       - 0.16A × 5V
-    * - Working Temperature (℃)
+    * - 動作温度（℃）
       - -20 ～ 60
-    * - Active Area
+    * - アクティブエリア
       - 48.96 × 73.44 (mm)
-    * - Module PCB Size
+    * - モジュール基板サイズ
       - 85.42 × 55.60 (mm)
-    * - Package Size
+    * - パッケージサイズ
       - 132 × 96 × 40 (mm)
-    * - Product Weight (Including Package)
+    * - 製品重量（パッケージ含む）
       - 93.8 g
 
-**Interface Definition**
+**インターフェース定義（Interface Definition）**
 
 以下は 3.5 インチ IPS スクリーンのピン配置図です。実際に接続されているのは最初の 26 ピンのみで、27〜40 ピンは未接続です。これらは最新の 40 ピン Raspberry Pi モデルとの互換性を保つため、また誤挿入を防ぐために用意されています。
 
@@ -68,8 +68,8 @@ Hardware Description
     :header-rows: 1
 
     * - PIN NO.
-      - SYMBOL
-      - DESCRIPTION
+      - シンボル  
+      - 説明
     * - 1, 17
       - 3.3V
       - 電源入力（3.3V）
@@ -108,7 +108,7 @@ Hardware Description
       - タッチパネルチップセレクト信号、Low で有効
 
 
-**Fan Pins**
+**ファンピン（Fan Pins）**
 
 スクリーン背面には外部ファンを接続できる 2 つのファン用ピンが搭載されています。ただし、一度接続するとファンは常時回転し、コードによる制御はできません。
 

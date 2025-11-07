@@ -3,21 +3,21 @@
     こんにちは、Facebook の SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts コミュニティへようこそ！  
     他の愛好者たちと一緒に Raspberry Pi、Arduino、ESP32 の世界をさらに深く探求しましょう。
 
-    **Why Join?**
+    **なぜ参加するのか？**  
 
-    - **Expert Support**: 購入後の不具合や技術的な問題を、コミュニティやチームのサポートで解決できます。  
-    - **Learn & Share**: ヒントやチュートリアルを交換してスキルを磨きましょう。  
-    - **Exclusive Previews**: 新製品の発表や先行情報をいち早くチェックできます。  
-    - **Special Discounts**: 最新製品を特別割引で入手できます。  
-    - **Festive Promotions and Giveaways**: プレゼント企画や季節ごとのキャンペーンに参加できます。  
+    - **専門的なサポート**: コミュニティやチームのサポートを受けて、購入後のトラブルや技術的な課題を解決できます。  
+    - **学び＆共有**: ヒントやチュートリアルを共有し、スキルを磨きましょう。  
+    - **限定プレビュー**: 新製品の発表や先行プレビューを誰よりも早くチェックできます。  
+    - **特別割引**: 最新製品を特別割引価格で入手できます。  
+    - **季節限定プロモーションとプレゼント企画**: 季節ごとのキャンペーンやプレゼント企画に参加できます。  
 
     👉 さあ、一緒に発見と創作を楽しみましょう！ [|link_sf_facebook|] をクリックして今すぐ参加してください！
 
-Quick User Guide
+クイックユーザーガイド
 ===========================
 
-1. Install the Operating System
---------------------------------------
+1. オペレーティングシステムをインストールする
+--------------------------------------------------
 
 **Raspberry Pi Imager** を使って、お使いの Raspberry Pi ボードモデルに対応するオペレーティングシステムをインストールしてください。  
 
@@ -25,14 +25,19 @@ Quick User Guide
 
 .. note::
 
+<<<<<<< HEAD
     * **Raspberry Pi OS**: 3.5インチのタッチスクリーンは、現在Trixieシステムではまだサポートされていません。ドライバーは近日中に更新予定です。
 
       - **Raspberry Pi 4 または 5** を使用している場合は、旧バージョンの **Bookworm** システムをインストールしてください。  
-      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、`Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ システムをインストールする必要があります。
+      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、 `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ システムをインストールする必要があります。
 
     * **その他のオペレーティングシステム**: 使用しているRaspberry Piモデルに推奨されるOSをインストールするために、Raspberry Pi Imagerに表示される指示に従ってください。
+=======
+    * **Raspberry Pi OS**: Raspberry Pi 3B/3B+ または Zero 2W を使用する場合、画面を正しく動作させるために **Bookworm** ではなく **Bullseye** をインストールする必要があります。  
+    * **その他のオペレーティングシステム**: Raspberry Pi Imager に表示される指示に従い、各モデルに推奨される OS をインストールしてください。
+>>>>>>> 7a3f9330268f9dc28ad1b47e08d883834f441416
 
-2. Connect the Display to the Raspberry Pi
+2. ディスプレイを Raspberry Pi に接続する
 -----------------------------------------------
 
 この 3.5 インチ IPS ディスプレイは Raspberry Pi と同じピン配置を使用します。
@@ -49,7 +54,7 @@ Quick User Guide
 
 .. _install_driver:
 
-3. Driver Installation
+3. ドライバーのインストール
 -------------------------------
 
 3.5 インチ IPS ディスプレイは、動作させるためにドライバーのインストールが必要です。使用するオペレーティングシステムに応じて、以下の手順に従ってください。
@@ -69,14 +74,14 @@ Quick User Guide
 * インストール完了後、システムは自動的に再起動します。  
 
 
-**For Raspberry Pi OS**
+**Raspberry Pi OS 用**
 
 .. note::
 
     * **Raspberry Pi OS**: 3.5インチのタッチスクリーンは、現在Trixieシステムではまだサポートされていません。ドライバーは近日中に更新予定です。
 
       - **Raspberry Pi 4 または 5** を使用している場合は、旧バージョンの **Bookworm** システムをインストールしてください。  
-      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、`Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ システムをインストールする必要があります。
+      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、 `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ システムをインストールする必要があります。
 
 
 以下のコマンドでドライバーをインストールできます:
@@ -102,7 +107,7 @@ Quick User Guide
     * インストール中に HDMI モニターが接続されていると、再起動後もデスクトップは HDMI モニターに表示されます。  
     * 3.5 インチ IPS 画面を使用する場合は、HDMI モニターを外して Raspberry Pi を再起動してください。  
 
-**For Ubuntu Desktop/Server**
+**Ubuntu Desktop/Server 用**
 
 以下のコマンドでドライバーをインストールできます:
 
@@ -126,7 +131,7 @@ Quick User Guide
     * 3.5 インチ IPS 画面を使う場合は、HDMI モニターを外してデバイスを再起動してください。  
 
 
-**For Kali Linux**
+**Kali Linux 用**
 
 以下のコマンドでドライバーをインストールできます:
 
@@ -149,7 +154,7 @@ Quick User Guide
     * HDMI モニターが接続されている場合、再起動後も HDMI 出力が優先されます。  
     * 3.5 インチ IPS 画面を使用するには、HDMI モニターを外して Kali Linux を再起動してください。  
 
-**For RetroPie**
+**RetroPie 用**
 
 以下のコマンドでドライバーをインストールできます:
 
@@ -172,7 +177,7 @@ Quick User Guide
     * HDMI モニターが接続されている場合、インターフェースは HDMI 出力に表示され続けます。  
     * 3.5 インチ IPS 画面を使用するには、HDMI モニターを外して Raspberry Pi を再起動してください。  
 
-4. Rotate the Display
+4. ディスプレイを回転させる
 -----------------------------
 
 以下のコマンドを実行すると、画面とタッチ操作の向きを回転させることができます。
