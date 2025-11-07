@@ -25,8 +25,12 @@ Quick User Guide
 
 .. note::
 
-    * **Raspberry Pi OS**: Raspberry Pi 3B/3B+ または Zero 2W を使用する場合、画面を正しく動作させるために **Bookworm** ではなく **Bullseye** をインストールする必要があります。  
-    * **Other Operating Systems**: Raspberry Pi Imager に表示される指示に従い、各モデルに推奨される OS をインストールしてください。
+    * **Raspberry Pi OS**: 3.5インチのタッチスクリーンは、現在Trixieシステムではまだサポートされていません。ドライバーは近日中に更新予定です。
+
+      - **Raspberry Pi 4 または 5** を使用している場合は、旧バージョンの **Bookworm** システムをインストールしてください。  
+      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、`Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ システムをインストールする必要があります。
+
+    * **その他のオペレーティングシステム**: 使用しているRaspberry Piモデルに推奨されるOSをインストールするために、Raspberry Pi Imagerに表示される指示に従ってください。
 
 2. Connect the Display to the Raspberry Pi
 -----------------------------------------------
@@ -66,6 +70,14 @@ Quick User Guide
 
 
 **For Raspberry Pi OS**
+
+.. note::
+
+    * **Raspberry Pi OS**: 3.5インチのタッチスクリーンは、現在Trixieシステムではまだサポートされていません。ドライバーは近日中に更新予定です。
+
+      - **Raspberry Pi 4 または 5** を使用している場合は、旧バージョンの **Bookworm** システムをインストールしてください。  
+      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、`Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ システムをインストールする必要があります。
+
 
 以下のコマンドでドライバーをインストールできます:
 

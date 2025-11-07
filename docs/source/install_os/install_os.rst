@@ -22,6 +22,12 @@ Raspberry Pi OS のインストールとセットアップ
 
 すでに Raspberry Pi の操作に慣れており、コマンドラインを問題なく開ける場合は、最初の 3 パートをスキップして最後のパートのみを進めても構いません。  
 
+.. note::
+
+    * **Raspberry Pi OS**: 3.5インチのタッチスクリーンは、現在Trixieシステムではまだサポートされていません。ドライバーは近日中に更新予定です。
+
+      - **Raspberry Pi 4 または 5** を使用している場合は、旧バージョンの **Bookworm** システムをインストールしてください。  
+      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、`Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ システムをインストールする必要があります。
 
 
 .. toctree::
