@@ -21,6 +21,15 @@
 Um deinen Raspberry Pi startklar zu machen, musst du zunächst das Raspberry Pi OS auf eine Micro SD Karte installieren.  
 In diesem Abschnitt zeigen wir dir Schritt für Schritt, wie das funktioniert.  
 
+.. note::
+
+    * **Raspberry Pi OS**: Der 3,5-Zoll-Touchscreen wird derzeit vom Trixie-System noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+
+      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
+      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ System installieren.
+
+    * **Andere Betriebssysteme**: Befolgen Sie die Anweisungen im Raspberry Pi Imager, um das für Ihr spezifisches Raspberry Pi-Modell empfohlene Betriebssystem zu installieren.
+
 **Benötigte Komponenten**
 
 * Ein Computer (Windows, macOS oder Linux)  

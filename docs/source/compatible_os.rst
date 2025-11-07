@@ -18,11 +18,20 @@
 Kompatible Systeme und Raspberry-Pi-Boards
 ===============================================
 
+.. .. note::
+
+..   * Die oben genannten Kompatibilitätstests wurden am **4. August 2025** durchgeführt.  
+..   * Falls dein Betriebssystem oder deine Version nicht kompatibel ist, teile uns bitte das verwendete **Raspberry-Pi-Board-Modell** sowie den **Systemnamen und die Version** mit.  
+..   * Wir werden den Treiber so schnell wie möglich aktualisieren.  
+
 .. note::
 
-  * Die oben genannten Kompatibilitätstests wurden am **4. August 2025** durchgeführt.  
-  * Falls dein Betriebssystem oder deine Version nicht kompatibel ist, teile uns bitte das verwendete **Raspberry-Pi-Board-Modell** sowie den **Systemnamen und die Version** mit.  
-  * Wir werden den Treiber so schnell wie möglich aktualisieren.  
+    * **Raspberry Pi OS**: Der 3,5-Zoll-Touchscreen wird derzeit vom Trixie-System noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+
+      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
+      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ System installieren.
+
+    * **Andere Betriebssysteme**: Befolgen Sie die Anweisungen im Raspberry Pi Imager, um das für Ihr spezifisches Raspberry Pi-Modell empfohlene Betriebssystem zu installieren.
 
 
 .. list-table::

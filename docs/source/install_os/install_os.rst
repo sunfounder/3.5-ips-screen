@@ -21,7 +21,12 @@ In diesem Abschnitt erfährst du, wie du Raspberry Pi OS installierst, WLAN auf 
 
 Wenn du bereits mit dem Raspberry Pi vertraut bist und die Kommandozeile erfolgreich öffnen kannst, kannst du die ersten drei Teile überspringen und direkt mit dem letzten Teil fortfahren.  
 
+.. note::
 
+    * **Raspberry Pi OS**: Der 3,5-Zoll-Touchscreen wird derzeit vom Trixie-System noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+
+      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
+      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ System installieren.
 
 .. toctree::
     :maxdepth: 1

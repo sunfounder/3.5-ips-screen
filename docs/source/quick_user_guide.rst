@@ -25,8 +25,12 @@ Detaillierte Anleitungen findest du unter :ref:`install_os`.
 
 .. note::
 
-    * **Raspberry Pi OS**: Wenn du einen Raspberry Pi 3B/3B+ oder Zero 2W verwendest, musst du **Bullseye** anstelle von Bookworm installieren, damit der Bildschirm korrekt funktioniert.  
-    * **Andere Betriebssysteme**: Folge den Anweisungen im Raspberry Pi Imager, um das für dein spezifisches Raspberry Pi Modell empfohlene Betriebssystem zu installieren.  
+    * **Raspberry Pi OS**: Der 3,5-Zoll-Touchscreen wird derzeit vom Trixie-System noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+
+      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
+      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ System installieren.
+
+    * **Andere Betriebssysteme**: Befolgen Sie die Anweisungen im Raspberry Pi Imager, um das für Ihr spezifisches Raspberry Pi-Modell empfohlene Betriebssystem zu installieren.
 
 2. Display mit dem Raspberry Pi verbinden
 -----------------------------------------------
@@ -64,6 +68,13 @@ Das 3,5-Zoll-IPS-Display benötigt Treiber, bevor es funktionieren kann. Je nach
 * Das System startet automatisch neu.  
 
 **Für Raspberry Pi OS**  
+
+.. note::
+
+    * **Raspberry Pi OS**: Der 3,5-Zoll-Touchscreen wird derzeit vom Trixie-System noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+
+      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
+      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ System installieren.
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
