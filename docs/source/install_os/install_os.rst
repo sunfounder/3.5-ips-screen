@@ -14,12 +14,12 @@
 
 .. _install_os:
 
-Install and Setup Raspberry Pi
+Install and Set Up Operating System
 ===========================================
 
-This section is to teach you how to install Raspberry Pi OS, configure wifi to Raspberry Pi, remote access to Raspberry Pi to run the corresponding code.
+This section walks you through installing the correct operating system for your Raspberry Pi, configuring Wi-Fi, and enabling remote access so you can run your code easily.
 
-If you are familiar with Raspberry Pi and can open the command line successfully, then you can skip the first 3 parts and then complete the last part. 
+If you’re already familiar with Raspberry Pi and can access the command line, you can skip this entire section.
 
 .. note::
 
