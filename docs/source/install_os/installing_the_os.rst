@@ -26,9 +26,9 @@ This section will guide you through the process step by step.
     * **Raspberry Pi OS**: The 3.5'' touchscreen is not yet supported on the Trixie system. We’re updating the driver soon.
 
       - If you are using a **Raspberry Pi 4 or 5**, please install the older **Bookworm** system.  
-      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ system. 
+      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the |link_bullseye| system. 
 
-    * **Other Operating Systems**: Follow the instructions provided in Raspberry Pi Imager to install the OS recommended for your specific Raspberry Pi model.
+    * For the **Retropie** system, please download the version for your Raspberry Pi (not Pi 5) from the |link_retropie|.
 
 **Required Components**
 
@@ -68,7 +68,9 @@ This section will guide you through the process step by step.
       * For **Raspberry Pi OS**, simply choose the recommended system.
       * For **Ubuntu** system, you need to click **Other general-purpose OS** -> **Ubuntu**, and select either **Ubuntu Desktop 24.04 LTS (64 bit)** or **Ubuntu Server 24.04 LTS (64 bit)**.
       * For **Kali Linux** system, you need to click **Other specific-purpose OS** and then select the corresponding system.
-      * For **Retropie** system, you need to click **Emulation and game OS** and then select the corresponding system.
+
+
+    ..   * For **Retropie** system, you need to click **Emulation and game OS** and then select the corresponding system.
 
    .. image:: img/os_choose_os.png
        :align: center

@@ -21,15 +21,16 @@ Does the 3.5'' touchscreen support the Raspberry Pi Trixie system?
 The 3.5'' touchscreen is not yet supported on the **Trixie** system. We’re updating the driver soon.  
 
 - If you are using a **Raspberry Pi 4 or 5**, please install the older **Bookworm** system.  
-- If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ system.
+- If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the |link_bullseye| system.
+- Do not run ``sudo apt update`` or ``sudo apt upgrade`` after installation, as this may update the kernel and break the display driver.
 
-Why can’t I log in after installing the 3.5-inch display driver?  
+Why can’t I log in after installing the 3.5-inch display driver?
 ------------------------------------------------------------------------------------
 
-* This issue may occur if the driver is installed on a **configured system** rather than a fresh installation. After installation, the system may boot into an **unexpected login screen**, and previous login credentials may **no longer work**, even though the same credentials still function over SSH.  
-* To avoid this problem, please install the driver on a **freshly installed, unconfigured system image (factory defaults)**. Systems that have been previously configured or modified are more likely to encounter this issue.  
-* We are aware of this **bug** and are currently investigating its root cause and working on improvements.  
-* **Do not update the system kernel**, as the display relies on a **kernel-level driver**. Kernel updates may cause driver conflicts, resulting in a non-functional touchscreen.
+This issue is usually caused by a **kernel update**.  
+Updating the system after installation may upgrade the kernel and make the display driver incompatible.  
+Avoid running ``sudo apt update`` or ``sudo apt upgrade`` to prevent login issues.
+
 
 Why does my 3.5-inch screen stay black or white after powering on?
 --------------------------------------------------------------------

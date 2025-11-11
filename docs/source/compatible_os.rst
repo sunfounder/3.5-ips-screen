@@ -23,7 +23,7 @@ Compatible Systems and Raspberry Pi Boards
     * **Raspberry Pi OS**: The 3.5'' touchscreen is not yet supported on the Trixie system. We’re updating the driver soon.
 
       - If you are using a **Raspberry Pi 4 or 5**, please install the older **Bookworm** system.  
-      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ system. 
+      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the |link_bullseye| system. 
 
 .. .. note::
 

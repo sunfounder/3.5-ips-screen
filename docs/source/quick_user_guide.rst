@@ -27,9 +27,9 @@ For detailed instructions, please refer to :ref:`install_os`.
     * **Raspberry Pi OS**: The 3.5'' touchscreen is not yet supported on the Trixie system. We’re updating the driver soon.
 
       - If you are using a **Raspberry Pi 4 or 5**, please install the older **Bookworm** system.  
-      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ system. 
+      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the |link_bullseye| system. 
 
-    * **Other Operating Systems**: Follow the instructions provided in Raspberry Pi Imager to install the OS recommended for your specific Raspberry Pi model.
+    * For the **Retropie** system, please download the version for your Raspberry Pi (not Pi 5) from the |link_retropie|.
 
 2. Connect the Display to the Raspberry Pi
 -----------------------------------------------
@@ -53,12 +53,6 @@ This 3.5-inch IPS display shares the same pinout as the Raspberry Pi.
 
 The 3.5-inch IPS display requires drivers before it can function. Depending on your operating system, follow the instructions below.
 
-.. warning::
-
-    * Install only on a freshly installed, unconfigured system (new image, factory defaults).
-    * Installing on a configured system may cause login issues or make the device unusable.
-    * Do not update the kernel, as the display uses a kernel-level driver.
-
 **General tips**: 
 
 * First, check :ref:`compatible_os`.
@@ -68,12 +62,16 @@ The 3.5-inch IPS display requires drivers before it can function. Depending on y
 
 **For Raspberry Pi OS**
 
-.. note::
+.. warning::
+
 
     * **Raspberry Pi OS**: The 3.5'' touchscreen is not yet supported on the Trixie system. We’re updating the driver soon.
 
       - If you are using a **Raspberry Pi 4 or 5**, please install the older **Bookworm** system.  
-      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ system. 
+      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the |link_bullseye| system. 
+
+    * Do not run `sudo apt update` or `sudo apt upgrade` after installation, as this may update the kernel and break the display driver.
+
 
 You can use the following command to install the driver:
 
@@ -94,7 +92,6 @@ After the driver is successfully installed, it will take 2–3 minutes to reboot
 
 .. note::
 
-    * If you are using a Raspberry Pi 3B/3B+ or Zero 2W, you need to install the **Bullseye** system in order to use this 3.5-inch IPS screen.
     * If you have an HDMI monitor connected during installation, the desktop will still appear on the HDMI monitor after reboot.
     * To use the 3.5-inch IPS screen, disconnect the HDMI monitor and reboot the Raspberry Pi.
 
@@ -146,6 +143,10 @@ After the driver is successfully installed, the system will reboot and show the 
     * Please disconnect the HDMI monitor and reboot Kali Linux to use the 3.5-inch IPS screen.
 
 **For RetroPie**
+
+.. note::
+
+    * For the **Retropie** system, please download the version for your Raspberry Pi (not Pi 5) from the |link_retropie|.
 
 You can use the following command to install the driver:
 
