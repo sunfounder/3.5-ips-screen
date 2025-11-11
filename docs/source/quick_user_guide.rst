@@ -71,13 +71,12 @@ Das 3,5-Zoll-IPS-Display benötigt Treiber, bevor es funktionieren kann. Je nach
 
 .. warning::
 
+    * **Raspberry Pi OS**: Der 3,5-Zoll-Touchscreen wird derzeit noch nicht vom Trixie-System unterstützt. Wir aktualisieren den Treiber in Kürze.
 
-    * **Raspberry Pi OS**: The 3.5'' touchscreen is not yet supported on the Trixie system. We’re updating the driver soon.
+      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
+      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das |link_bullseye|-System installieren.
 
-      - If you are using a **Raspberry Pi 4 or 5**, please install the older **Bookworm** system.  
-      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the |link_bullseye| system. 
-
-    * Do not run `sudo apt update` or `sudo apt upgrade` after installation, as this may update the kernel and break the display driver.
+    * Führen Sie nach der Installation kein ``sudo apt update`` oder ``sudo apt upgrade`` aus, da dies den Kernel aktualisieren und den Display-Treiber beschädigen kann.
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
@@ -150,7 +149,7 @@ Nach erfolgreicher Installation startet das System neu und zeigt den Desktop auf
 
 .. note::
 
-    * For the **Retropie** system, please download the version for your Raspberry Pi (not Pi 5) from the |link_retropie|.
+    * Für das **Retropie**-System laden Sie bitte die Version für Ihren Raspberry Pi (nicht Pi 5) von **|link_retropie|** herunter.
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
