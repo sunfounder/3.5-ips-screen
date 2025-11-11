@@ -14,19 +14,21 @@
 
 .. _install_os:
 
-Installation und Einrichtung von Raspberry Pi OS
-====================================================
+Installieren und Einrichten des Betriebssystems
+===========================================================
 
-In diesem Abschnitt erfährst du, wie du Raspberry Pi OS installierst, WLAN auf deinem Raspberry Pi einrichtest und per Fernzugriff auf den Pi zugreifst, um den entsprechenden Code auszuführen.  
+In diesem Abschnitt erfahren Sie, wie Sie das richtige Betriebssystem für Ihren Raspberry Pi installieren, das WLAN konfigurieren und den Fernzugriff aktivieren, damit Sie Ihren Code problemlos ausführen können.
 
-Wenn du bereits mit dem Raspberry Pi vertraut bist und die Kommandozeile erfolgreich öffnen kannst, kannst du die ersten drei Teile überspringen und direkt mit dem letzten Teil fortfahren.  
+Wenn Sie bereits mit dem Raspberry Pi vertraut sind und auf die Befehlszeile zugreifen können, können Sie diesen gesamten Abschnitt überspringen.
 
 .. note::
 
-    * **Raspberry Pi OS**: Der 3,5-Zoll-Touchscreen wird derzeit vom Trixie-System noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+    * **Raspberry Pi OS**: Der 3,5''-Touchscreen wird im Trixie-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
 
       - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
-      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ System installieren.
+      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das **|link_bullseye|**-System installieren.
+
+    * Für das **Retropie**-System laden Sie bitte die Version für Ihren Raspberry Pi (nicht Pi 5) von **|link_retropie|** herunter.
 
 .. toctree::
     :maxdepth: 1

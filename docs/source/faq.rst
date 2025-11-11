@@ -15,22 +15,21 @@
 FAQ
 ===========================
 
-Wird der 3,5-Zoll-Touchscreen vom Raspberry Pi Trixie-System unterstützt?  
+Wird der 3,5''-Touchscreen vom Raspberry Pi Trixie-System unterstützt?  
 ------------------------------------------------------------------------------------
 
-Der 3,5-Zoll-Touchscreen wird derzeit vom **Trixie**-System noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.  
+Der 3,5''-Touchscreen wird im **Trixie**-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.  
 
 - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
-- Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ System installieren.
+- Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das **|link_bullseye|**-System installieren.  
+- Führen Sie nach der Installation **nicht** den Befehl ``sudo apt update`` oder ``sudo apt upgrade`` aus, da dies den Kernel aktualisieren und den Displaytreiber beschädigen kann.
 
+Warum kann ich mich nach der Installation des 3,5-Zoll-Displaytreibers nicht anmelden?  
+---------------------------------------------------------------------------------------------------
 
-Warum kann ich mich nach der Installation des 3,5-Zoll-Display-Treibers nicht mehr anmelden?  
-------------------------------------------------------------------------------------------------------
-
-* Dieses Problem kann auftreten, wenn der Treiber auf einem **bereits konfigurierten System** statt auf einer Neuinstallation installiert wird. Nach der Installation kann das System in einen **unerwarteten Anmeldebildschirm** wechseln, und die bisherigen Anmeldedaten funktionieren **nicht mehr**, obwohl dieselben Daten über SSH weiterhin gültig sind.  
-* Um dieses Problem zu vermeiden, installiere den Treiber bitte auf einem **neu installierten, nicht konfigurierten System-Image (Werkseinstellungen)**. Systeme, die bereits angepasst oder verändert wurden, sind anfälliger für dieses Problem.  
-* Wir sind uns dieses **Bugs** bewusst und untersuchen derzeit die genaue Ursache, um den Installationsprozess zu verbessern.  
-* **Aktualisiere den Systemkernel nicht**, da das Display einen **Kernel-Treiber auf niedriger Ebene** verwendet. Kernel-Updates können zu Konflikten führen und den Touchscreen **funktionsunfähig** machen.
+Dieses Problem wird in der Regel durch ein **Kernel-Update** verursacht.  
+Ein Systemupdate nach der Installation kann den Kernel aktualisieren und den Displaytreiber inkompatibel machen.  
+Vermeiden Sie es, ``sudo apt update`` oder ``sudo apt upgrade`` auszuführen, um Anmeldeprobleme zu verhindern.
 
 
 Warum bleibt mein 3,5-Zoll-Bildschirm nach dem Einschalten schwarz oder weiß?

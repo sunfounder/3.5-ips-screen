@@ -25,12 +25,12 @@ Detaillierte Anleitungen findest du unter :ref:`install_os`.
 
 .. note::
 
-    * **Raspberry Pi OS**: Der 3,5-Zoll-Touchscreen wird derzeit vom Trixie-System noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+    * **Raspberry Pi OS**: Der 3,5''-Touchscreen wird im Trixie-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
 
       - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
-      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ System installieren.
+      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das **|link_bullseye|**-System installieren.
 
-    * **Andere Betriebssysteme**: Befolgen Sie die Anweisungen im Raspberry Pi Imager, um das für Ihr spezifisches Raspberry Pi-Modell empfohlene Betriebssystem zu installieren.
+    * Für das **Retropie**-System laden Sie bitte die Version für Ihren Raspberry Pi (nicht Pi 5) von **|link_retropie|** herunter.
 
 2. Display mit dem Raspberry Pi verbinden
 -----------------------------------------------
@@ -54,11 +54,11 @@ Dieses 3,5-Zoll-IPS-Display verwendet denselben Pinout wie der Raspberry Pi.
 
 Das 3,5-Zoll-IPS-Display benötigt Treiber, bevor es funktionieren kann. Je nach Betriebssystem befolge die folgenden Anweisungen.  
 
-.. warning::
+.. .. warning::
 
-    * Installiere nur auf einem neu installierten, nicht konfigurierten System (neues Image, Werkseinstellungen).
-    * Die Installation auf einem konfigurierten System kann zu Anmeldeproblemen führen oder das Gerät unbrauchbar machen.
-    * Aktualisiere den Kernel nicht, da das Display einen Kernel-Treiber verwendet. 
+..     * Installiere nur auf einem neu installierten, nicht konfigurierten System (neues Image, Werkseinstellungen).
+..     * Die Installation auf einem konfigurierten System kann zu Anmeldeproblemen führen oder das Gerät unbrauchbar machen.
+..     * Aktualisiere den Kernel nicht, da das Display einen Kernel-Treiber verwendet. 
 
 **Allgemeine Tipps**:  
 
@@ -69,12 +69,15 @@ Das 3,5-Zoll-IPS-Display benötigt Treiber, bevor es funktionieren kann. Je nach
 
 **Für Raspberry Pi OS**  
 
-.. note::
+.. warning::
 
-    * **Raspberry Pi OS**: Der 3,5-Zoll-Touchscreen wird derzeit vom Trixie-System noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
 
-      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
-      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ System installieren.
+    * **Raspberry Pi OS**: The 3.5'' touchscreen is not yet supported on the Trixie system. We’re updating the driver soon.
+
+      - If you are using a **Raspberry Pi 4 or 5**, please install the older **Bookworm** system.  
+      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the |link_bullseye| system. 
+
+    * Do not run `sudo apt update` or `sudo apt upgrade` after installation, as this may update the kernel and break the display driver.
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
@@ -94,7 +97,6 @@ Nach erfolgreicher Installation des Treibers dauert der Neustart 2–3 Minuten. 
 
 .. note::  
 
-    * Wenn du einen Raspberry Pi 3B/3B+ oder Zero 2W nutzt, musst du das **Bullseye**-System installieren, um dieses 3,5-Zoll-IPS-Display zu verwenden.  
     * Wenn während der Installation ein HDMI-Monitor angeschlossen ist, wird der Desktop nach dem Neustart weiterhin auf dem HDMI-Monitor angezeigt.  
     * Um den 3,5-Zoll-IPS-Bildschirm zu verwenden, trenne den HDMI-Monitor und starte den Raspberry Pi neu.  
 
@@ -145,6 +147,10 @@ Nach erfolgreicher Installation startet das System neu und zeigt den Desktop auf
     * Bitte trenne den HDMI-Monitor und starte Kali Linux neu, um das 3,5-Zoll-IPS-Display zu verwenden.  
 
 **Für RetroPie**  
+
+.. note::
+
+    * For the **Retropie** system, please download the version for your Raspberry Pi (not Pi 5) from the |link_retropie|.
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 

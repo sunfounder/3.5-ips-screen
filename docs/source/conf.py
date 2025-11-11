@@ -102,6 +102,16 @@ gettext_compact = False # Support for generating the contents of the folders ins
 
 rst_epilog = """
 
+
+.. |link_bullseye| raw:: html
+
+    <a href="https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso" target="_blank">Bullseye</a>
+
+.. |link_retropie| raw:: html
+
+    <a href="https://retropie.org.uk/download/" target="_blank">Retropie Download page</a>
+
+
 .. |link_rpi_connect| raw:: html
 
     <a href="https://www.raspberrypi.com/documentation/services/connect.html" target="_blank">Raspberry Pi Connect</a>
