@@ -21,12 +21,12 @@
 
 .. note::
 
-    * **Raspberry Pi OS**: 3.5インチのタッチスクリーンは、現在Trixieシステムではまだサポートされていません。ドライバーは近日中に更新予定です。
+    * **Raspberry Pi OS**: 3.5インチのタッチスクリーンは現在、Trixie システムではまだサポートされていません。ドライバーを近日中に更新予定です。
 
-      - **Raspberry Pi 4 または 5** を使用している場合は、旧バージョンの **Bookworm** システムをインストールしてください。  
-      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、 `Bullseye <https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso>`_ システムをインストールする必要があります。
+      - **Raspberry Pi 4 または 5** を使用している場合は、古い **Bookworm** システムをインストールしてください。  
+      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、 |link_bullseye| システムをインストールする必要があります。
 
-    * **その他のオペレーティングシステム**: 使用しているRaspberry Piモデルに推奨されるOSをインストールするために、Raspberry Pi Imagerに表示される指示に従ってください。
+    * **Retropie** システムの場合は、ご使用の Raspberry Pi（Pi 5 以外）に対応するバージョンを |link_retropie| からダウンロードしてください。
 
 
 .. .. note::
