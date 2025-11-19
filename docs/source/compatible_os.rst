@@ -21,20 +21,18 @@
 
 .. note::
 
-    * **Raspberry Pi OS**: 3.5インチのタッチスクリーンは現在、Trixie システムではまだサポートされていません。ドライバーを近日中に更新予定です。
+   * 上記の互換性テストは **2025年11月19日** に実施されました。  
+   * お使いの OS やバージョンが互換性リストにない場合は、ご使用の **Raspberry Pi ボードモデル** と **システム名・バージョン** をお知らせください。  
+   * できるだけ早くドライバーを更新できるよう努めます。
 
-      - **Raspberry Pi 4 または 5** を使用している場合は、古い **Bookworm** システムをインストールしてください。  
+.. note::
+
+    * **Raspberry Pi OS**：3.5インチタッチスクリーンは現在 Trixie システムに対応していません。ドライバーは近日中に更新予定です。
+
+      - **Raspberry Pi 4 または 5** を使用している場合は、 |link_bookwarm_rpi5/4| システムをインストールしてください。  
       - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、 |link_bullseye| システムをインストールする必要があります。
 
-    * **Retropie** システムの場合は、ご使用の Raspberry Pi（Pi 5 以外）に対応するバージョンを |link_retropie| からダウンロードしてください。
-
-
-.. .. note::
-
-..   * 上記の互換性テストは **2025 年 8 月 4 日** に実施されました。  
-..   * ご利用の OS やバージョンが互換性リストにない場合は、使用している **Raspberry Pi ボードモデル** と **システム名およびバージョン** をお知らせください。  
-..   * ドライバの更新にできるだけ早く対応いたします。  
-
+    * **Retropie** を使用する場合は、ご使用の Raspberry Pi（Pi 5 を除く）に対応したバージョンを |link_retropie| からダウンロードしてください。
 
 .. list-table::
     :header-rows: 1
@@ -45,24 +43,24 @@
       - Pi 3B/3B+
       - Pi Zero 2 W
     * - Raspberry Pi OS
-      - はい、Bookworm 64ビット
-      - はい、Bookworm 64ビット
-      - はい、Bullseye OS
-      - はい、Bullseye OS
+      - はい, Bookworm 64bit 2025-05-13-raspios-bookworm
+      - はい, Bookworm 64bit 2025-05-13-raspios-bookworm
+      - はい, Bullseye OS 2022-09-06-raspios-bullseye
+      - はい, Bullseye OS 2022-09-06-raspios-bullseye
     * - RetroPie
       - 該当システムなし
       - はい（タッチ非対応）
       - はい（タッチ非対応）
       - はい（タッチ非対応）
     * - Kali Linux
-      - はい
-      - はい
-      - はい
+      - はい, kali-linux-2025.3-raspberry-pi-arm64
+      - はい, kali-linux-2025.3-raspberry-pi-arm64
+      - はい, kali-linux-2025.3-raspberry-pi-arm64
       - いいえ
     * - Ubuntu
-      - はい、Ubuntu Desktop/Server 64ビット
-      - はい、Ubuntu Desktop/Server 64ビット
-      - はい、Ubuntu Server 64ビット
-      - はい、Ubuntu Server 64ビット
+      - はい, Ubuntu Desktop/Server 64bit 25.04
+      - はい, Ubuntu Desktop/Server 64bit 25.04
+      - はい, Ubuntu Server 64bit 25.04/Ubuntu Server 64bit 24.04.2 LTS
+      - はい, Ubuntu Server 64bit 25.04/Ubuntu Server 64bit 24.04.2 LTS
 
 

@@ -24,18 +24,18 @@ Raspberry Pi を利用するには、まず Raspberry Pi OS を Micro SD カー�
 
 .. note::
 
-    * **Raspberry Pi OS**: 3.5インチのタッチスクリーンは現在、Trixie システムではまだサポートされていません。ドライバーを近日中に更新予定です。
+    * **Raspberry Pi OS**：3.5インチタッチスクリーンは現在 Trixie システムに対応していません。ドライバーは近日中に更新予定です。
 
-      - **Raspberry Pi 4 または 5** を使用している場合は、古い **Bookworm** システムをインストールしてください。  
-      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、 |link_bullseye| システムをインストールする必要があります。
+      - **Raspberry Pi 4 または 5** を使用している場合は、 |link_bookwarm_rpi5/4| システムをインストールしてください。  
+      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、必ず |link_bullseye| システムをインストールしてください。
 
-    * **Retropie** システムの場合は、ご使用の Raspberry Pi（Pi 5 以外）に対応するバージョンを |link_retropie| からダウンロードしてください。
+    * **Retropie** を使用する場合は、お使いの Raspberry Pi（Pi 5 以外）に対応したバージョンを |link_retropie| からダウンロードしてください。
 
 **必要なコンポーネント**
 
-* パーソナルコンピュータ（Windows、macOS、または Linux）  
+* パーソナルコンピュータ（Windows、macOS、または Linux）
 * Micro SD カード（16GB 以上、Sandisk や Samsung など信頼できるブランド推奨）  
-* Micro SD カードリーダー  
+* Micro SD カードリーダー
 
 ----
 
@@ -66,12 +66,15 @@ Raspberry Pi を利用するには、まず Raspberry Pi OS を Micro SD カー�
 
    .. note::
 
-        * **Raspberry Pi OS（ラズベリーパイ OS）** の場合は、推奨されるシステムをそのまま選びます。  
-        * **Ubuntu（ウブントゥ）** を使う場合は、 **その他の汎用 OS（Other general-purpose OS）** -> **Ubuntu（ウブントゥ）** を選び、 **Ubuntu Desktop 24.04 LTS (64 bit)** または **Ubuntu Server 24.04 LTS (64 bit)** を選択します。  
-        * **Kali Linux（カーリー・リナックス）** を使う場合は、 **その他の特定用途 OS（Other specific-purpose OS）** を選び、対応するシステムを選択します。  
-        
-        
-        .. * **Retropie（レトロパイ）** を使う場合は、 **エミュレーションおよびゲーム用 OS（Emulation and game OS）** を選び、対応するシステムを選択します。  
+      * **Raspberry Pi OS** の場合は、Raspberry Pi のモデルに応じて適切な OS を選択してください。
+
+              - **Raspberry Pi 4 または 5** ：|link_bookwarm_rpi5/4|  
+              - **Raspberry Pi 3B/3B+ または Zero 2W** ：|link_bullseye|
+
+      * **Ubuntu** を使用する場合は **Other general-purpose OS** → **Ubuntu** を選択し、  
+        **Ubuntu Desktop 24.04 LTS (64 bit)** または **Ubuntu Server 24.04 LTS (64 bit)** を選びます。
+      * **Kali Linux** の場合は **use custom** を選択し、|link_kali_linux| に対応するイメージを指定します。
+      * **Retropie** を使用する場合も **use custom** を選択し、Raspberry Pi モデルに対応した Retropie システムを選択します（Pi 5 非対応）。
 
    .. image:: img/os_choose_os.png
        :align: center
@@ -132,7 +135,7 @@ Raspberry Pi を利用するには、まず Raspberry Pi OS を Micro SD カー�
       :align: center
 
 * **その他のオプション**:  
-
+  
   「完了時に音を鳴らす」や「書き込み完了後にメディアを取り外す」などを有効にできます。  
 
   .. image:: img/os_options.png

@@ -49,7 +49,7 @@
     
     About this Kit <self>
     hardware_introduction
-    install_os/install_os
+    install_os/install_os2.0
     quick_user_guide
     compatible_os
     appendix/appendix
