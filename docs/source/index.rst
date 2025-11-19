@@ -48,7 +48,7 @@ The 3.5-inch 480×320 IPS Touch Screen delivers wide viewing angles, rich 65K co
     
     About this Kit <self>
     hardware_introduction
-    install_os/install_os
+    install_os/install_os2.0
     quick_user_guide
     compatible_os
     appendix/appendix
