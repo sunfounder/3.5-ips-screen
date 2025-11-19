@@ -20,17 +20,18 @@ Compatible Systems and Raspberry Pi Boards
 
 .. note::
 
+   * The above compatibility tests were conducted on **November 19, 2025**.  
+   * If your operating system or version is not compatible, please tell us the **Raspberry Pi board model** and **system name and version** you are using.  
+   * We will work to update the driver as soon as possible.
+
+.. note::
+
     * **Raspberry Pi OS**: The 3.5'' touchscreen is not yet supported on the Trixie system. We’re updating the driver soon.
 
       - If you are using a **Raspberry Pi 4 or 5**, please install the |link_bookwarm_rpi5/4| system.  
       - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the |link_bullseye| system. 
 
-.. note::
-
-   * The above compatibility tests were conducted on **November 19, 2025**.  
-   * If your operating system or version is not compatible, please tell us the **Raspberry Pi board model** and **system name and version** you are using.  
-   * We will work to update the driver as soon as possible.
-
+    * For the **Retropie** system, please download the version for your Raspberry Pi (not Pi 5) from the |link_retropie|.
 
 .. list-table::
     :header-rows: 1
