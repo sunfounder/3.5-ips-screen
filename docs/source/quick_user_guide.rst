@@ -1,4 +1,4 @@
-.. note:: 
+.. note::
 
     Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
@@ -25,36 +25,37 @@ Detaillierte Anleitungen findest du unter :ref:`install_os`.
 
 .. note::
 
-    * **Raspberry Pi OS**: Der 3,5''-Touchscreen wird im Trixie-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+    * **Raspberry Pi OS**: Der 3,5"-Touchscreen wird im Trixie-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
 
-      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
-      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das **|link_bullseye|**-System installieren.
+      - Wenn du einen **Raspberry Pi 4 oder 5** verwendest, installiere bitte das |link_bookwarm_rpi5/4|-System.  
+      - Wenn du einen **Raspberry Pi 3B/3B+ oder Zero 2W** nutzt, musst du das |link_bullseye|-System installieren.
 
-    * Für das **Retropie**-System laden Sie bitte die Version für Ihren Raspberry Pi (nicht Pi 5) von **|link_retropie|** herunter.
+    * Für das **Retropie**-System lade bitte die passende Version für dein Raspberry-Pi-Modell (nicht Pi 5) von |link_retropie| herunter.
 
 2. Display mit dem Raspberry Pi verbinden
 -----------------------------------------------
 
-Dieses 3,5-Zoll-IPS-Display verwendet denselben Pinout wie der Raspberry Pi.  
+Dieses 3,5-Zoll-IPS-Display verwendet die gleiche Pinbelegung wie der Raspberry Pi.
 
 **Schritte**:  
 
 1. Schalte den Raspberry Pi aus und trenne das Netzkabel.  
 2. Richte das Display am GPIO-Header aus (Pin 1 beachten) und drücke es fest auf die Pins.  
-3. Setze die vorbereitete MicroSD-Karte ein und starte den Raspberry Pi.  
+3. Setze die vorbereitete MicroSD-Karte ein und starte den Raspberry Pi.
 
 .. image:: img/3.5_ips_plugin_pi.jpg
     :width: 400
-    :align: center  
+    :align: center
 
-.. _install_driver:  
+.. _install_driver:
 
 3. Treiberinstallation
 -------------------------------
 
 Das 3,5-Zoll-IPS-Display benötigt Treiber, bevor es funktionieren kann. Je nach Betriebssystem befolge die folgenden Anweisungen.  
 
-.. .. warning::
+.. 
+    .. warning::
 
 ..     * Installiere nur auf einem neu installierten, nicht konfigurierten System (neues Image, Werkseinstellungen).
 ..     * Die Installation auf einem konfigurierten System kann zu Anmeldeproblemen führen oder das Gerät unbrauchbar machen.
@@ -71,53 +72,53 @@ Das 3,5-Zoll-IPS-Display benötigt Treiber, bevor es funktionieren kann. Je nach
 
 .. warning::
 
-    * **Raspberry Pi OS**: Der 3,5-Zoll-Touchscreen wird derzeit noch nicht vom Trixie-System unterstützt. Wir aktualisieren den Treiber in Kürze.
+    * **Raspberry Pi OS**: Der 3,5"-Touchscreen wird im Trixie-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
 
-      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
-      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das |link_bullseye|-System installieren.
+      - Wenn du einen **Raspberry Pi 4 oder 5** verwendest, installiere bitte das |link_bookwarm_rpi5/4|-System.  
+      - Wenn du einen **Raspberry Pi 3B/3B+ oder Zero 2W** nutzt, musst du das |link_bullseye|-System installieren.
 
-    * Führen Sie nach der Installation kein ``sudo apt update`` oder ``sudo apt upgrade`` aus, da dies den Kernel aktualisieren und den Display-Treiber beschädigen kann.
+    * Führe nach der Installation kein ``sudo apt update`` oder ``sudo apt upgrade`` aus, da dies den Kernel aktualisieren und den Displaytreiber beschädigen kann.
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
-.. raw:: html  
+.. raw:: html
 
-   <run></run>  
+   <run></run>
 
-.. code-block:: shell  
+.. code-block:: shell
 
     sudo rm -rf LCD-show
     git clone https://github.com/sunfounder/LCD-show.git
     chmod -R 755 LCD-show
     cd LCD-show/
-    sudo ./MHS35IPS-show  
+    sudo ./MHS35IPS-show
 
 Nach erfolgreicher Installation des Treibers dauert der Neustart 2–3 Minuten. Danach erscheint der Raspberry Pi Desktop auf dem 3,5-Zoll-IPS-Bildschirm.  
 
-.. note::  
+.. note::
 
     * Wenn während der Installation ein HDMI-Monitor angeschlossen ist, wird der Desktop nach dem Neustart weiterhin auf dem HDMI-Monitor angezeigt.  
-    * Um den 3,5-Zoll-IPS-Bildschirm zu verwenden, trenne den HDMI-Monitor und starte den Raspberry Pi neu.  
+    * Um den 3,5-Zoll-IPS-Bildschirm zu verwenden, trenne den HDMI-Monitor und starte den Raspberry Pi neu.
 
 **Für Ubuntu Desktop/Server**  
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
-.. raw:: html  
+.. raw:: html
 
-   <run></run>  
+   <run></run>
 
-.. code-block:: shell  
+.. code-block:: shell
 
     sudo rm -rf LCD-show-ubuntu
     git clone https://github.com/sunfounder/LCD-show-ubuntu.git
     chmod -R 755 LCD-show-ubuntu
     cd LCD-show-ubuntu/
-    sudo ./MHS35IPS-show  
+    sudo ./MHS35IPS-show
 
-Nach erfolgreicher Installation startet das System automatisch neu und der Desktop wird auf dem 3,5-Zoll-IPS-Bildschirm angezeigt.  
+Nach erfolgreicher Installation startet das System automatisch neu und der Desktop wird auf dem 3,5-Zoll-IPS-Bildschirm angezeigt.
 
-.. note::  
+.. note::
 
     * Wenn ein HDMI-Monitor angeschlossen ist, bleibt die Desktop-Ausgabe standardmäßig auf HDMI.  
     * Bitte trenne den HDMI-Monitor und starte dein Gerät neu, um die Anzeige auf den 3,5-Zoll-IPS-Bildschirm umzuschalten.  
@@ -126,21 +127,21 @@ Nach erfolgreicher Installation startet das System automatisch neu und der Deskt
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
-.. raw:: html  
+.. raw:: html
 
-   <run></run>  
+   <run></run>
 
-.. code-block:: shell  
+.. code-block:: shell
 
     sudo rm -rf LCD-show-kali
     git clone https://github.com/sunfounder/LCD-show-kali.git
     chmod -R 755 LCD-show-kali
     cd LCD-show-kali/
-    sudo ./MHS35IPS-show  
+    sudo ./MHS35IPS-show
 
 Nach erfolgreicher Installation startet das System neu und zeigt den Desktop auf dem 3,5-Zoll-IPS-Bildschirm an.  
 
-.. note::  
+.. note::
 
     * Wenn ein HDMI-Monitor angeschlossen ist, wird der Desktop nach dem Neustart weiterhin über HDMI angezeigt.  
     * Bitte trenne den HDMI-Monitor und starte Kali Linux neu, um das 3,5-Zoll-IPS-Display zu verwenden.  
@@ -149,25 +150,25 @@ Nach erfolgreicher Installation startet das System neu und zeigt den Desktop auf
 
 .. note::
 
-    * Für das **Retropie**-System laden Sie bitte die Version für Ihren Raspberry Pi (nicht Pi 5) von **|link_retropie|** herunter.
+    * Für das **Retropie**-System lade bitte die passende Version für dein Raspberry-Pi-Modell (nicht Pi 5) von |link_retropie| herunter.
 
 Du kannst den folgenden Befehl verwenden, um den Treiber zu installieren:  
 
-.. raw:: html  
+.. raw:: html
 
-   <run></run>  
+   <run></run>
 
-.. code-block:: shell  
+.. code-block:: shell
 
     sudo rm -rf LCD-show-retropie
     git clone https://github.com/sunfounder/LCD-show-retropie.git
     chmod -R 755 LCD-show-retropie
     cd LCD-show-retropie/
-    sudo ./MIS35-show  
+    sudo ./MIS35-show
 
 Nach erfolgreicher Installation startet das System neu und du siehst die RetroPie-Oberfläche auf dem 3,5-Zoll-IPS-Bildschirm.  
 
-.. note::  
+.. note::
 
     * Wenn ein HDMI-Monitor angeschlossen ist, bleibt die Oberfläche auf HDMI-Ausgabe bestehen.  
     * Trenne den HDMI-Monitor und starte deinen Raspberry Pi neu, um das 3,5-Zoll-IPS-Display zu verwenden.  
@@ -177,23 +178,23 @@ Nach erfolgreicher Installation startet das System neu und du siehst die RetroPi
 
 Du kannst die Anzeige und die Touch-Ausrichtung drehen, indem du folgenden Befehl ausführst:  
 
-.. note::  
+.. note::
 
     Passe das Verzeichnis an das verwendete System an:  
 
     * Raspberry Pi OS → ``cd LCD-show/``  
     * Ubuntu → ``cd LCD-show-ubuntu/``  
     * Kali → ``cd LCD-show-kali/``  
-    * RetroPie → ``cd LCD-show-retropie/``  
+    * RetroPie → ``cd LCD-show-retropie/``
 
-.. raw:: html  
+.. raw:: html
 
-   <run></run>  
+   <run></run>
 
-.. code-block:: shell  
+.. code-block:: shell
 
     cd LCD-show/
-    sudo ./rotate.sh 90  
+    sudo ./rotate.sh 90
 
 Das System startet automatisch neu. Nach dem Neustart sind Bildschirm und Touch-Ausrichtung auf **90°** eingestellt.  
 Du kannst ``90`` durch ``0``, ``180`` oder ``270`` ersetzen, um die gewünschte Rotation festzulegen.  

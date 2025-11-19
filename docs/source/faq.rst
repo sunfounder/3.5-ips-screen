@@ -20,8 +20,8 @@ Wird der 3,5''-Touchscreen vom Raspberry Pi Trixie-System unterstützt?
 
 Der 3,5''-Touchscreen wird im **Trixie**-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.  
 
-- Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
-- Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das **|link_bullseye|**-System installieren.  
+- Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das |link_bookwarm_rpi5/4|-System.  
+- Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das |link_bullseye| -System installieren.  
 - Führen Sie nach der Installation **nicht** den Befehl ``sudo apt update`` oder ``sudo apt upgrade`` aus, da dies den Kernel aktualisieren und den Displaytreiber beschädigen kann.
 
 Warum kann ich mich nach der Installation des 3,5-Zoll-Displaytreibers nicht anmelden?  

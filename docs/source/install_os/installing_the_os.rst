@@ -23,16 +23,16 @@ In diesem Abschnitt zeigen wir dir Schritt für Schritt, wie das funktioniert.
 
 .. note::
 
-    * **Raspberry Pi OS**: Der 3,5''-Touchscreen wird im Trixie-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+    * **Raspberry Pi OS**: Der 3,5"-Touchscreen wird im Trixie-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
 
-      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, installieren Sie bitte das ältere **Bookworm**-System.  
-      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, müssen Sie das **|link_bullseye|**-System installieren.
+      - Wenn du einen **Raspberry Pi 4 oder 5** verwendest, installiere bitte das ältere |link_bookwarm_rpi5/4|-System.  
+      - Wenn du einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwendest, musst du das |link_bullseye|-System installieren.
 
-    * Für das **Retropie**-System laden Sie bitte die Version für Ihren Raspberry Pi (nicht Pi 5) von **|link_retropie|** herunter.
+    * Für das **Retropie**-System lade bitte die zu deinem Raspberry-Pi-Modell passende Version (nicht Pi 5) über den |link_retropie| herunter.
 
 **Benötigte Komponenten**
 
-* Ein Computer (Windows, macOS oder Linux)  
+* Ein Computer (Windows, macOS oder Linux)
 * Eine Micro SD Karte (≥16GB, zuverlässige Marke wie SanDisk oder Samsung)  
 * Ein Micro SD Kartenleser  
 
@@ -65,12 +65,14 @@ In diesem Abschnitt zeigen wir dir Schritt für Schritt, wie das funktioniert.
 
    .. note::
 
-        * Für **Raspberry Pi OS**: Wähle einfach das empfohlene System.  
-        * Für **Ubuntu**: Klicke auf **Andere universelle Betriebssysteme** -> **Ubuntu** und wähle entweder **Ubuntu Desktop 24.04 LTS (64 Bit)** oder **Ubuntu Server 24.04 LTS (64 Bit)**.  
-        * Für **Kali Linux**: Klicke auf **Andere spezialisierte Betriebssysteme** und wähle das passende System.  
-        
-        
-        .. * Für **Retropie**: Klicke auf **Emulations- und Spielebetriebssysteme** und wähle das entsprechende System.  
+      * Für **Raspberry Pi OS** wähle das entsprechende OS basierend auf deinem Modell:
+
+              - Für den **Raspberry Pi 4 oder 5** installiere bitte das |link_bookwarm_rpi5/4|-System.  
+              - Für den **Raspberry Pi 3B/3B+ oder Zero 2W** installiere das |link_bullseye|-System.
+
+      * Für das **Ubuntu**-System wähle **Other general-purpose OS** → **Ubuntu**, und anschließend **Ubuntu Desktop 24.04 LTS (64 bit)** oder **Ubuntu Server 24.04 LTS (64 bit)**.
+      * Für **Kali Linux** klicke auf **use custom** und wähle das entsprechende System |link_kali_linux|.
+      * Für **Retropie** klicke ebenfalls auf **use custom** und wähle die passende Version für dein Raspberry-Pi-Modell. Lade diese zuvor über den |link_retropie| herunter.
 
    .. image:: img/os_choose_os.png
        :align: center
@@ -131,7 +133,7 @@ In diesem Abschnitt zeigen wir dir Schritt für Schritt, wie das funktioniert.
       :align: center
 
 * **Weitere Optionen**:  
-
+   
   Du kannst die Optionen "Ton abspielen, wenn fertig" oder "Medium nach Abschluss auswerfen" aktivieren, um den Vorgang komfortabler zu gestalten.  
 
   .. image:: img/os_options.png

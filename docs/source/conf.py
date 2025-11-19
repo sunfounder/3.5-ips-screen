@@ -102,15 +102,21 @@ gettext_compact = False # Support for generating the contents of the folders ins
 
 rst_epilog = """
 
+.. |link_kali_linux| raw:: html
+
+    <a href="https://kali.download/arm-images/current/kali-linux-2025.3-raspberry-pi-arm64.img.xz" target="_blank">kali-linux-2025.3-raspberry-pi-arm64</a>
+
+.. |link_bookwarm_rpi5/4| raw:: html
+
+    <a href="https://downloads.raspberrypi.com/raspios_arm64/images/raspios_arm64-2025-05-13/2025-05-13-raspios-bookworm-arm64.img.xz" target="_blank">älter Bookworm</a>
 
 .. |link_bullseye| raw:: html
 
-    <a href="https://downloads.raspberrypi.com/rpd_x86/images/rpd_x86-2022-07-04/2022-07-01-raspios-bullseye-i386.iso" target="_blank">Bullseye</a>
+    <a href="https://mirrors.cqupt.edu.cn/raspberry-pi-os-images/raspios_full_armhf/images/raspios_full_armhf-2022-09-07/2022-09-06-raspios-bullseye-armhf-full.img.xz" target="_blank">Bullseye</a>
 
 .. |link_retropie| raw:: html
 
-    <a href="https://retropie.org.uk/download/" target="_blank">Retropie Download page</a>
-
+    <a href="https://retropie.org.uk/download/" target="_blank">Retropie-Downloadseite</a>
 
 .. |link_rpi_connect| raw:: html
 
@@ -126,7 +132,7 @@ rst_epilog = """
 
 .. |link_pc_monitor| raw:: html
 
-    <a href="https://www.sunfounder.com/blogs/news/raspberry-pi-system-monitor-for-pc-enhancing-performance-and-remote-monitoring" target="_blank">PC-Überwachungsgerät</a>
+    <a href="https://www.sunfounder.com/blogs/news/raspberry-pi-system-monitor-for-pc-enhancing-performance-and-remote-monitoring" target="_blank">PC monitoring device</a>
 
 .. |link_sf_facebook| raw:: html
 

@@ -1,4 +1,4 @@
-.. note:: 
+.. note::
 
     Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
 
@@ -13,7 +13,7 @@
     👉 Bereit, mit uns Neues zu entdecken und zu erschaffen? Klicke auf [|link_sf_facebook|] und werde noch heute Mitglied!  
 
 
-3,5-Zoll 480 × 320 IPS-Touchscreen
+3.5-inch 480x 320 IPS Touch Screen
 ==============================================
 
 
@@ -45,10 +45,10 @@ Der 3,5-Zoll-IPS-Touchscreen mit 480×320 Pixeln bietet große Betrachtungswinke
 
 .. toctree::
     :maxdepth: 2
-    
+
     About this Kit <self>
     hardware_introduction
-    install_os/install_os
+    install_os/install_os2.0
     quick_user_guide
     compatible_os
     appendix/appendix
