@@ -24,12 +24,17 @@
 
 .. note::
 
-    * **Raspberry Pi OS**：3.5インチタッチスクリーンは現時点で Trixie システムに対応していません。近日中にドライバーを更新する予定です。
+    * **Raspberry Pi OS** の場合:
 
-      - **Raspberry Pi 4 または 5** を使用している場合は、 |link_bookwarm_rpi5/4| システムをインストールしてください。  
-      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、必ず |link_bullseye| システムをインストールしてください。
+      - **Raspberry Pi 4 または 5** を使用している場合は、Raspberry Pi Imager にアクセスして最新の Trixie システム（リリース日: 2025-10-1）をインストールしてください。    
+      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、|link_bullseye| を訪れてダウンロードしてください。
 
-    * **Retropie** を使用する場合は、お使いの Raspberry Pi（Pi 5 を除く）に対応したバージョンを |link_retropie| からダウンロードしてください。
+    * **Ubuntu** システムの場合は、Raspberry Pi Imager にアクセスし、**Ubuntu Desktop 24.04 LTS（64 bit）** または **Ubuntu Server 24.04 LTS（64 bit）** を選択してください。
+
+    * **Kali Linux** システムの場合は、|link_kali_linux| を訪れてダウンロードしてください。
+
+    * **Retropie** システムの場合は、|link_retropie| からお使いの Raspberry Pi（Pi 5 以外）用のバージョンをダウンロードしてください。
+
 
 .. toctree::
     :maxdepth: 1

@@ -25,12 +25,16 @@
 
 .. note::
 
-    * **Raspberry Pi OS**: 3.5インチタッチスクリーンは現在 Trixie システムに対応していません。ドライバーは近日中に更新予定です。
+    * **Raspberry Pi OS** の場合:
 
-      - **Raspberry Pi 4 または 5** を使用している場合は、 |link_bookwarm_rpi5/4| システムをインストールしてください。  
-      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、 |link_bullseye| システムをインストールする必要があります。  
+      - **Raspberry Pi 4 または 5** を使用している場合は、Raspberry Pi Imager にアクセスして最新の Trixie システム（リリース日: 2025-10-1）をインストールしてください。    
+      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、|link_bullseye| を訪れてダウンロードしてください。
 
-    * **Retropie** を使用する場合は、 |link_retropie| からお使いの Raspberry Pi（Pi 5 を除く）に対応したバージョンをダウンロードしてください。
+    * **Ubuntu** システムの場合は、Raspberry Pi Imager にアクセスし、**Ubuntu Desktop 24.04 LTS（64 bit）** または **Ubuntu Server 24.04 LTS（64 bit）** を選択してください。
+
+    * **Kali Linux** システムの場合は、|link_kali_linux| を訪れてダウンロードしてください。
+
+    * **Retropie** システムの場合は、|link_retropie| からお使いの Raspberry Pi（Pi 5 以外）用のバージョンをダウンロードしてください。
 
 2. ディスプレイを Raspberry Pi に接続する
 -----------------------------------------------
@@ -74,11 +78,11 @@
 
 .. warning::
 
-    * **Raspberry Pi OS**: 3.5インチタッチスクリーンは現在 Trixie システムに対応していません。ドライバーは近日中に更新予定です。
+    * **Raspberry Pi OS**: 
 
-      - **Raspberry Pi 4 または 5** を使用している場合は、 |link_bookwarm_rpi5/4| システムをインストールしてください。  
-      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、 |link_bullseye| システムをインストールする必要があります。  
-
+      - **Raspberry Pi 4 または 5** を使用している場合は、Raspberry Pi Imager にアクセスして最新の Trixie システム（リリース日: 2025-10-1）をインストールしてください。    
+      - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、|link_bullseye| を訪れてダウンロードしてください。
+    
     * インストール後に ``sudo apt update`` または ``sudo apt upgrade`` を実行しないでください。これらを実行するとカーネルが更新され、ディスプレイドライバーが動作しなくなる可能性があります。
 
 以下のコマンドでドライバーをインストールできます:
