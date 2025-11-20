@@ -25,12 +25,16 @@ Detaillierte Anleitungen findest du unter :ref:`install_os`.
 
 .. note::
 
-    * **Raspberry Pi OS**: Der 3,5"-Touchscreen wird im Trixie-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+    * Für das **Raspberry Pi OS**:
 
-      - Wenn du einen **Raspberry Pi 4 oder 5** verwendest, installiere bitte das |link_bookwarm_rpi5/4|-System.  
-      - Wenn du einen **Raspberry Pi 3B/3B+ oder Zero 2W** nutzt, musst du das |link_bullseye|-System installieren.
+        - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, gehen Sie bitte zum Raspberry Pi Imager, um das neueste Trixie-System zu installieren (Veröffentlichung: 2025-10-1).     
+        - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, besuchen Sie bitte |link_bullseye|, um es herunterzuladen.
 
-    * Für das **Retropie**-System lade bitte die passende Version für dein Raspberry-Pi-Modell (nicht Pi 5) von |link_retropie| herunter.
+    * Für das **Ubuntu**-System gehen Sie bitte zum Raspberry Pi Imager und wählen entweder **Ubuntu Desktop 24.04 LTS (64-bit)** oder **Ubuntu Server 24.04 LTS (64-bit)** aus.
+
+    * Für das **Kali Linux**-System besuchen Sie bitte |link_kali_linux|, um es herunterzuladen.
+
+    * Für das **Retropie**-System laden Sie bitte die Version für Ihren Raspberry Pi (nicht Pi 5) von |link_retropie| herunter.
 
 2. Display mit dem Raspberry Pi verbinden
 -----------------------------------------------
@@ -72,10 +76,8 @@ Das 3,5-Zoll-IPS-Display benötigt Treiber, bevor es funktionieren kann. Je nach
 
 .. warning::
 
-    * **Raspberry Pi OS**: Der 3,5"-Touchscreen wird im Trixie-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
-
-      - Wenn du einen **Raspberry Pi 4 oder 5** verwendest, installiere bitte das |link_bookwarm_rpi5/4|-System.  
-      - Wenn du einen **Raspberry Pi 3B/3B+ oder Zero 2W** nutzt, musst du das |link_bullseye|-System installieren.
+        - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, gehen Sie bitte zum Raspberry Pi Imager, um das neueste Trixie-System zu installieren (Veröffentlichung: 2025-10-1).     
+        - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, besuchen Sie bitte |link_bullseye|, um es herunterzuladen.
 
     * Führe nach der Installation kein ``sudo apt update`` oder ``sudo apt upgrade`` aus, da dies den Kernel aktualisieren und den Displaytreiber beschädigen kann.
 

@@ -23,12 +23,16 @@ Wenn du bereits mit dem Raspberry Pi vertraut bist und Zugriff auf die Kommandoz
 
 .. note::
 
-    * **Raspberry Pi OS**: Das 3,5"-Touchscreen wird im Trixie-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+    * Für das **Raspberry Pi OS**:
 
-      - Wenn du einen **Raspberry Pi 4 oder 5** verwendest, installiere bitte das |link_bookwarm_rpi5/4|-System.  
-      - Wenn du einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwendest, musst du das |link_bullseye|-System installieren.
+        - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, gehen Sie bitte zum Raspberry Pi Imager, um das neueste Trixie-System zu installieren (Veröffentlichung: 2025-10-1).     
+        - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, besuchen Sie bitte |link_bullseye|, um es herunterzuladen.
 
-    * Für das **Retropie**-System lade bitte die für deinen Raspberry Pi passende Version (nicht für Pi 5) über den |link_retropie| herunter.
+    * Für das **Ubuntu**-System gehen Sie bitte zum Raspberry Pi Imager und wählen entweder **Ubuntu Desktop 24.04 LTS (64-bit)** oder **Ubuntu Server 24.04 LTS (64-bit)** aus.
+
+    * Für das **Kali Linux**-System besuchen Sie bitte |link_kali_linux|, um es herunterzuladen.
+
+    * Für das **Retropie**-System laden Sie bitte die Version für Ihren Raspberry Pi (nicht Pi 5) von |link_retropie| herunter.
 
 .. toctree::
     :maxdepth: 1

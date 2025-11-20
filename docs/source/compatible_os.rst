@@ -26,13 +26,16 @@ Compatible Systems and Raspberry Pi Boards
 
 .. note::
 
-    * **Raspberry Pi OS**: Der 3,5"-Touchscreen wird im Trixie-System derzeit noch nicht unterstützt. Wir aktualisieren den Treiber in Kürze.
+    * Für das **Raspberry Pi OS**:
 
-      - Wenn du einen **Raspberry Pi 4 oder 5** verwendest, installiere bitte das |link_bookwarm_rpi5/4|-System.  
-      - Wenn du einen **Raspberry Pi 3B/3B+ oder Zero 2W** nutzt, musst du das |link_bullseye|-System installieren.
+      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, gehen Sie bitte zum Raspberry Pi Imager, um das neueste Trixie-System zu installieren (Veröffentlichung: 2025-10-1).     
+      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, besuchen Sie bitte |link_bullseye|, um es herunterzuladen.
+
+    * Für das **Ubuntu**-System gehen Sie bitte zum Raspberry Pi Imager und wählen entweder **Ubuntu Desktop 24.04 LTS (64-bit)** oder **Ubuntu Server 24.04 LTS (64-bit)** aus.
+
+    * Für das **Kali Linux**-System besuchen Sie bitte |link_kali_linux|, um es herunterzuladen.
 
     * Für das **Retropie**-System laden Sie bitte die Version für Ihren Raspberry Pi (nicht Pi 5) von |link_retropie| herunter.
-
 
 .. list-table::
     :header-rows: 1
@@ -43,8 +46,8 @@ Compatible Systems and Raspberry Pi Boards
       - Pi 3B/3B+
       - Pi Zero 2 W
     * - Raspberry Pi OS
-      - Ja, Bookworm 64bit 2025-05-13-raspios-bookworm
-      - Ja, Bookworm 64bit 2025-05-13-raspios-bookworm
+      - Ja, Debian Trixie 64bit system (Veröffentlichung:2025-10-1)
+      - Ja, Debian Trixie 64bit system (Veröffentlichung:2025-10-1)
       - Ja, Bullseye OS 2022-09-06-raspios-bullseye
       - Ja, Bullseye OS 2022-09-06-raspios-bullseye
     * - RetroPie
