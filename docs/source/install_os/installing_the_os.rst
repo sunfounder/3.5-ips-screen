@@ -23,12 +23,16 @@ This section will guide you through the process step by step.
 
 .. note::
 
-    * **Raspberry Pi OS**: The 3.5'' touchscreen is not yet supported on the Trixie system. We’re updating the driver soon.
+    * For the **Raspberry Pi OS**: 
 
-      - If you are using a **Raspberry Pi 4 or 5**, please install the older |link_bookwarm_rpi5/4| system.  
-      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the |link_bullseye| system. 
+      - If you are using a **Raspberry Pi 4 or 5**, please Go to Raspberry Pi Imager to install the latest Trixie system (released:2025-10-1).     
+      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, please visit |link_bullseye| to download it.
 
-    * For the **Retropie** system, please download the version for your Raspberry Pi (not Pi 5) from the |link_retropie|.
+    * For **Ubuntu** system, please Go to Raspberry Pi Imager and select either **Ubuntu Desktop 24.04 LTS (64 bit)** or **Ubuntu Server 24.04 LTS (64 bit)**.
+    
+    * For **Kali Linux** system, please visit |link_kali_linux| to download it.
+
+    * For the **Retropie** system, please download the version for your Raspberry Pi (not Pi 5) from the |link_retropie| .
 
 **Required Components**
 
@@ -67,8 +71,8 @@ This section will guide you through the process step by step.
 
       * For **Raspberry Pi OS**, Select the corresponding operating system based on your Raspberry Pi model.
 
-              - If you are using a **Raspberry Pi 4 or 5**, please install the |link_bookwarm_rpi5/4| system.  
-              - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, you must install the |link_bullseye| system. 
+        - If you are using a **Raspberry Pi 4 or 5**, please Go to Raspberry Pi Imager to install the latest Trixie system (released:2025-10-1).    
+        - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, please visit |link_bullseye| to download it.
 
       * For **Ubuntu** system, you need to click **Other general-purpose OS** -> **Ubuntu**, and select either **Ubuntu Desktop 24.04 LTS (64 bit)** or **Ubuntu Server 24.04 LTS (64 bit)**.
       * For **Kali Linux** system, you need to click **use custom** and then select the corresponding system |link_kali_linux|.

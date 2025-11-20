@@ -112,7 +112,7 @@ rst_epilog = """
 
 .. |link_bullseye| raw:: html
 
-    <a href="https://mirrors.cqupt.edu.cn/raspberry-pi-os-images/raspios_full_armhf/images/raspios_full_armhf-2022-09-07/2022-09-06-raspios-bullseye-armhf-full.img.xz" target="_blank">Bullseye</a>
+    <a href="https://mirrors.cqupt.edu.cn/raspberry-pi-os-images/raspios_full_armhf/images/raspios_full_armhf-2022-09-07/2022-09-06-raspios-bullseye-armhf-full.img.xz" target="_blank">older Bullseye</a>
 
 .. |link_retropie| raw:: html
 
