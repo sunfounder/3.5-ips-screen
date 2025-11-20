@@ -20,7 +20,7 @@ Compatible Systems and Raspberry Pi Boards
 
 .. note::
 
-   * Die oben aufgeführten Kompatibilitätstests wurden am **19. November 2025** durchgeführt.  
+   * Die oben aufgeführten Kompatibilitätstests wurden am **20. November 2025** durchgeführt.  
    * Falls dein Betriebssystem oder deine Version nicht kompatibel ist, teile uns bitte das **Raspberry-Pi-Modell** sowie den **Systemnamen und die Versionsnummer** mit, die du verwendest.  
    * Wir werden den Treiber so schnell wie möglich aktualisieren.  
 
