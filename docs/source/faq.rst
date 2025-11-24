@@ -18,7 +18,7 @@ FAQ
 Does the 3.5'' touchscreen support the Raspberry Pi Trixie system?  
 ------------------------------------------------------------------------------------
 
-.. The 3.5'' touchscreen is now supported on the **Trixie** system. We’re updating the driver soon.
+.. The 3.5'' touchscreen is now supported on the **Trixie** system. 
 - If you are using a **Raspberry Pi 4 or 5**, please Go to Raspberry Pi Imager to install the latest Trixie system (released:2025-10-1).  
 - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, please visit |link_bullseye| to download it.
 - Do not run ``sudo apt update`` or ``sudo apt upgrade`` after installation, as this may update the kernel and break the display driver.
