@@ -27,7 +27,8 @@ This section will guide you through the process step by step.
 
       - If you are using a **Raspberry Pi 4 or 5**, please Go to Raspberry Pi Imager to install the latest Trixie system (released:2025-10-1).     
       - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, please visit |link_bullseye| to download it.
-
+      - Other Raspberry Pi models are not compatible.
+  
     * For **Ubuntu** system, please Go to Raspberry Pi Imager and select either **Ubuntu Desktop 24.04 LTS (64 bit)** or **Ubuntu Server 24.04 LTS (64 bit)**.
     
     * For **Kali Linux** system, please visit |link_kali_linux| to download it.

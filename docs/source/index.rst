@@ -42,6 +42,8 @@ The 3.5-inch 480×320 IPS Touch Screen delivers wide viewing angles, rich 65K co
 
     To display on the 3.5" IPS touchscreen, disconnect (unplug) the HDMI monitor.
 
+    After installing the driver we provide, the resolution may not be compatible with other HDMI displays.
+
 
 .. toctree::
     :maxdepth: 2

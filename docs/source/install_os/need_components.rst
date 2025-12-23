@@ -22,7 +22,9 @@ Required Components
 
 * **Raspberry Pi**
 
-  * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4B, 3B/3B+, or Raspberry Pi Zero 2W  
+  * **Compatible models**: Raspberry Pi 5, Raspberry Pi 4B, 3B/3B+, or Raspberry Pi Zero 2W.
+
+    - Other Raspberry Pi models are not compatible. 
   
   .. image:: img/need_pi.jpg
 
