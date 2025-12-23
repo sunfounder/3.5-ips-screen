@@ -33,7 +33,7 @@
       - **Raspberry Pi 3B/3B+ または Zero 2W** を使用している場合は、|link_bullseye| を訪れてダウンロードしてください。
       - 他の Raspberry Pi モデルは互換性がありません。
   
-    * **Ubuntu** システムの場合は、Raspberry Pi Imager にアクセスし、**Ubuntu Desktop 24.04 LTS（64 bit）** または **Ubuntu Server 24.04 LTS（64 bit）** を選択してください。
+    * **Ubuntu** システムの場合は、Raspberry Pi Imager にアクセスし、 **Ubuntu Desktop 24.04 LTS（64 bit）** または **Ubuntu Server 24.04 LTS（64 bit）** を選択してください。
 
     * **Kali Linux** システムの場合は、|link_kali_linux| を訪れてダウンロードしてください。
 
