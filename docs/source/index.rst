@@ -42,6 +42,7 @@ Der 3,5-Zoll-IPS-Touchscreen mit 480×320 Pixeln bietet große Betrachtungswinke
 
     Um die Anzeige auf dem 3,5"-IPS-Touchscreen zu verwenden, trenne bitte den HDMI-Monitor.  
 
+    Nach der Installation des von uns bereitgestellten Treibers ist die Auflösung möglicherweise nicht mit anderen HDMI-Displays kompatibel.
 
 .. toctree::
     :maxdepth: 2

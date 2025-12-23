@@ -24,6 +24,8 @@ Benötigte Komponenten
 * **Raspberry Pi**
 
   * **Kompatible Modelle**: Raspberry Pi 5, Raspberry Pi 4B, 3B/3B+ oder Raspberry Pi Zero 2W  
+    
+    - Andere Raspberry-Pi-Modelle sind nicht kompatibel.
 
   .. image:: img/need_pi.jpg
 
