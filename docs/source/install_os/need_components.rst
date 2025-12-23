@@ -23,7 +23,9 @@
 
 * **Raspberry Pi**
 
-  * **対応モデル**: Raspberry Pi 5、Raspberry Pi 4B、3B/3B+、または Raspberry Pi Zero 2W  
+  * **対応モデル**: Raspberry Pi 5、Raspberry Pi 4B、3B/3B+、または Raspberry Pi Zero 2W
+
+    - 他の Raspberry Pi モデルは互換性がありません。  
   
   .. image:: img/need_pi.jpg
 
