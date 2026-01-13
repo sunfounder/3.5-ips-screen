@@ -41,6 +41,8 @@ Why does my 3.5-inch screen stay black or white after powering on?
 Can the 3.5'' IPS touchscreen and the HDMI monitor be used simultaneously?
 --------------------------------------------------------------------------------
 
+After installing the driver we provide, the resolution may not be compatible with other HDMI displays.
+
 The 3.5-inch touchscreen cannot be used simultaneously with an HDMI monitor.
 
 After installing the driver for the 3.5" IPS display, if both the 3.5" IPS screen and an HDMI monitor are connected, the system will default to HDMI output.
