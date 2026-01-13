@@ -40,6 +40,8 @@ Warum bleibt mein 3,5-Zoll-Bildschirm nach dem Einschalten schwarz oder weiß?
 Kann der 3,5-Zoll-IPS-Touchscreen gleichzeitig mit einem HDMI-Monitor genutzt werden?
 ------------------------------------------------------------------------------------------
 
+Nach der Installation des von uns bereitgestellten Treibers ist die Auflösung möglicherweise nicht mit anderen HDMI-Displays kompatibel.
+
 Der 3,5-Zoll-Touchscreen kann nicht gleichzeitig mit einem HDMI-Monitor betrieben werden.  
 
 Nach der Installation des Treibers für das 3,5"-IPS-Display schaltet das System automatisch auf HDMI-Ausgabe, wenn sowohl das 3,5"-IPS-Display als auch ein HDMI-Monitor angeschlossen sind.  
