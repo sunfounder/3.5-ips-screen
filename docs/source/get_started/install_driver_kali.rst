@@ -13,8 +13,10 @@ You will log in to the system, open a terminal, and install the driver to enable
 Install 3.5'' IPS Screen Driver (Important)
 --------------------------------------------------
 
-#. Connect your Raspberry Pi to a monitor and power it on.  
-   Make sure an Ethernet cable is connected for network access.
+#. Connect your Raspberry Pi to a monitor and power it on. Make sure an Ethernet cable is connected for network access.
+
+   .. image:: img/connect_all_kali.jpg
+      :width: 90%
 
 #. Log in using the default Kali credentials:
 

@@ -13,8 +13,10 @@ You will complete the initial system setup, install required tools, and then ins
 Install 3.5'' IPS Screen Driver (Important)
 --------------------------------------------------
 
-#. Connect your Raspberry Pi to a monitor and power it on.  
-   Make sure an Ethernet cable is connected for network access.
+#. Connect your Raspberry Pi to a monitor and power it on. Make sure an Ethernet cable is connected for network access.
+
+   .. image:: img/connect_all_ubuntu.jpg
+      :width: 90%
 
 #. Follow the on-screen instructions to complete the initial setup, including language, keyboard layout, region, username, and password.
 

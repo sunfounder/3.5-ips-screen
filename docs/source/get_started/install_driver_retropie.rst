@@ -13,8 +13,10 @@ You will first access your Raspberry Pi via SSH, and then install the driver so 
 Install 3.5'' IPS Screen Driver (Important)
 --------------------------------------------------
 
-#. Connect your Raspberry Pi to a monitor and power it on.  
-   Make sure an Ethernet cable is also connected so the device can access the network.
+#. Connect your Raspberry Pi to a monitor and power it on. Make sure an Ethernet cable is also connected so the device can access the network.
+
+   .. image:: img/connect_all_retropie.jpg
+      :width: 90%
 
 #. Once the RetroPie interface appears, press **F4** on the keyboard to exit and enter the command line interface.
 

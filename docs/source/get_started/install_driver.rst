@@ -4,7 +4,7 @@
 
 .. _install_driver:
 
-Install the Driver on Different Systems
+3. Install the Driver on Different Systems
 =============================================
 
 This section provides instructions for installing the 3.5'' IPS screen driver on different operating systems.  

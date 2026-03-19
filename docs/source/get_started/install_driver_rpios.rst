@@ -30,9 +30,8 @@ If You Have a Screen
 #. Power on your Raspberry Pi.
 #. After booting, the Raspberry Pi OS desktop will appear. 
 
-   .. image:: img/plug_screen_trixie.png
-      :width: 80%
-      :align: center
+   .. image:: img/connect_all_rpios.jpg
+      :width: 90%
 
 #. Open a **Terminal** to enter commands.
 
