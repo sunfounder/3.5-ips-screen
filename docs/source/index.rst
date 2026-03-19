@@ -1,3 +1,5 @@
+.. start_hello_message
+
 .. note::
 
     Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
@@ -12,6 +14,7 @@
 
     👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
+.. end_hello_message
 
 3.5-inch 480x 320 IPS Touch Screen
 ==============================================
@@ -36,23 +39,16 @@ The 3.5-inch 480×320 IPS Touch Screen delivers wide viewing angles, rich 65K co
 
 .. note::
 
-    **The 3.5-inch touchscreen cannot be used simultaneously with an HDMI monitor.**
+   After installing the 3.5'' IPS screen driver, it is recommended to disconnect the HDMI monitor.
 
-    After installing the driver for the 3.5" IPS display, if both the 3.5" IPS screen and an HDMI monitor are connected, the system will default to HDMI output.
-
-    To display on the 3.5" IPS touchscreen, disconnect (unplug) the HDMI monitor.
-
-    After installing the driver we provide, the resolution may not be compatible with other HDMI displays.
-
+   If the HDMI monitor remains connected, it may show a black screen or no display output.
 
 .. toctree::
     :maxdepth: 2
     
     About this Kit <self>
+    get_started/get_started
     hardware_introduction
-    install_os/install_os2.0
-    quick_user_guide
-    compatible_os
     appendix/appendix
     faq
 

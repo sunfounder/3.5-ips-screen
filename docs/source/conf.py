@@ -102,41 +102,51 @@ gettext_compact = False # Support for generating the contents of the folders ins
 
 rst_epilog = """
 
-.. |link_kali_linux| raw:: html
-
-    <a href="https://kali.download/arm-images/current/kali-linux-2025.3-raspberry-pi-arm64.img.xz" target="_blank">kali-linux-2025.3-raspberry-pi-arm64</a>
-
-.. |link_bookwarm_rpi5/4| raw:: html
-
-    <a href="https://downloads.raspberrypi.com/raspios_arm64/images/raspios_arm64-2025-05-13/2025-05-13-raspios-bookworm-arm64.img.xz" target="_blank">older Bookworm</a>
-
-.. |link_bullseye| raw:: html
-
-    <a href="https://mirrors.cqupt.edu.cn/raspberry-pi-os-images/raspios_full_armhf/images/raspios_full_armhf-2022-09-07/2022-09-06-raspios-bullseye-armhf-full.img.xz" target="_blank">older Bullseye</a>
-
-.. |link_retropie| raw:: html
-
-    <a href="https://retropie.org.uk/download/" target="_blank">Retropie Download page</a>
-
 .. |link_rpi_connect| raw:: html
 
     <a href="https://www.raspberrypi.com/documentation/services/connect.html" target="_blank">Raspberry Pi Connect</a>
-
-.. |link_iso_code| raw:: html
-
-    <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements" target="_blank">ISO/IEC alpha2 code</a>
 
 .. |link_rpi_imager| raw:: html
 
     <a href="https://www.raspberrypi.org/software/" target="_blank">Raspberry Pi Imager</a>
 
-.. |link_pc_monitor| raw:: html
-
-    <a href="https://www.sunfounder.com/blogs/news/raspberry-pi-system-monitor-for-pc-enhancing-performance-and-remote-monitoring" target="_blank">PC monitoring device</a>
-
 .. |link_sf_facebook| raw:: html
 
     <a href="https://bit.ly/raphaelkit" target="_blank">here</a>
+"""
+
+
+# OS Download
+
+rst_epilog += """
+
+
+.. |link_bookwarm_250513| raw:: html
+
+    <a href="https://downloads.raspberrypi.com/raspios_arm64/images/raspios_arm64-2025-05-13/2025-05-13-raspios-bookworm-arm64.img.xz" target="_blank">2025-05-13-raspios-bookworm</a>
+
+.. |link_ubuntu_2404| raw:: html
+
+    <a href="https://ubuntu.com/download/raspberry-pi/thank-you?version=24.04.4&architecture=desktop-arm64+raspi" target="_blank">ubuntu-24.04.4-preinstalled-desktop-arm64+raspi</a>
+
+.. |link_kali_202503| raw:: html
+
+    <a href="https://kali.download/arm-images/kali-2025.3/kali-linux-2025.3-raspberry-pi-arm64.img.xz" target="_blank">kali-linux-2025.3-raspberry-pi-arm64</a>
+
+
+.. |link_bookwarm_rpi5/4| raw:: html
+
+    <a href="https://downloads.raspberrypi.com/raspios_arm64/images/raspios_arm64-2025-05-13/2025-05-13-raspios-bookworm-arm64.img.xz" target="_blank">2025-05-13-raspios-bookworm-arm64</a>
+
+.. |link_bullseye| raw:: html
+
+    <a href="https://downloads.raspberrypi.com/raspios_arm64/images/raspios_arm64-2022-09-07/2022-09-06-raspios-bullseye-arm64.img.xz" target="_blank">2025-05-06-raspios-bullseye-arm64</a>
+
+.. |link_retropie| raw:: html
+
+    <a href="https://retropie.org.uk/download/" target="_blank">Retropie Download page</a>
+
+
 """
 
 

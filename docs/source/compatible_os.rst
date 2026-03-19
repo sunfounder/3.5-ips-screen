@@ -1,16 +1,6 @@
-.. note::
-
-    Hello, welcome to the SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community on Facebook! Dive deeper into Raspberry Pi, Arduino, and ESP32 with fellow enthusiasts.
-
-    **Why Join?**
-
-    - **Expert Support**: Solve post-sale issues and technical challenges with help from our community and team.
-    - **Learn & Share**: Exchange tips and tutorials to enhance your skills.
-    - **Exclusive Previews**: Get early access to new product announcements and sneak peeks.
-    - **Special Discounts**: Enjoy exclusive discounts on our newest products.
-    - **Festive Promotions and Giveaways**: Take part in giveaways and holiday promotions.
-
-    👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
+.. include:: /index.rst
+   :start-after: start_hello_message
+   :end-before: end_hello_message
 
 
 .. _compatible_os:
@@ -20,9 +10,7 @@ Compatible Systems and Raspberry Pi Boards
 
 .. note::
 
-   * The above compatibility tests were conducted on **November 20, 2025**.  
-   * If your operating system or version is not compatible, please tell us the **Raspberry Pi board model** and **system name and version** you are using.  
-   * We will work to update the driver as soon as possible.
+   * 表格中的 compatibility tests were conducted on **2026.3.17**.  
 
 .. note::
 
@@ -34,36 +22,101 @@ Compatible Systems and Raspberry Pi Boards
 
     * For **Ubuntu** system, please Go to Raspberry Pi Imager and select either **Ubuntu Desktop 24.04 LTS (64 bit)** or **Ubuntu Server 24.04 LTS (64 bit)**.
     
-    * For **Kali Linux** system, please visit |link_kali_linux| to download it.
+    * For **Kali Linux** system, please visit |link_kali_202503| to download it.
 
     * For the **Retropie** system, please download the version for your Raspberry Pi (not Pi 5) from the |link_retropie| .
 
-.. list-table::
-    :header-rows: 1
+.. list-table:: 3.5'' IPS Screen Compatibility
+   :header-rows: 1
+   :widths: 20 35 15 30
 
-    * - System / Board
-      - Pi 5
-      - Pi 4B
-      - Pi 3B/3B+
-      - Pi Zero 2 W
-    * - Raspberry Pi OS
-      - Yes, Debian Trixie 64bit system (released:2025-10-1)
-      - Yes, Debian Trixie 64bit system (released:2025-10-1)
-      - Yes, Bullseye OS 2022-09-06-raspios-bullseye
-      - Yes, Bullseye OS 2022-09-06-raspios-bullseye
-    * - RetroPie
-      - No related system
-      - Yes (No touch)
-      - Yes (No touch)
-      - Yes (No touch)
-    * - Kali Linux
-      - Yes, kali-linux-2025.3-raspberry-pi-arm64
-      - Yes, kali-linux-2025.3-raspberry-pi-arm64
-      - Yes, kali-linux-2025.3-raspberry-pi-arm64
-      - NO
-    * - Ubuntu
-      - Yes, Ubuntu Desktop/Server 64bit 25.04
-      - Yes, Ubuntu Desktop/Server 64bit 25.04
-      - Yes, Ubuntu Server 64bit 25.04/Ubuntu Server 64bit 24.04.2 LTS
-      - Yes, Ubuntu Server 64bit 25.04/Ubuntu Server 64bit 24.04.2 LTS
+   * - Raspberry Pi
+     - Operating System
+     - IPS Screen
+     - Notes
+   * - Pi 5
+     - Raspberry Pi OS (Trixie 64-bit)
+     - ✔
+     - Fully compatible; recommended
+   * - Pi 5
+     - Raspberry Pi OS (Bookworm 64-bit)
+     - ✔
+     - Works; run ``startx`` after driver install
+   * - Pi 4
+     - Raspberry Pi OS (Trixie 64-bit)
+     - ✔
+     - Fully compatible
+   * - Pi 4
+     - Raspberry Pi OS (Bookworm 64-bit)
+     - ✔
+     - Stable; dual display supported
+   * - Pi 4
+     - Ubuntu 24.04 (Desktop)
+     - ✔
+     - Works with manual driver setup
+   * - Pi 4
+     - Ubuntu Server 24.04
+     - ✘
+     - No GUI; screen not supported
+   * - Pi 4
+     - Kali Linux (2025)
+     - ✘
+     - Black screen after driver install
+   * - Pi 4
+     - RetroPie
+     - ✔
+     - Fully supported
+
+
+.. .. list-table::
+..     :header-rows: 1
+
+..     * - System / Board
+..       - Pi 5
+..       - Pi 4B
+..     * - Raspberry Pi OS
+..       - #. Trixie Desktop 64bit (released: 2025-12-04)
+..         #. Bookwarm Desktop 64bit(released: 2025-11-24, 2025-05-13, 2025-05-06)
+..       - #. Trixie Desktop 64bit (released: 2025-12-04)
+..         #. Bookwarm Desktop 64bit(released: 2025-11-24, 2025-05-13, 2025-05-06)
+
+..     * - RetroPie
+..       - No related system
+..       - Yes (No touch)
+..     * - Kali Linux
+..       - Yes, kali-linux-2025.3-raspberry-pi-arm64
+..       - Yes, kali-linux-2025.3-raspberry-pi-arm64
+..     * - Ubuntu
+..       - Yes, 
+..       - Yes, Ubuntu Desktop 24.04.4 LTS
+    
+
+.. .. list-table::
+..     :header-rows: 1
+
+..     * - System / Board
+..       - Pi 5
+..       - Pi 4B
+..       - Pi 3B/3B+
+..       - Pi Zero 2 W
+..     * - Raspberry Pi OS
+..       - Yes, Debian Trixie 64bit system (released:2025-10-1)
+..       - Yes, Debian Trixie 64bit system (released:2025-10-1)
+..       - Yes, Bullseye OS 2022-09-06-raspios-bullseye
+..       - Yes, Bullseye OS 2022-09-06-raspios-bullseye
+..     * - RetroPie
+..       - No related system
+..       - Yes (No touch)
+..       - Yes (No touch)
+..       - Yes (No touch)
+..     * - Kali Linux
+..       - Yes, kali-linux-2025.3-raspberry-pi-arm64
+..       - Yes, kali-linux-2025.3-raspberry-pi-arm64
+..       - Yes, kali-linux-2025.3-raspberry-pi-arm64
+..       - NO
+..     * - Ubuntu
+..       - Yes, Ubuntu Desktop/Server 64bit 25.04
+..       - Yes, Ubuntu Desktop/Server 64bit 25.04
+..       - Yes, Ubuntu Server 64bit 25.04/Ubuntu Server 64bit 24.04.2 LTS
+..       - Yes, Ubuntu Server 64bit 25.04/Ubuntu Server 64bit 24.04.2 LTS
  
