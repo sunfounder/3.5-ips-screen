@@ -12,6 +12,8 @@ Different systems are supported depending on your Raspberry Pi model and use cas
 
 .. note::
 
+    Currently, the 3.5-inch display is only compatible with Raspberry Pi 4 and Raspberry Pi 5. For Raspberry Pi 3B, 3B+, and Zero 2W, it is not recommended to use them with the 3.5-inch display, as installing the touchscreen driver may cause it to malfunction.
+
     * For **Raspberry Pi OS**:
 
       - Trixie Desktop (64-bit) (released: 2025-12-04)

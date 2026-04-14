@@ -5,10 +5,10 @@
 FAQ
 ===========================
 
-Does the 3.5'' touchscreen support Raspberry Pi OS (Trixie)?
-------------------------------------------------------------------------------------
+Compatible Raspberry Pi Models
+-------------------------------------------
 
-Yes. The 3.5'' touchscreen is fully supported on the **Trixie** system.
+Currently, the 3.5-inch display is only compatible with Raspberry Pi 4 and Raspberry Pi 5. For Raspberry Pi 3B, 3B+, and Zero 2W, it is not recommended to use them with the 3.5-inch display, as installing the touchscreen driver may cause it to malfunction.
 
 Can this screen work on Ubuntu, Kali Linux, or RetroPie?
 -----------------------------------------------------------------
@@ -37,13 +37,6 @@ Supported systems:
 
   - |link_retropie| (Raspberry Pi 4 only)
 
-Can I use the screen without installing drivers?
--------------------------------------------------------
-
-No. This screen uses an SPI interface and requires a dedicated driver to function.
-
-For installation steps, see :ref:`install_driver`.
-
 Why does my screen stay black or white after powering on?
 --------------------------------------------------------------------
 
@@ -51,6 +44,55 @@ Why does my screen stay black or white after powering on?
 * Ensure your operating system is compatible. See :ref:`install_os`.
 * Check that the screen is properly connected to the GPIO pins.
 
+Can I use the 3.5'' IPS screen together with an HDMI monitor?
+--------------------------------------------------------------------------------
+
+No. After installing the 3.5'' IPS screen driver, it is recommended to disconnect the HDMI monitor.
+
+If the HDMI monitor remains connected, it may show a black screen or no display output.
+
+Restore Display to HDMI
+--------------------------
+
+#. If you only installed the 3.5'' display driver and did not make other changes to the config.txt file, you can run the following command to restore:
+
+   .. code-block:: bash
+
+      cd LCD-show
+      sudo ./system_restore.sh
+
+   After restoration, the 3.5'' display will no longer work and the driver will need to be reinstalled. This method applies when your system is relatively clean or freshly set up.
+
+#. If you have also modified the config.txt file, the safest method is to manually edit it:
+
+   * Run the following command to open the config.txt file:
+
+     .. code-block:: bash
+
+        sudo nano /boot/config.txt
+
+   * Scroll to the bottom and comment out the changes added by the 3.5'' display driver:
+
+     .. code-block:: bash
+
+        [all]
+        hdmi_force_hotplug=1
+        dtparam=i2c_arm=on
+        dtparam=spi=on
+        enable_uart=1
+        dtoverlay=mhs35ips:rotate=90
+        hdmi_group=2
+        hdmi_mode=1
+        hdmi_mode=87
+        hdmi_cvt 480 320 60 6 0 0 0
+        hdmi_drive=2
+
+   * Press Ctrl+X, then Y, and Enter to save the file and exit.
+
+   * Then reboot the Raspberry Pi. The HDMI display will work again.
+
+   * If you want to restore the 3.5'' display, simply uncomment the lines above.
+   
 What if I get ``git not found`` or network errors during installation?
 --------------------------------------------------------------------------------------
 
@@ -73,12 +115,6 @@ You can fix the screen and touch orientation by running:
 
 Replace ``90`` with ``0``, ``180``, or ``270`` as needed.
 
-Can I use the 3.5'' IPS screen together with an HDMI monitor?
---------------------------------------------------------------------------------
-
-No. After installing the 3.5'' IPS screen driver, it is recommended to disconnect the HDMI monitor.
-
-If the HDMI monitor remains connected, it may show a black screen or no display output.
 
 
 Why does the fan keep spinning? Can it be controlled by software?
