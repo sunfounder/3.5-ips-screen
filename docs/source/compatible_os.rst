@@ -1,16 +1,6 @@
-.. note::
-
-    Hallo und herzlich willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasts Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten noch tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.
-
-    **Warum beitreten?**
-
-    - **Expertenunterstützung**: Erhalte Unterstützung bei Problemen nach dem Kauf sowie bei technischen Herausforderungen – direkt von unserer Community und unserem Team.  
-    - **Lernen & Teilen**: Teile Tipps und Anleitungen und erweitere so gezielt dein Wissen.  
-    - **Exklusive Vorschauen**: Profitiere von frühzeitigen Einblicken in neue Produktankündigungen und Vorabtests.  
-    - **Sonderrabatte**: Nutze exklusive Preisnachlässe auf unsere neuesten Produkte.  
-    - **Festliche Aktionen und Gewinnspiele**: Nimm an saisonalen Events und spannenden Verlosungen teil.  
-
-    👉 Bereit, mit uns neue Projekte zu entdecken und kreativ zu werden? Klicke auf [|link_sf_facebook|] und tritt noch heute bei!  
+.. include:: /index.rst
+   :start-after: start_hello_message
+   :end-before: end_hello_message
 
 
 .. _compatible_os:
@@ -20,50 +10,113 @@ Compatible Systems and Raspberry Pi Boards
 
 .. note::
 
-   * Die oben aufgeführten Kompatibilitätstests wurden am **20. November 2025** durchgeführt.  
-   * Falls dein Betriebssystem oder deine Version nicht kompatibel ist, teile uns bitte das **Raspberry-Pi-Modell** sowie den **Systemnamen und die Versionsnummer** mit, die du verwendest.  
-   * Wir werden den Treiber so schnell wie möglich aktualisieren.  
+   * 表格中的 compatibility tests were conducted on **2026.3.17**.  
 
 .. note::
 
-    * Für das **Raspberry Pi OS**:
+    * For the **Raspberry Pi OS**: 
 
-      - Wenn Sie einen **Raspberry Pi 4 oder 5** verwenden, gehen Sie bitte zum Raspberry Pi Imager, um das neueste Trixie-System zu installieren (Veröffentlichung: 2025-10-1).     
-      - Wenn Sie einen **Raspberry Pi 3B/3B+ oder Zero 2W** verwenden, besuchen Sie bitte |link_bullseye|, um es herunterzuladen.
-      - Andere Raspberry-Pi-Modelle sind nicht kompatibel.
-  
-    * Für das **Ubuntu**-System gehen Sie bitte zum Raspberry Pi Imager und wählen entweder **Ubuntu Desktop 24.04 LTS (64-bit)** oder **Ubuntu Server 24.04 LTS (64-bit)** aus.
+      - If you are using a **Raspberry Pi 4 or 5**, please Go to Raspberry Pi Imager to install the latest Trixie system (released:2025-10-1).     
+      - If you are using a **Raspberry Pi 3B/3B+ or Zero 2W**, please visit |link_bullseye| to download it.
+      - Not yet adapted for the Raspberry Pi Zero W. 
 
-    * Für das **Kali Linux**-System besuchen Sie bitte |link_kali_linux|, um es herunterzuladen.
+    * For **Ubuntu** system, please Go to Raspberry Pi Imager and select either **Ubuntu Desktop 24.04 LTS (64 bit)** or **Ubuntu Server 24.04 LTS (64 bit)**.
+    
+    * For **Kali Linux** system, please visit |link_kali_202503| to download it.
 
-    * Für das **Retropie**-System laden Sie bitte die Version für Ihren Raspberry Pi (nicht Pi 5) von |link_retropie| herunter.
+    * For the **Retropie** system, please download the version for your Raspberry Pi (not Pi 5) from the |link_retropie| .
 
-.. list-table::
-    :header-rows: 1
+.. list-table:: 3.5'' IPS Screen Compatibility
+   :header-rows: 1
+   :widths: 20 35 15 30
 
-    * - System / Board
-      - Pi 5
-      - Pi 4B
-      - Pi 3B/3B+
-      - Pi Zero 2 W
-    * - Raspberry Pi OS
-      - Ja, Debian Trixie 64bit system (Veröffentlichung:2025-10-1)
-      - Ja, Debian Trixie 64bit system (Veröffentlichung:2025-10-1)
-      - Ja, Bullseye OS 2022-09-06-raspios-bullseye
-      - Ja, Bullseye OS 2022-09-06-raspios-bullseye
-    * - RetroPie
-      - No related system
-      - Ja (No touch)
-      - Ja (No touch)
-      - Ja (No touch)
-    * - Kali Linux
-      - Ja, kali-linux-2025.3-raspberry-pi-arm64
-      - Ja, kali-linux-2025.3-raspberry-pi-arm64
-      - Ja, kali-linux-2025.3-raspberry-pi-arm64
-      - Nein
-    * - Ubuntu
-      - Ja, Ubuntu Desktop/Server 64bit 25.04
-      - Ja, Ubuntu Desktop/Server 64bit 25.04
-      - Ja, Ubuntu Server 64bit 25.04/Ubuntu Server 64bit 24.04.2 LTS
-      - Ja, Ubuntu Server 64bit 25.04/Ubuntu Server 64bit 24.04.2 LTS
+   * - Raspberry Pi
+     - Operating System
+     - IPS Screen
+     - Notes
+   * - Pi 5
+     - Raspberry Pi OS (Trixie 64-bit)
+     - ✔
+     - Fully compatible; recommended
+   * - Pi 5
+     - Raspberry Pi OS (Bookworm 64-bit)
+     - ✔
+     - Works; run ``startx`` after driver install
+   * - Pi 4
+     - Raspberry Pi OS (Trixie 64-bit)
+     - ✔
+     - Fully compatible
+   * - Pi 4
+     - Raspberry Pi OS (Bookworm 64-bit)
+     - ✔
+     - Stable; dual display supported
+   * - Pi 4
+     - Ubuntu 24.04 (Desktop)
+     - ✔
+     - Works with manual driver setup
+   * - Pi 4
+     - Ubuntu Server 24.04
+     - ✘
+     - No GUI; screen not supported
+   * - Pi 4
+     - Kali Linux (2025)
+     - ✘
+     - Black screen after driver install
+   * - Pi 4
+     - RetroPie
+     - ✔
+     - Fully supported
 
+
+.. .. list-table::
+..     :header-rows: 1
+
+..     * - System / Board
+..       - Pi 5
+..       - Pi 4B
+..     * - Raspberry Pi OS
+..       - #. Trixie Desktop 64bit (released: 2025-12-04)
+..         #. Bookwarm Desktop 64bit(released: 2025-11-24, 2025-05-13, 2025-05-06)
+..       - #. Trixie Desktop 64bit (released: 2025-12-04)
+..         #. Bookwarm Desktop 64bit(released: 2025-11-24, 2025-05-13, 2025-05-06)
+
+..     * - RetroPie
+..       - No related system
+..       - Yes (No touch)
+..     * - Kali Linux
+..       - Yes, kali-linux-2025.3-raspberry-pi-arm64
+..       - Yes, kali-linux-2025.3-raspberry-pi-arm64
+..     * - Ubuntu
+..       - Yes, 
+..       - Yes, Ubuntu Desktop 24.04.4 LTS
+    
+
+.. .. list-table::
+..     :header-rows: 1
+
+..     * - System / Board
+..       - Pi 5
+..       - Pi 4B
+..       - Pi 3B/3B+
+..       - Pi Zero 2 W
+..     * - Raspberry Pi OS
+..       - Yes, Debian Trixie 64bit system (released:2025-10-1)
+..       - Yes, Debian Trixie 64bit system (released:2025-10-1)
+..       - Yes, Bullseye OS 2022-09-06-raspios-bullseye
+..       - Yes, Bullseye OS 2022-09-06-raspios-bullseye
+..     * - RetroPie
+..       - No related system
+..       - Yes (No touch)
+..       - Yes (No touch)
+..       - Yes (No touch)
+..     * - Kali Linux
+..       - Yes, kali-linux-2025.3-raspberry-pi-arm64
+..       - Yes, kali-linux-2025.3-raspberry-pi-arm64
+..       - Yes, kali-linux-2025.3-raspberry-pi-arm64
+..       - NO
+..     * - Ubuntu
+..       - Yes, Ubuntu Desktop/Server 64bit 25.04
+..       - Yes, Ubuntu Desktop/Server 64bit 25.04
+..       - Yes, Ubuntu Server 64bit 25.04/Ubuntu Server 64bit 24.04.2 LTS
+..       - Yes, Ubuntu Server 64bit 25.04/Ubuntu Server 64bit 24.04.2 LTS
+ 

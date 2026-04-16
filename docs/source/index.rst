@@ -1,19 +1,22 @@
+.. start_hello_message
+
 .. note::
 
-    Hallo und willkommen in der SunFounder Raspberry Pi & Arduino & ESP32 Enthusiasten-Community auf Facebook! Tauche gemeinsam mit anderen Technikbegeisterten tiefer in die Welt von Raspberry Pi, Arduino und ESP32 ein.  
+    Hallo und herzlich willkommen in der SunFounder Raspberry Pi-, Arduino- und ESP32-Enthusiasten-Community auf Facebook! Tauschen Sie sich mit Gleichgesinnten aus und vertiefen Sie Ihr Wissen rund um Raspberry Pi, Arduino und ESP32.
 
     **Warum beitreten?**
 
-    - **Expertenunterstützung**: Erhalte Unterstützung bei Problemen nach dem Kauf und bei technischen Herausforderungen – direkt von unserer Community und unserem Team.  
-    - **Lernen & Teilen**: Teile Tipps und Anleitungen und erweitere so deine Kenntnisse.  
-    - **Exklusive Vorschauen**: Profitiere von frühzeitigen Einblicken in neue Produktankündigungen und Vorschauen.  
-    - **Sonderrabatte**: Nutze exklusive Rabatte auf unsere neuesten Produkte.  
-    - **Festliche Aktionen und Gewinnspiele**: Nimm an Verlosungen und saisonalen Aktionen teil.  
+    - **Experten-Support**: Lösen Sie technische Fragen und Probleme mit Unterstützung unserer Community und unseres Teams.
+    - **Lernen & Teilen**: Tauschen Sie Tipps und Tutorials aus und erweitern Sie Ihre Fähigkeiten.
+    - **Exklusive Einblicke**: Erhalten Sie frühzeitigen Zugang zu neuen Produkten und Vorschauen.
+    - **Sonderrabatte**: Profitieren Sie von exklusiven Angeboten auf unsere neuesten Produkte.
+    - **Aktionen & Gewinnspiele**: Nehmen Sie an saisonalen Aktionen und Verlosungen teil.
 
-    👉 Bereit, mit uns Neues zu entdecken und zu erschaffen? Klicke auf [|link_sf_facebook|] und werde noch heute Mitglied!  
+    👉 Bereit, mit uns zu entdecken und zu entwickeln? Klicken Sie auf [|link_sf_facebook|] und treten Sie noch heute bei!
 
+.. end_hello_message
 
-3.5-inch 480x 320 IPS Touch Screen
+3,5-Zoll 480×320 IPS Touchscreen
 ==============================================
 
 
@@ -21,37 +24,31 @@
     :width: 500
 
 
-Der 3,5-Zoll-IPS-Touchscreen mit 480×320 Pixeln bietet große Betrachtungswinkel, satte 65K-Farben und eine präzise Touch-Steuerung. Er ist speziell für den Raspberry Pi entwickelt, wird direkt über die GPIO-Schnittstelle verbunden – ohne zusätzliche Kabel – und unterstützt Raspberry Pi OS, Ubuntu, Kali Linux sowie RetroPie (Treiberinstallation erforderlich). Ideal für DIY-Projekte und kompakte Embedded-Anwendungen.  
+Der 3,5-Zoll 480×320 IPS-Touchscreen bietet große Betrachtungswinkel, satte 65K Farben und eine reaktionsschnelle Touchsteuerung. Entwickelt für den Raspberry Pi, wird er direkt über die GPIO-Leiste angeschlossen – ganz ohne zusätzliche Kabel – und unterstützt Raspberry Pi OS, Ubuntu, Kali Linux und RetroPie (Treiberinstallation erforderlich). Ideal für DIY-Projekte und kompakte Embedded-Anwendungen.
 
-**Features**
+**Eigenschaften**
 
-* 320×480 Auflösung – Klare und detailreiche Darstellung für kompakte Projekte.  
-* IPS-Technologie – Große Betrachtungswinkel mit lebendigen und naturgetreuen Farben.  
-* High-Speed-SPI (bis zu 125 MHz, 50 FPS) – Flüssige und reaktionsschnelle Anzeigeleistung.  
-* Resistive Touch-Steuerung – Zuverlässige und präzise Eingabe.  
-* 40-Pin-GPIO-Interface – Einfache, sichere Verbindung zum Raspberry Pi.  
-* Breite Kompatibilität – Funktioniert mit Raspberry Pi 5, 4B, 3B/3B+ und Zero 2W.  
-* Unterstützung mehrerer Betriebssysteme – Kompatibel mit Raspberry Pi OS, Ubuntu, Kali Linux und RetroPie (Treiberinstallation erforderlich und enthalten).  
-* Perfekte Passform für den Raspberry Pi – Kompaktes Design, abgestimmt auf die Maße des Pi.  
+* 320×480 Auflösung – Klare und detailreiche Darstellung für kompakte Projekte.
+* IPS-Technologie – Große Betrachtungswinkel mit lebendigen und präzisen Farben.
+* Hochgeschwindigkeits-SPI (bis zu 125 MHz, 50 FPS) – Flüssige und reaktionsschnelle Anzeige.
+* Resistiver Touch – Zuverlässige und präzise Touch-Eingabe.
+* 40-Pin-GPIO-Schnittstelle – Einfache und sichere Verbindung mit dem Raspberry Pi.
+* Breite Kompatibilität – Unterstützt Raspberry Pi 5, 4B, 3B/3B+ und Zero 2W.
+* Unterstützung mehrerer Betriebssysteme – Kompatibel mit Raspberry Pi OS, Ubuntu, Kali Linux und RetroPie (Treiberinstallation erforderlich und enthalten).
+* Perfekte Passform für Raspberry Pi – Kompaktes Design abgestimmt auf die Abmessungen des Raspberry Pi.
 
 .. note::
 
-    **Der 3,5-Zoll-Touchscreen kann nicht gleichzeitig mit einem HDMI-Monitor verwendet werden.**  
+   Nach der Installation des 3,5''-IPS-Displaytreibers wird empfohlen, den HDMI-Monitor zu trennen.
 
-    Nach der Installation des Treibers für das 3,5"-IPS-Display wird bei gleichzeitig angeschlossenem HDMI-Monitor standardmäßig die HDMI-Ausgabe genutzt.  
-
-    Um die Anzeige auf dem 3,5"-IPS-Touchscreen zu verwenden, trenne bitte den HDMI-Monitor.  
-
-    Nach der Installation des von uns bereitgestellten Treibers ist die Auflösung möglicherweise nicht mit anderen HDMI-Displays kompatibel.
+   Wenn der HDMI-Monitor weiterhin angeschlossen bleibt, kann es zu einem schwarzen Bildschirm oder fehlender Anzeige kommen.
 
 .. toctree::
     :maxdepth: 2
-
+    
     About this Kit <self>
+    get_started/get_started
     hardware_introduction
-    install_os/install_os2.0
-    quick_user_guide
-    compatible_os
     appendix/appendix
     faq
 
@@ -59,5 +56,4 @@ Der 3,5-Zoll-IPS-Touchscreen mit 480×320 Pixeln bietet große Betrachtungswinke
 Urheberrechtshinweis
 --------------------------
 
-Alle Inhalte, einschließlich, aber nicht beschränkt auf Texte, Bilder und Code in diesem Handbuch, sind Eigentum der SunFounder Company. Die Nutzung ist ausschließlich für persönliche Studienzwecke, Forschung, Unterhaltung oder andere nicht-kommerzielle bzw. gemeinnützige Zwecke im Rahmen der geltenden Vorschriften und Urheberrechtsgesetze gestattet, ohne die Rechte des Autors oder anderer Rechteinhaber zu verletzen. Jede unbefugte kommerzielle Nutzung durch Einzelpersonen oder Organisationen kann rechtliche Schritte durch das Unternehmen nach sich ziehen.  
-
+Alle Inhalte dieses Handbuchs, einschließlich, aber nicht beschränkt auf Texte, Bilder und Code, sind Eigentum der Firma SunFounder. Die Nutzung ist ausschließlich für persönliches Lernen, Forschung, Unterhaltung oder andere nicht-kommerzielle bzw. gemeinnützige Zwecke im Rahmen der geltenden Gesetze und Urheberrechtsbestimmungen gestattet, ohne die Rechte des Autors oder anderer Rechteinhaber zu verletzen. Für jede kommerzielle Nutzung ohne Genehmigung behält sich das Unternehmen rechtliche Schritte vor.
